@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-packageName="de.via-internet.ionictoolbox" id="de.via-internet.ionictoolbox" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>IonicToolbox</name>
-    <description>IonicToolbox: Create Apps with Ionic 3.</description>
-    <author email="ionic-toolbox@via-internet.de" href="https://ionic-toolbox.github.io/">Ionic Toolbox</author>
+<widget android-packageName="de.via-internet.ioniclibrary.demos" id="de.via-internet.ioniclibrary.demos" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Ionic Library: Demos</name>
+    <description>IonicLibrary: Demos of Ionic 3 Components.</description>
+    <author email="ionic-library@via-internet.de" href="https://ionic-library.github.io/">Ionic Library</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-navigation href="http://ionic.local/*" />

@@ -1,8 +1,8 @@
 {
-	"name": "de.via-internet.ionictoolbox",
-	"description": "IonicToolbox: An Ionic project",
+	"name": "de.via-internet.ioniclibrary.demos",
+	"description": "Ionic Library: Demos of Ionic components",
 	"author": "Ralph Göstenmeier",
-	"homepage": "https://ionic-toolbox.github.io/",
+	"homepage": "https://ionic-library.github.io/",
 	"private": true,
 	"scripts": {
 		"clean": "ionic-app-scripts clean",

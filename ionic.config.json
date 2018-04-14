@@ -1,6 +1,6 @@
 {
-	"name": "Ionic Toolbox",
-	"app_id": "de.via-internet.ionictoolbox",
+	"name": "Ionic Library: Demos",
+	"app_id": "dde.via-internet.ioniclibrary.demos",
 	"integrations": {
 		"cordova": {}
 	},
