@@ -1,0 +1,26 @@
+<ion-searchbar (ionInput)="searchFn($event)">
+</ion-searchbar>
+<ion-list>
+	<ion-item-sliding *ngFor="let item of list | search: term">
+		<button ion-item (click)="detailItem(item[0])">
+			<h1>{{ item[0].fullname }}</h1>
+			<h2>{{ item[0].item }}</h2>
+			<h2>Amount Left: {{ item[0].cost - item[0].paid }}</h2>
+			<p>Date: {{ item[0].createdAt }}</p>
+		</button>
+		<ion-item-options>
+			<button ion-button color="light" icon-left (click)="detailItem(item[0])">
+				<ion-icon name="ios-more"></ion-icon>
+				View
+			</button>
+			<button ion-button color="primary" icon-left (click)="editItem(item[0])">
+				<ion-icon name="text"></ion-icon>
+				Edit
+			</button>
+			<button ion-button color="danger" icon-left (click)="deleteItem(item[0])">
+				<ion-icon name="call"></ion-icon>
+				Delete
+			</button>
+		</ion-item-options>
+	</ion-item-sliding>
+</ion-list>

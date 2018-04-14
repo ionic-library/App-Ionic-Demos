@@ -1,8 +1,8 @@
 {
-  "name": "App-Ionic-Demos",
-  "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {
-    "cordova": {}
-  }
+	"name": "Ionic Toolbox",
+	"app_id": "de.via-internet.ionictoolbox",
+	"integrations": {
+		"cordova": {}
+	},
+	"type": "ionic-angular"
 }

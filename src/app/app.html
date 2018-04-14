@@ -1,19 +1,42 @@
-<ion-menu [content]="content">
-  <ion-header>
-    <ion-toolbar>
-      <ion-title>Menu</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-menu [content]="content" id="menu-avatar">
+	<ion-header>
+	</ion-header>
 
-  <ion-content>
-    <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
-      </button>
-    </ion-list>
-  </ion-content>
+	<ion-content>
+		<div #header>
+			<ion-row id="menu-headerrow" style="align-items:center;">
+				<ion-col col-3>
+					<!--
+						<img src="assets/icon/icon-email.svg" />
+						<span class="icon-badge">4</span>
+					-->
+				</ion-col>
+				<ion-col col-6>
+					<img class="user-avatar round" [src]="chosenPicture || placeholder" onerror="this.src='assets/img/avatar/logo-ionic-toolbox-3.png'"
+					/>
+				</ion-col>
+				<ion-col col-3>
+					<!-- <img src="assets/icon/icon-calendar.svg" /> -->
+				</ion-col>
+			</ion-row>
+			<ion-row id="menu-headertitle" style="justify-content: center;">
+				<h3>Ionic Toolbox</h3>
+			</ion-row>
+		</div>
 
+		<ul id="menu1">
+			<ul class="dropdown" *ngFor="let menu1 of menu">
+				<input type="checkbox" />
+				<a href="#" data-toggle="dropdown">{{ menu1.title }}</a>
+				<ul class="dropdown-menu" id="menu2">
+					<button menuClose ion-item detail-none *ngFor="let item of menu1.items" (click)="openPage(item)">
+						<ion-icon [name]="item.icon" item-left></ion-icon>
+						{{ item.name }}
+					</button>
+				</ul>
+			</ul>
+		</ul>
+	</ion-content>
 </ion-menu>
 
-<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
-<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
+<ion-nav #content [root]="rootPage"></ion-nav>
