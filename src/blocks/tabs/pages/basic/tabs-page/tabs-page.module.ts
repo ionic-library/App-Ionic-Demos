@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from '../../../../../..';
+import { IonicPageModule } from 'ionic-angular';
 
 import { TabsPage } from './tabs-page';
 import { TabOneModule } from '../tab-one/tab-one.module';

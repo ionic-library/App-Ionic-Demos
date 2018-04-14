@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from '../../../../../..';
+import { IonicPageModule } from 'ionic-angular';
 
 import { MyModal } from './modal';
 

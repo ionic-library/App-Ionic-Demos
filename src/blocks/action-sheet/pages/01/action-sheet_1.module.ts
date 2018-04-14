@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 
-import { PageOne } from './page-one';
+import { ActionSheet1Page } from './page-one';
 
 @NgModule({
-  declarations: [
-    PageOne,
-  ],
-  imports: [
-    IonicPageModule.forChild(PageOne),
-  ],
-  entryComponents: [
-    PageOne,
-  ]
+	declarations: [
+		ActionSheet1Page,
+	],
+	imports: [
+		IonicPageModule.forChild(ActionSheet1Page),
+	],
+	entryComponents: [
+		ActionSheet1Page,
+	]
 })
-export class PageOneModule {}
+export class ActionSheet1PageModule { }

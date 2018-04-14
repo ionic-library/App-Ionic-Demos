@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { IonicPage, ViewController } from '../../../../../..';
+import { ViewController } from 'ionic-angular/navigation/view-controller';
+import { IonicPage } from 'ionic-angular/navigation/ionic-page';
 
-@IonicPage({
-  name: 'modal-page'
-})
+@IonicPage()
 @Component({
-  template: `
+	template: `
     <ion-header>
       <ion-toolbar>
         <ion-buttons>
@@ -21,9 +20,9 @@ import { IonicPage, ViewController } from '../../../../../..';
   `
 })
 export class ModalPage {
-  constructor(private viewCtrl: ViewController) {}
+	constructor(private viewCtrl: ViewController) { }
 
-  dismiss() {
-    this.viewCtrl.dismiss();
-  }
+	dismiss() {
+		this.viewCtrl.dismiss();
+	}
 }

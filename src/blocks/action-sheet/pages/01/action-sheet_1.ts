@@ -3,9 +3,9 @@ import { Platform } from 'ionic-angular';
 import { ActionSheetController } from 'ionic-angular';
 
 @Component({
-	templateUrl: 'page-one.html'
+	templateUrl: 'action-sheet_1.html'
 })
-export class PageOne {
+export class ActionSheet1Page {
 	constructor(public alertCtrl: ActionSheetController, public platform: Platform) { }
 
 	present() {

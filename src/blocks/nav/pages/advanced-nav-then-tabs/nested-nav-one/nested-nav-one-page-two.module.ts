@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from '../../../../../..';
+import { IonicPageModule } from 'ionic-angular';
 import { NestedNavOnePageTwo } from './nested-nav-one-page-two';
 
 @NgModule({

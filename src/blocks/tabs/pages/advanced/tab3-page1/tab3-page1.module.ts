@@ -1,6 +1,6 @@
 
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from '../../../../../..';
+import { IonicPageModule } from 'ionic-angular';
 import { Tab3Page1 } from './tab3-page1';
 
 
