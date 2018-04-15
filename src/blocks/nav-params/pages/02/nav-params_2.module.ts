@@ -1,17 +1,11 @@
-import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
+import { NgModule } from "@angular/core";
+import { IonicPageModule } from "ionic-angular";
 
-import { PageTwo } from './page-two';
+import { PageTwo } from "./page-two";
 
 @NgModule({
-  declarations: [
-    PageTwo,
-  ],
-  imports: [
-    IonicPageModule.forChild(PageTwo),
-  ],
-  entryComponents: [
-    PageTwo,
-  ]
+	declarations: [PageTwo],
+	imports: [IonicPageModule.forChild(PageTwo)],
+	entryComponents: [PageTwo]
 })
 export class PageTwoModule {}

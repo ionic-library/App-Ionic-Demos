@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavParams } from '../../../../../src';
+import { NavParams } from 'ionic-angular/navigation/nav-params';
 
 @Component({
   templateUrl: 'page-two.html'

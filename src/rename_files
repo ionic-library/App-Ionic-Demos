@@ -1,0 +1,152 @@
+#!/usr/bin/env python3
+
+import sys
+import os
+import re
+
+import shutil
+import fileinput
+
+DEST='../pages.tmp'
+
+def fldr_create(folder):
+	print('1: create %s' % folder)
+
+	if not os.path.exists(folder):
+		os.makedirs(folder)
+
+
+def file_copy(srcfile, dstfile):
+	print('2: copy    %s %s' % (srcfile, dstfile))
+
+	shutil.copy(srcfile, dstfile)
+
+def file_replace(srcfile, srctext, dsttext):
+	print('2: replace %s %s %s' % (srcfile, srctext, dsttext))
+
+	with open(srcfile, 'r') as file :
+		filedata = file.read()
+
+	filedata = filedata.replace(srctext, dsttext)
+
+	with open(srcfile, 'w') as file:
+		file.write(filedata)
+
+def main():
+	loop=0
+
+	curr_fldr=''
+	curr_page=''
+
+	this_pagenr=0
+
+	for root, dirs, files in os.walk(".", topdown=False):
+		loop=loop+1
+		for name in files:
+			file=os.path.join(root, name)
+
+			temp=file
+			for s in [ "-page", "tabs-", "tab-" ]:
+				temp =temp.replace(s, '')
+
+			for s in [	"right:02", "left:01",
+						"first:01", "second:02", "third:03", "fourth:04", "fifth:05","sixth:06",
+						"one:01", "two:02", "three:03", "four:04", "five:05" ]:
+				key,val = s.split(':',2)
+				temp =temp.replace(key,val)
+
+			parts=temp.split('/')
+			nrofparts=len(parts)
+
+			if (nrofparts < 4):
+				break
+
+			this_fldr=parts[1]
+			this_page=parts[2]
+
+			if (this_fldr != curr_fldr):
+				this_pagenr=0
+
+			if (this_page != curr_page):
+				this_pagenr=this_pagenr+1
+
+			parts[2] = '%02d' % this_pagenr
+
+			file_name=parts[-1]
+			file_path='/'.join(parts[2:-1])
+
+			page_name=parts[1].replace('-',' ').title().replace(' ','')
+			page_fldr=page_name.lower()
+			page_fldr=parts[1]
+			page_nr= file_path.replace('/','').replace('-','')
+
+			dest_file=DEST + '/' + '%s/pages/%s/%s_%s' % (page_fldr, file_path, page_fldr, file_name)
+			dest_path=DEST + '/' + os.path.dirname(dest_file)
+
+			ext='.'.join(file.split('.')[2:])
+
+			with open(file,'r') as f:
+				for line in f.readlines():
+					a=re.findall(r'export class (\w+) {',line)
+					if a != []:
+						page=a[0]
+
+			if (ext == 'ts'):
+				type='PAGE'
+				# export class PageTwo {
+
+				pass
+			elif (ext == 'module.ts'):
+				type='MODULE'
+				# import { PageOne } from "./page-one";
+				#
+				# @NgModule({
+				#	declarations: [PageOne],
+				#	imports: [IonicPageModule.forChild(PageOne)],
+				#	entryComponents: [PageOne]
+				#	})
+				# export class PageOneModule {}
+
+				pass
+			elif (ext == 'html'):
+				type='HTML'
+				page=''
+			else:
+				type='UNKNOWN'
+				page=''
+
+			page_name = page_name + page_nr
+
+			#print('DBG: file     : %s' % file)
+			#print('DBG: temp     : %s' % temp)
+
+			#print('DBG: dest_path: %s'      % dest_path)
+			#print('DBG: dest_file: %s'      % dest_file)
+			#print('DBG: page_name: %s | %s' % (page_name, page_fldr))
+
+			#print('DBG: file_path: %s' % file_path)
+			#print('DBG: file_name: %s' % file_name)
+
+			#print('OUT: %2d %r' % (nrofparts, parts))
+			#print('OUT: %-30s => %-30s | %s' % (page_name, page, dest_file))
+
+
+			fldr_create(dest_path)
+			file_copy(file, dest_file)
+
+			if (type in [ 'MODULE' ]):
+				file_replace(dest_file, page, 					   page_name + 'Module')
+				file_replace(dest_file, page.replace('Module',''), page_name)
+
+
+			if (type in ['PAGE' ]):
+				file_replace(dest_file, page, page_name)
+
+			curr_fldr = this_fldr
+			curr_page = this_page
+
+		#if (loop > 1):
+		#	sys.exit()
+
+
+main()
