@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
+import { IonicPageModule } from "ionic-angular";
 
 import { RootPage } from './root-page';
 import { MyImgModule } from '../my-img/my-img.module';

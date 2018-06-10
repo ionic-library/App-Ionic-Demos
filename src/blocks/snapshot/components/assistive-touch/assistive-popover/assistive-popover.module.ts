@@ -1,6 +1,6 @@
 import { AssistivePopover } from './assistive-popover';
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from '../../../../../../../module';
+import { IonicPageModule } from "ionic-angular";
 import { AssistiveTouchProvider } from '../../../providers/assistive-touch/assistive-touch';
 
 @NgModule({

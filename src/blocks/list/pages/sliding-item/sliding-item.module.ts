@@ -1,6 +1,6 @@
 import { SlidingItemPage } from './sliding-item';
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
+import { IonicPageModule } from "ionic-angular";
 
 @NgModule({
   declarations: [

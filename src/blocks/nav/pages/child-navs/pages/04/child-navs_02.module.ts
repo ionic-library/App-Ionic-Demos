@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
+import { IonicPageModule } from "ionic-angular";
 
 import { ChildNavs04 } from './second-page';
 

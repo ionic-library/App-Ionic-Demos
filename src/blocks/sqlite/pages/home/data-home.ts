@@ -5,7 +5,7 @@ import { NavController }				from 'ionic-angular';
 import { DataPageAdd }					from './../data-add/data-add';
 import { DataPageEdit }					from './../data-edit/data-edit';
 
-import { DataSQLiteProvider }			from '../../provider/data-sqlite';
+import { DataSQLiteProvider }			from '../../provider/provider/data-sqlite';
 
 // ------------------------------------------------------------------------------------------------
 @IonicPage()

@@ -21,14 +21,14 @@ import { SQLite }						from '@ionic-native/sqlite';
 
 // SERVICES ---------------------------------------------------------------------------------------
 import { AlertService }					from '../blocks/alert/services/alert';
-import { ConsoleLoggerService } 		from '../blocks/logger/services/console-logger';
-import { LoggerService }				from '../blocks/logger/services/logger';
-import { ToastService }					from '../blocks/toast/services/toast';
+import { ConsoleLoggerService } 		from '../blocks/logger/services/console-service/console-logger';
+import { LoggerService }				from '../blocks/logger/services/service/logger';
+import { ToastService }					from '../blocks/toast/services/service/toast';
 
 // PROVIDER ---------------------------------------------------------------------------------------
 import { CameraProvider }				from '../blocks/camera/provider/camera';
 
-import { DataSQLiteProvider } 			from '../blocks/sqlite/provider/data-sqlite';
+import { DataSQLiteProvider } 			from '../blocks/sqlite/provider/provider/data-sqlite';
 import { MockSQLiteProvider }			from '../blocks/mock-sqlite/provider/mock-sqlite';
 import { RestAPIProvider } 				from '../blocks/rest-api/provider/rest-api';
 

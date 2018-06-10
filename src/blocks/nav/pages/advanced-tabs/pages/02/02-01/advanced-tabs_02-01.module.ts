@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
+import { IonicPageModule } from "ionic-angular";
 import { AdvancedTabs020201 } from './tab-two-page-one';
 
 @NgModule({

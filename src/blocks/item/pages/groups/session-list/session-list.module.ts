@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { SessionList } from './session-list';
-import { IonicPageModule } from 'ionic-angular';
+import { IonicPageModule } from "ionic-angular";
 
 @NgModule({
   declarations: [

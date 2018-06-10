@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Subject } from 'rxjs/Subject';
 
-import { LoggerService } from '../blocks/logger/services/logger';
+import { LoggerService } from '../blocks/logger/services/service/logger';
 
 @Component({
 	templateUrl: 'app.html'
