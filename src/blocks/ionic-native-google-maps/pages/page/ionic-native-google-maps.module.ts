@@ -14,4 +14,4 @@ import { NativeGoogleMapsPage } from './ionic-native-google-maps';
 		NativeGoogleMapsPage
 	]
 })
-export class NativeGoogleMapsPageModule { }
+export class IonicNativeGoogleMapsPageModule { }

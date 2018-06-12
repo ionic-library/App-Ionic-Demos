@@ -15,4 +15,4 @@ import { ProfileSettingsPage }			from './profile-settings';
 	]
 })
 
-export class ProfileSettingsPageModule { }
+export class ProfileProfileSettingsModule { }

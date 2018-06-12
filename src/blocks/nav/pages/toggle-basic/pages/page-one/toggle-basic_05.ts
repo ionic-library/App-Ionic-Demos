@@ -7,7 +7,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../..';
 @Component({
   templateUrl: 'fifth-page.html'
 })
-export class ToggleBasic01 {
+export class NavToggleBasic {
 
   userId: string;
   name: string;

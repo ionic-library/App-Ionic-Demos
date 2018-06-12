@@ -5,4 +5,4 @@ import { NgModule } from '@angular/core';
   imports: [],
   exports: [ParallaxHeaderDirective]
 })
-export class ParallaxHeaderDirectiveModule { }
+export class ParallaxHeaderComponentModule { }

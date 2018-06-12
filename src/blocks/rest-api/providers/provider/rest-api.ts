@@ -6,7 +6,7 @@ import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 
 @Injectable()
-export class RestAPIProvider {
+export class RestApiProvider {
 
 	private apiUrl = 'https://restcountries.eu/rest/v2/all';
 

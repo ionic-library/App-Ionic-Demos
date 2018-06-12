@@ -5,7 +5,7 @@ import { IonicPage } from '../../../../../..';
 @Component({
   templateUrl: 'first-page.html'
 })
-export class NavPushPop01 {
+export class NavNavPushPop {
   pushPage: any = 'SecondPage';
   visible: boolean = false;
   buttons: number[] = [1, 2, 3, 4, 5];

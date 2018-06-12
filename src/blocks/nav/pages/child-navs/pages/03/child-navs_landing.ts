@@ -19,7 +19,7 @@ import { IonicPage, NavController } from '../../../../../..';
   </ion-content>
   `
 })
-export class ChildNavs03 {
+export class NavChildNavs {
 
   constructor(public navCtrl: NavController) {}
 

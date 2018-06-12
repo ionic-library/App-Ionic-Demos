@@ -4,7 +4,7 @@ import { ElementRef, HostListener, Directive, OnInit } from '@angular/core';
 	selector: 'ion-textarea[autosize]'
 })
 
-export class Autosize implements OnInit {
+export class AutosizeDirective implements OnInit {
 	@HostListener('input', ['$event.target'])
 	onInput(textArea: HTMLTextAreaElement): void {
 		this.adjust();

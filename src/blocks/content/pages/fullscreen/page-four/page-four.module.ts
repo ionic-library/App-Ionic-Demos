@@ -11,4 +11,4 @@ import { PageFour } from './page-four';
     IonicPageModule.forChild(PageFour)
   ]
 })
-export class PageFourModule {}
+export class ContentFullscreenModule {}

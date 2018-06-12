@@ -6,7 +6,7 @@ import { NavController, IonicPage }		from 'ionic-angular';
 	selector: 'page-profile-two',
 	templateUrl: 'profile-two.html'
 })
-export class ProfileTwoPage {
+export class ProfileProfileTwo {
 	constructor(public navCtrl: NavController) { }
 
 	ionViewDidLoad() {

@@ -4,7 +4,7 @@ import { Component, Input, ElementRef, Renderer } from '@angular/core';
 	selector: 'expandable-header',
 	templateUrl: 'expandable-header.html',
 })
-export class ExpandableHeader {
+export class ExpandableHeaderComponent {
 
 	@Input('scrollArea') scrollArea: any;
 	@Input('headerHeight') headerHeight: number;

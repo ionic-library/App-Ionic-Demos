@@ -10,4 +10,4 @@ import { ToggleTabs020201 } from './tab-two-page-one';
     ToggleTabs020201
   ]
 })
-export class ToggleTabs020201Module { }
+export class NavToggleTabsModule { }

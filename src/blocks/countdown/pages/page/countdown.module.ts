@@ -18,4 +18,4 @@ import { CountdownPage }				from './countdown';
 	]
 })
 
-export class CountdownPageModule { }
+export class CountdownPage { }

@@ -10,4 +10,4 @@ import { AdvancedDefaultHistory020103 } from './tab-one-page-three';
     AdvancedDefaultHistory020103
   ]
 })
-export class AdvancedDefaultHistory020103Module { }
+export class NavAdvancedDefaultHistoryModule { }

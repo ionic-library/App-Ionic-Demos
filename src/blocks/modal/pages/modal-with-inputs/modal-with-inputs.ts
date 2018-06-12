@@ -5,7 +5,7 @@ import { IonicPage, ViewController } from '../../../../../..';
 @Component({
   templateUrl: 'modal-with-inputs.html'
 })
-export class ModalWithInputs {
+export class ModalModalWithInputs {
   data: any;
 
   constructor(public viewCtrl: ViewController) {

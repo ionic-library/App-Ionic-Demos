@@ -14,4 +14,4 @@ import { ModalPage } from './modal-page';
     ModalPage,
   ]
 })
-export class ModalPageModule {}
+export class ModalPage4Module {}

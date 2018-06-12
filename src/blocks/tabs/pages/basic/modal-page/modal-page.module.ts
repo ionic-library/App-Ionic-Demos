@@ -11,4 +11,4 @@ import { ModalPage } from './modal-page';
     IonicPageModule.forChild(ModalPage)
   ]
 })
-export class ModalPageModule {}
+export class TabsBasicModule {}

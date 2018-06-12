@@ -7,7 +7,7 @@ import { Directive, ElementRef, Renderer } from '@angular/core';
     '(window:resize)': 'onWindowResize($event)'
   }
 })
-export class ParallaxHeaderDirective {
+export class ParallaxHeaderComponent {
   header: any;
   headerHeight: any;
   translateAmt: any;

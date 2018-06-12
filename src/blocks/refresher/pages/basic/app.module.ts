@@ -6,7 +6,7 @@ import { IonicApp, IonicModule, Refresher } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class Page1 {
+export class RefresherBasicModule {
   items: string[] = [];
 
   constructor() {
@@ -90,23 +90,23 @@ const data = [
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class AppComponent {
-  rootPage = Page1;
+export class RefresherBasicModule {
+  rootPage = RefresherBasic;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Page1
+    RefresherBasic,
+    RefresherBasic
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(RefresherBasic)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    Page1
+    RefresherBasic,
+    RefresherBasic
   ]
 })
-export class AppModule {}
+export class RefresherBasicModule {}

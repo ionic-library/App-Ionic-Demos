@@ -10,4 +10,4 @@ import { SimpleNestedPeerNavs01 } from './landing-page';
     SimpleNestedPeerNavs01
   ]
 })
-export class SimpleNestedPeerNavs01Module { }
+export class NavSimpleNestedPeerNavsModule { }

@@ -6,7 +6,7 @@ import { NavParams, ViewController, IonicPage } from 'ionic-angular';
   selector: 'page-hint-modal',
   templateUrl: 'hint-modal.html'
 })
-export class HintModalPage {
+export class PopupModalHintModal {
   myParam: string;
 
   constructor(

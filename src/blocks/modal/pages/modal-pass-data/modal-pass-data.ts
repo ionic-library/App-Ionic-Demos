@@ -11,7 +11,7 @@ import { SomeComponentProvider } from './provider';
     SomeComponentProvider
   ]
 })
-export class ModalPassData {
+export class ModalModalPassData {
   data: any;
   called: any;
 
@@ -46,14 +46,14 @@ export class ModalPassData {
   }
 
   ionViewCanEnter() {
-    console.log('ModalPassData ionViewCanEnter fired');
+    console.log('ModalModalPassData ionViewCanEnter fired');
     this.called.ionViewCanEnter++;
 
     return true;
   }
 
   ionViewCanLeave() {
-    console.log('ModalPassData ionViewCanLeave fired');
+    console.log('ModalModalPassData ionViewCanLeave fired');
     this.called.ionViewCanLeave++;
 
     return new Promise((resolve: any, reject: any) => {
@@ -66,22 +66,22 @@ export class ModalPassData {
   }
 
   ionViewWillLoad() {
-    console.log('ModalPassData ionViewWillLoad fired');
+    console.log('ModalModalPassData ionViewWillLoad fired');
     this.called.ionViewWillLoad++;
   }
 
   ionViewDidLoad() {
-    console.log('ModalPassData ionViewDidLoad fired');
+    console.log('ModalModalPassData ionViewDidLoad fired');
     this.called.ionViewDidLoad++;
   }
 
   ionViewWillEnter() {
-    console.log('ModalPassData ionViewWillEnter fired');
+    console.log('ModalModalPassData ionViewWillEnter fired');
     this.called.ionViewWillEnter++;
   }
 
   ionViewDidEnter() {
-    console.log('ModalPassData ionViewDidEnter fired');
+    console.log('ModalModalPassData ionViewDidEnter fired');
     this.toastCtrl.create({
       message: 'test toast',
       duration: 1000
@@ -90,12 +90,12 @@ export class ModalPassData {
   }
 
   ionViewWillLeave() {
-    console.log('ModalPassData ionViewWillLeave fired');
+    console.log('ModalModalPassData ionViewWillLeave fired');
     this.called.ionViewWillLeave++;
   }
 
   ionViewDidLeave() {
-    console.log('ModalPassData ionViewDidLeave fired');
+    console.log('ModalModalPassData ionViewDidLeave fired');
     this.called.ionViewDidLeave++;
   }
 }

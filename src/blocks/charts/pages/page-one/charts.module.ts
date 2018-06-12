@@ -15,4 +15,4 @@ import { ChartsPage } from './charts';
   ]
 })
 
-export class ChartsPageModule { }
+export class ChartsPageOne { }

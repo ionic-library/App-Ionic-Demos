@@ -8,7 +8,7 @@ import { NavController }				from 'ionic-angular';
   selector: 'page-expandable-header',
   templateUrl: 'expandable-header.html'
 })
-export class ExpandableHeaderPage {
+export class ExpandableHeaderPageOne {
 
   constructor(
     public navCtrl: NavController,

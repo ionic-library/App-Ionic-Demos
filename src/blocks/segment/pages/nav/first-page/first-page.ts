@@ -5,7 +5,7 @@ import { IonicPage, NavController } from '../../../../../..';
 @Component({
   templateUrl: 'first-page.html'
 })
-export class FirstPage {
+export class SegmentNav {
   signInType: string;
   constructor(public navCtrl: NavController) {
     this.signInType = 'new';

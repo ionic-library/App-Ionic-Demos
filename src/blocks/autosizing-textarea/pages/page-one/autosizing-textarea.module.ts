@@ -18,4 +18,4 @@ import { AutosizingTextarea }			from './autosizing-textarea';
 	]
 })
 
-export class AutosizingTextareaPageModule { }
+export class AutosizingTextareaPageOne { }

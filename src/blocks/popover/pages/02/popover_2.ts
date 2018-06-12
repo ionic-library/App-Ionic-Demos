@@ -58,7 +58,7 @@ import { NavParams } from '../../../../../src';
     </ion-list>
   `,
 })
-export class PageTwo {
+export class Popover02 {
   background: string;
   contentEle: any;
   textEle: any;

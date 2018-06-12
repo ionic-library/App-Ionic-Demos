@@ -7,7 +7,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../..';
 @Component({
   templateUrl: 'second-page.html'
 })
-export class ToggleBasic05 {
+export class NavToggleBasic {
 
   userId: string;
   name: string;

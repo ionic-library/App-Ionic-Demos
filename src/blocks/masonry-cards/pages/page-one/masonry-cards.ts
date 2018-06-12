@@ -6,7 +6,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-masonry-cards',
   templateUrl: 'masonry-cards.html',
 })
-export class MasonryCardsPage {
+export class MasonryCardsPageOne {
 
   posts = [];
 

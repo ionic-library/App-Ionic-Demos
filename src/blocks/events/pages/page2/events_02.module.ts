@@ -14,5 +14,5 @@ import { Events2Page } from './events_2';
 		Events2Page,
 	]
 })
-export class Events2PageModule { }
+export class EventsPage2Module { }
 

@@ -19,4 +19,4 @@ import {
     TimelineTimeComponent,
   ]
 })
-export class TimelineComponentModule {}
+export class TimelineComponent {}

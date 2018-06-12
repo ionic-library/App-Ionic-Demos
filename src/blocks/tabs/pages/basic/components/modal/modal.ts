@@ -40,7 +40,7 @@ import { App, ViewController } from '../../../../../..';
   </ion-content>
   `
 })
-export class MyModal {
+export class TabsBasic {
   items: any[] = [];
 
   constructor(private viewCtrl: ViewController, private app: App) {

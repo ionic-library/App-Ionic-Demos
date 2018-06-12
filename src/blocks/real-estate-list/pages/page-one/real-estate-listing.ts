@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
 	selector: 'page-real-estate-listing',
 	templateUrl: 'real-estate-listing.html',
 })
-export class RealEstateListingPage {
+export class RealEstateListPageOne {
 
 	estateProperty = {
 		name: 'Pretty house',

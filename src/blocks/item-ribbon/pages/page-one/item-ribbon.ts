@@ -6,7 +6,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-item-ribbon',
   templateUrl: 'item-ribbon.html',
 })
-export class ItemRibbonPage {
+export class ItemRibbonPageOne {
 
   public thumbnails: { title: string, image: string, ribbonText: string, class: string }[] = [
     { title: 'Awesome Shoes - $9', image: 'assets/img/ribbon/shoes.jpg', ribbonText: 'sale', class: 'sale' },

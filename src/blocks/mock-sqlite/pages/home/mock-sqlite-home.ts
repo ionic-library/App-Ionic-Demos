@@ -8,7 +8,7 @@ import { SQLiteObject, SQLite }			from '@ionic-native/sqlite';
 	selector: 'page-mock-sqlite-home',
 	templateUrl: 'mock-sqlite-home.html'
 })
-export class MockSQLitePageHome {
+export class MockSqliteHome {
 	public database: SQLiteObject;
 	public invoices: Array<Object>;
 	public counter: number = 0;

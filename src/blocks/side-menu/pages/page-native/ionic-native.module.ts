@@ -13,4 +13,4 @@ import { IonicNativePage } from './ionic-native';
     IonicNativePage
   ]
 })
-export class IonicNativePageModule {}
+export class SideMenuPageNativeModule {}

@@ -17,4 +17,4 @@ import { IonicPage } from '../../../../../..';
   </ion-content>
   `
 })
-export class PageTwo {}
+export class SplitPaneBasic {}

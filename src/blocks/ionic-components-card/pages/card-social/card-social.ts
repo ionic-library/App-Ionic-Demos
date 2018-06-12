@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-card-social',
   templateUrl: 'card-social.html'
 })
-export class CardSocialPage {
+export class IonicComponentsCardCardSocial {
   cards = [
     {
       avatarImageUrl: 'assets/img/avatar/marty-avatar.png',

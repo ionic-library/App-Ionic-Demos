@@ -6,4 +6,4 @@ import { IonicPage } from '../../../../../..';
 @Component({
   templateUrl: 'page-three.html'
 })
-export class PageThree {}
+export class LoadingBasic {}

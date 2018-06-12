@@ -14,4 +14,4 @@ import { PopoverLongListPage } from './popover-long-list-page';
     PopoverLongListPage,
   ]
 })
-export class PopoverLongListPageModule {}
+export class PopoverBasicModule {}

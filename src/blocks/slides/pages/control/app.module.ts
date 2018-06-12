@@ -6,7 +6,7 @@ import { IonicApp, IonicModule, Slides } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class MyPage {
+export class SlidesControlModule {
   @ViewChild('firstSlider') slider1: Slides;
   @ViewChild('secondSlider') slider2: Slides;
 }
@@ -15,23 +15,23 @@ export class MyPage {
 @Component({
   template: `<ion-nav [root]="root"></ion-nav>`
 })
-export class AppComponent {
-  root: any = MyPage;
+export class SlidesControlModule {
+  root: any = SlidesControl;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    MyPage
+    SlidesControl,
+    SlidesControl
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(SlidesControl)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    MyPage
+    SlidesControl,
+    SlidesControl
   ]
 })
-export class AppModule {}
+export class SlidesControlModule {}

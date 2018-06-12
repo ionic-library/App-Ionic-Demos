@@ -14,4 +14,4 @@ import { Basic08 } from './tab-three';
     Basic08,
   ]
 })
-export class Basic08Module { }
+export class NavBasicModule { }

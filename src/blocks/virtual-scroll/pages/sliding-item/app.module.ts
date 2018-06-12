@@ -6,7 +6,7 @@ import { IonicApp, IonicModule, Platform } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class VirtualScrollSlidingItemModule {
   items: any[] = [];
   webview: string;
 
@@ -50,24 +50,24 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class VirtualScrollSlidingItemModule {
+  root = VirtualScrollSlidingItem;
 }
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    VirtualScrollSlidingItem,
+    VirtualScrollSlidingItem
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(VirtualScrollSlidingItem)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    VirtualScrollSlidingItem,
+    VirtualScrollSlidingItem
   ]
 })
-export class AppModule {}
+export class VirtualScrollSlidingItemModule {}

@@ -13,4 +13,4 @@ import { PageOneModule } from '../page-one/page-one.module';
     PageOneModule
   ]
 })
-export class TabsPageModule {}
+export class ContentFullscreenModule {}

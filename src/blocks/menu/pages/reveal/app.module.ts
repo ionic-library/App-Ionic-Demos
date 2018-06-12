@@ -4,16 +4,16 @@ import { IonicApp, IonicModule, Nav } from '../../../..';
 
 
 @Component({templateUrl: 'page1.html'})
-export class Page1 {}
+export class MenuRevealModule {}
 
 
 @Component({
   templateUrl: 'main.html'
 })
-export class AppComponent {
+export class MenuRevealModule {
   @ViewChild(Nav) nav: Nav;
 
-  rootView = Page1;
+  rootView = MenuReveal;
 
   openPage(menu: any, page: any) {
     // close the menu when clicking a link from the menu
@@ -27,17 +27,17 @@ export class AppComponent {
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Page1
+    MenuReveal,
+    MenuReveal
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(MenuReveal)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    Page1
+    MenuReveal,
+    MenuReveal
   ]
 })
-export class AppModule {}
+export class MenuRevealModule {}

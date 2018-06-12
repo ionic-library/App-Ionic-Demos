@@ -15,4 +15,4 @@ import { ProfileListPage }				from './profile';
 	]
 })
 
-export class ProfileListPageModule { }
+export class ProfileMainModule { }

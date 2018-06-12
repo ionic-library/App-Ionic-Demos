@@ -5,7 +5,7 @@ import { IonicPage, ViewController } from '../../../../../..';
 @Component({
   templateUrl: 'modal-page.html'
 })
-export class ModalPage {
+export class MenuBasic {
   constructor(public viewController: ViewController) {
   }
 

@@ -6,7 +6,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-users',
   templateUrl: 'users.html',
 })
-export class UsersPage {
+export class ListUsers {
   users = new Array(10);
 
   constructor(

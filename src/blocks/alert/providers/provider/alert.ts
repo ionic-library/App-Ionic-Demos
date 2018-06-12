@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { AlertController } from 'ionic-angular';
 
 @Injectable()
-export class AlertService {
+export class AlertProvider {
 	constructor(public alertCtrl: AlertController) { }
 
 	presentAlert(title: string, message: string) {

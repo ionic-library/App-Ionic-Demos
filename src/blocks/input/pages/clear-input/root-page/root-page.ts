@@ -5,7 +5,7 @@ import { FormBuilder, Validators } from '@angular/forms';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class InputClearInput {
   userForm: any;
   myValue = 'really long value that overflows to show padding';
 

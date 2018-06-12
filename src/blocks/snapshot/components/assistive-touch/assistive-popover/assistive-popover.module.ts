@@ -17,5 +17,5 @@ import { AssistiveTouchProvider } from '../../../providers/assistive-touch/assis
     AssistiveTouchProvider
   ]
 })
-export class AssistivePopoverModule {
+export class SnapshotAssistiveTouchModule {
 }

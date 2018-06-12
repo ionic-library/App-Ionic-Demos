@@ -10,4 +10,4 @@ import { SimpleDefaultHistory0101 } from './first-page';
     SimpleDefaultHistory0101
   ]
 })
-export class SimpleDefaultHistory0101Module { }
+export class NavSimpleDefaultHistoryModule { }

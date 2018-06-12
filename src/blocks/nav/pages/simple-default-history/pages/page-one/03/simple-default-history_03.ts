@@ -10,7 +10,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../../..';
 @Component({
   templateUrl: 'third-page.html'
 })
-export class SimpleDefaultHistory0103 {
+export class NavSimpleDefaultHistory {
 
   paramOne: string;
   paramTwo: string;

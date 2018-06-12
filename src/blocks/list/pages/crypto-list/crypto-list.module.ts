@@ -10,4 +10,4 @@ import { CryptoListPage } from './crypto-list';
     IonicPageModule.forChild(CryptoListPage)
   ],
 })
-export class CryptoListPageModule {}
+export class ListCryptoListModule {}

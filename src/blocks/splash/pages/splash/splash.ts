@@ -7,7 +7,7 @@ import { SplashScreen }					from '@ionic-native/splash-screen';
 	selector: 'page-splash',
 	templateUrl: 'splash.html',
 })
-export class SplashPage {
+export class SplashSplash {
 	constructor(public viewCtrl: ViewController, public splashScreen: SplashScreen) {
 	}
 

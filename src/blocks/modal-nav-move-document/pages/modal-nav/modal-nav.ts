@@ -6,7 +6,7 @@ import { IonicPage, NavParams, ViewController } from 'ionic-angular';
 	selector: 'page-modal-nav',
 	templateUrl: 'modal-nav.html',
 })
-export class ModalNavPage {
+export class ModalNavMoveDocumentModalNav {
 	modalPage: any;
 	modalParams: any = {};
 
@@ -16,7 +16,7 @@ export class ModalNavPage {
 	) { }
 
 	ionViewDidLoad() {
-		console.log('ionViewDidLoad ModalNavPage');
+		console.log('ionViewDidLoad ModalNavMoveDocumentModalNav');
 		this.modalPage = this.navParams.get('page');
 	}
 

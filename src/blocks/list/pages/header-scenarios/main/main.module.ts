@@ -14,4 +14,4 @@ import { E2EPage } from './main';
     E2EPage,
   ]
 })
-export class E2EPageModule {}
+export class ListHeaderScenariosModule {}

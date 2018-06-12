@@ -5,20 +5,20 @@ import { IonicPage, NavController, NavParams } from '../../../../../..';
 @Component({
   templateUrl: 'page-three.html'
 })
-export class PageThree {
+export class ModalPage3 {
   constructor(public navCtrl: NavController, params: NavParams) {
     console.log('Second page params:', params);
   }
 
   ionViewDidLoad() {
-    console.log('PageThree ionViewDidLoad');
+    console.log('ModalPage3 ionViewDidLoad');
   }
 
   ionViewWillEnter() {
-    console.log('PageThree ionViewWillEnter');
+    console.log('ModalPage3 ionViewWillEnter');
   }
 
   ionViewDidEnter() {
-    console.log('PageThree ionViewDidEnter');
+    console.log('ModalPage3 ionViewDidEnter');
   }
 }

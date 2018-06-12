@@ -15,4 +15,4 @@ import { TestimonialsPage }				from './testimonials';
 	]
 })
 
-export class TestimonialsPageModule { }
+export class TestimonialsHomeModule { }

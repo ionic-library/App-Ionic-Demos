@@ -15,7 +15,7 @@ import { IonicPage, NavController, } from '../../../../../..';
     </ion-content>
   `
 })
-export class AdvancedNavThenTabs03 {
+export class NavAdvancedNavThenTabs3 {
 
   constructor(public nav: NavController) {
   }

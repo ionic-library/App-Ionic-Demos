@@ -7,7 +7,7 @@ import { NavController, NavParams }		from 'ionic-angular';
 	selector: 'page-profile-five',
 	templateUrl: 'profile-five.html',
 })
-export class ProfileFivePage {
+export class ProfileProfileFive {
 
 	user = {
 		name: 'Cosima Niehaus',
@@ -25,7 +25,7 @@ export class ProfileFivePage {
 	constructor(public navCtrl: NavController) { }
 
 	ionViewDidLoad() {
-		console.log('ionViewDidLoad ProfileFivePage');
+		console.log('ionViewDidLoad ProfileProfileFive');
 	}
 
 }

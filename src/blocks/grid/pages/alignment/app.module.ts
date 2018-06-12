@@ -6,30 +6,30 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {}
+export class GridAlignmentModule {}
 
 
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class AppComponent {
-  rootPage = E2EPage;
+export class GridAlignmentModule {
+  rootPage = GridAlignment;
 }
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    GridAlignment,
+    GridAlignment
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(GridAlignment)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    GridAlignment,
+    GridAlignment
   ]
 })
-export class AppModule {}
+export class GridAlignmentModule {}

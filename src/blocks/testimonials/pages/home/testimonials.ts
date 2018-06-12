@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-testimonials',
   templateUrl: 'testimonials.html'
 })
-export class TestimonialsPage {
+export class TestimonialsHome {
 
   testimonials = [
     {

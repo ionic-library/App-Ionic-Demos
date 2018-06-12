@@ -13,4 +13,4 @@ import { ModalWithNavigationPage } from './modal-with-navigation';
 		ModalWithNavigationPage
 	]
 })
-export class ModalWithNavigationPageModule { }
+export class ModalWithNavigationPage1Module { }

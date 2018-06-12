@@ -10,4 +10,4 @@ import { SimpleNavDefaultHistory03 } from './third-page';
     SimpleNavDefaultHistory03
   ]
 })
-export class SimpleNavDefaultHistory03Module { }
+export class NavSimpleNavDefaultHistoryModule { }

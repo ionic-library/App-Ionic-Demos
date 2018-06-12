@@ -7,7 +7,7 @@ import { IonicPage, NavController, PickerController } from '../../../../../..';
   templateUrl: 'page-one.html',
   encapsulation: ViewEncapsulation.None,
 })
-export class PageOne {
+export class PickerPageOne {
   smoothie: string;
   timer: string;
 
@@ -17,7 +17,7 @@ export class PageOne {
   ) { }
 
   push() {
-    this.navCtrl.push(PageOne);
+    this.navCtrl.push(PickerPageOne);
   }
 
   twoColumns() {

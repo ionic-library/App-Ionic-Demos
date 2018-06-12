@@ -13,4 +13,4 @@ import { TabOneModule } from '../tab-one/tab-one.module';
     TabOneModule
   ]
 })
-export class TabsPageModule {}
+export class TabsBasicModule {}

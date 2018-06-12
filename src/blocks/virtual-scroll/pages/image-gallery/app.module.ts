@@ -7,7 +7,7 @@ import { IonicApp, IonicModule } from '../../../..';
   templateUrl: 'main.html',
   encapsulation: ViewEncapsulation.None
 })
-export class E2EPage {
+export class VirtualScrollImageGalleryModule {
   lastMonth: number;
   items: any[] = [];
 
@@ -77,27 +77,27 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>',
 })
-export class AppComponent {
-  root = E2EPage;
+export class VirtualScrollImageGalleryModule {
+  root = VirtualScrollImageGallery;
 }
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    VirtualScrollImageGallery,
+    VirtualScrollImageGallery
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(VirtualScrollImageGallery)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    VirtualScrollImageGallery,
+    VirtualScrollImageGallery
   ]
 })
-export class AppModule {}
+export class VirtualScrollImageGalleryModule {}
 
 var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 

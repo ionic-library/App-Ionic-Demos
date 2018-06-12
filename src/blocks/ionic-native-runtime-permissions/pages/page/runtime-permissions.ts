@@ -7,7 +7,7 @@ import { NavController, NavParams, IonicPage } from 'ionic-angular';
   selector: 'page-runtime-permissions',
   templateUrl: 'runtime-permissions.html'
 })
-export class RuntimePermissionsPage {
+export class IonicNativeRuntimePermissionsPage {
 
   // You can add many other permissions
   PERMISSION = {

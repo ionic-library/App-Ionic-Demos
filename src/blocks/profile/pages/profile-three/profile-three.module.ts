@@ -15,4 +15,4 @@ import { ProfileThreePage }				from './profile-three';
 	]
 })
 
-export class ProfileThreePageModule { }
+export class ProfileProfileThreeModule { }

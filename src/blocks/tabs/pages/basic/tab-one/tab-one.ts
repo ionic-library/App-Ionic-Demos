@@ -5,7 +5,7 @@ import { App, IonicPage, Tabs } from '../../../../../..';
 @Component({
   templateUrl: 'tab-one.html'
 })
-export class TabOne {
+export class TabsBasic {
   items: any[] = [];
 
   constructor(private tabs: Tabs, private app: App) {

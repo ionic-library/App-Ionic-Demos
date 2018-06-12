@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class RangePageOne {
   brightness: number = 20;
   saturation: number = 0;
   warmth: number = 1300;

@@ -7,7 +7,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-slide-carousel',
   templateUrl: 'slide-carousel.html'
 })
-export class SlideCarouselPage {
+export class SlideSlideCarousel {
 
   mySlideOptions = {
     slidesPerView: 'auto',

@@ -6,7 +6,7 @@ import { IonicPage, NavController } from 'ionic-angular';
 	selector: 'page-home',
 	templateUrl: 'home.html'
 })
-export class HomePage {
+export class HomeDemoPageHome {
 
 	drawerOptions: any;
 	constructor(public navCtrl: NavController) {

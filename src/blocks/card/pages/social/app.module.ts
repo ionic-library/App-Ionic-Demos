@@ -6,27 +6,27 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {}
+export class CardSocial {}
 
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class AppComponent {
-  rootPage = E2EPage;
+export class CardSocial {
+  rootPage = CardSocial;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    CardSocial,
+    CardSocial
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(CardSocial)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    E2EPage
+    CardSocial
   ]
 })
-export class AppModule {}
+export class CardSocial {}

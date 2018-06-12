@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DEPENDENCIES=${1:-LISTOFDEPENDENCIES}
+
+PACKAGES=$(< $DEPENDENCIES)
+echo npm uninstall --save $PACKAGES
+echo npm install   --save $PACKAGES

@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class ListHeaderScenarios {
   testClick(ev: UIEvent) {
     console.log(ev);
   }

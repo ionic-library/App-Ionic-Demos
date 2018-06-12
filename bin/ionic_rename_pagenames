@@ -1,0 +1,116 @@
+#!/usr/local/bin/python3
+
+#
+#
+# Reauired directory structure:
+#
+# <maindir>/<blockname>/pages/page-one/page-one.ts
+
+import os
+import re
+
+debuglevel = 2
+mode = 'check'
+
+
+def debug(level, line):
+    if (level <= debuglevel):
+        print("DBG [%2s]: %s" % (level, line))
+
+
+def camelcase(line):
+    return ''.join(x for x in line.title() if not x.isspace())
+
+
+def printReplaceCommand(filename, ismodule, oldname, newname):
+    global mode
+
+    if (mode == 'check'):
+        return
+
+    if ismodule:
+        print("echo \"Replace Module Name: %s: %s --> %s\"" %
+              (filename, oldname, newname))
+        print("perl -pi -e 's/(export\s+class\s+)\w*(.+)/\\1%sModule\\2/' \"%s\"" %
+              (newname, filename))
+
+    print("echo \"Replace Page   Name: %s: %s --> %s\"" %
+          (filename, oldname, newname))
+    print("perl -pi -e 's/\\b%s\\b/%s/' \"%s\"" % (oldname, newname, filename))
+
+
+def replaceInFile(filename, pagename):
+    ismodule = filename.find("module.ts") > 0
+
+    pattern = re.compile("(import)"				# 1
+                         "(\s*\{\s*)"			# 2
+                         "([^ ]+)"				# 3
+                         "(?P<name>.+)"			# 4
+                         "(\s*\}\s*)"			# 5
+                         "(from\s+)"			# 6
+                         "(?P<from>.+)"			# 7
+                         "(\s*;\s*)"			# 8
+                         )
+
+    # export class PageTwo {}
+    pattern = re.compile("(export)"				# 1
+                         "(\s*)"				# 2
+                         "(class)"				# 3
+                         "(\s*)"				# 4
+                         "(?P<name>[^ ]+)"		# 5
+                         "(\s*)"				# 6
+                         "(?P<from>.*)"			# 7
+                         )
+
+    with open(filename, 'r') as iFile:
+        lines = iFile.readlines()
+
+        for line in lines:
+            line = line.rstrip('\r\n')
+            match = pattern.match(line)
+
+            if (match != None):
+                importname = match.group('name')
+                importfrom = match.group('from')
+            else:
+                importfrom = "NOMATCH"
+                importname = ""
+
+            if (importfrom != "NOMATCH"):
+                debug(2, "%-15s: %-60s | N=%-32s P=%s" %
+                      ("replaceInFile", filename, importname, pagename))
+                debug(4, "%-15s: %-60s | L=%s" % ("replaceInFile", "", line))
+
+                printReplaceCommand(filename, ismodule, importname, pagename)
+
+    return
+
+
+def handle_file(filename):
+    """
+    Handle File: get filetype,and pagename, then replace in file
+    """
+
+    parts = filename.split('/')
+
+    filetype = camelcase(parts[2])
+    if (filetype in [ "Pages", "Components", "Providers", "Models", "Directives", "Pipes" ]):
+        filetype=re.sub(r"s$", "", filetype)
+
+    pagename = camelcase((parts[1] + '-' + parts[3]).replace('-', ' '))
+
+    debug(1, "%-15s: %-60s | P=%-32s T=%s" % ("handle file", filename, pagename, filetype))
+
+
+    replaceInFile(filename, pagename)
+
+    return
+
+def main():
+    for root, _, files in os.walk("."):
+        for file in files:
+            if file.endswith(".ts"):
+                handle_file(os.path.join(root, file))
+
+if __name__ == "__main__":
+    main()

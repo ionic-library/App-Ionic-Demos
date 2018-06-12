@@ -6,7 +6,7 @@ import { AlertController, IonicPage } from "ionic-angular";
 	selector: "page-alert",
 	templateUrl: "alert.html"
 })
-export class AlertsPage {
+export class IonicComponentsAlertPage {
 	testRadioOpen = false;
 	testRadioResult: any;
 	testCheckboxOpen = false;

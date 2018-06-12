@@ -14,4 +14,4 @@ import { ChildNavs02 } from './fourth-page';
     ChildNavs02,
   ]
 })
-export class ChildNavs02Module {}
+export class NavChildNavsModule {}

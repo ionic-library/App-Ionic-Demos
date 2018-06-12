@@ -5,7 +5,7 @@ import { IonicPage, NavController, } from '../../../../../..';
 @Component({
   templateUrl: 'first-page.html'
 })
-export class SimpleNav01 {
+export class NavSimpleNav {
   constructor(public nav: NavController) {
   }
 

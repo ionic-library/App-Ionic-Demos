@@ -14,4 +14,4 @@ import { HeaderComponent }				from './header';
 		HeaderComponent
 	]
 })
-export class HeaderComponentModule { }
+export class HeaderComponent { }

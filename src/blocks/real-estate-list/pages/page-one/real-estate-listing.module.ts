@@ -17,4 +17,4 @@ import { RealEstateListingPage } from './real-estate-listing';
 		RealEstateListingPage
 	]
 })
-export class RealEstateListingPageModule { }
+export class RealEstateListPageOneModule { }

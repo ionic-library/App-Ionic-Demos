@@ -18,4 +18,4 @@ import { MockProvider } from './provider';
     MockProvider
   ]
 })
-export class PageOneModule {}
+export class RefresherPageOneModule {}

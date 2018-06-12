@@ -13,4 +13,4 @@ import { PopupFabModalPage } from './popup-fab-modal';
     PopupFabModalPage
   ]
 })
-export class PopupFabModalPageModule {}
+export class PopupFabPopupFabModalModule {}

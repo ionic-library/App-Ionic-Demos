@@ -6,7 +6,7 @@ import { ViewController, IonicPage } from 'ionic-angular';
   selector: 'page-walkthrough-modal',
   templateUrl: 'walkthrough-modal.html'
 })
-export class WalkthroughModalPage {
+export class PopupModalWalkthroughModal {
 
   slides = [
     {

@@ -4,7 +4,7 @@ import { NavParams, ViewController } from '../../../../../src';
 @Component({
   templateUrl: 'modal-page.html'
 })
-export class ModalPage {
+export class ModalPage4 {
   myParam: string;
 
   constructor(

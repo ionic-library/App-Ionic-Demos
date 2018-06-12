@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [[ "$1" == "" ]]; then
+	npm install --save-dev @ionic/app-scripts@latest
+	npm install --save-dev @angular/compiler-cli@latest
+	npm install --save-dev @angular/tsc-wrapped@latest
+
+	npm install ios-sim@latest	i
+fi
+
+for PACKAGE in $(grep gulp- package.json | cut -d '"' -f2)
+do
+	VERSION=$(npm info $PACKAGE | grep version: | cut -d \' -f2)
+	echo "	\"$PACKAGE\": \"^$VERSION\","
+done

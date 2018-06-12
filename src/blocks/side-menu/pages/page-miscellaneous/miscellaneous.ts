@@ -6,7 +6,7 @@ import { NavController, MenuController, IonicPage } from 'ionic-angular';
 	selector: 'page-miscellaneous',
 	templateUrl: 'miscellaneous.html'
 })
-export class MiscellaneousListPage {
+export class SideMenuPageMiscellaneous {
 	rootPage: any;
 	items: Array<{ title: string, page: any }>;
 

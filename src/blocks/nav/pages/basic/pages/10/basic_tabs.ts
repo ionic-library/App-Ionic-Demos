@@ -30,7 +30,7 @@ import { IonicPage, Tab } from '../../../../../..';
     </ion-tabs>
   `
 })
-export class Basic10 {
+export class NavBasic {
   root1 = 'tab-one';
   root2 = 'tab-two';
   root3 = 'tab-three';

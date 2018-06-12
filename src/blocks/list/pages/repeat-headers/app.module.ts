@@ -6,7 +6,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class ListRepeatHeadersModule {
   people = [
     {'name': 'Burt', 'components': [ 'all the things']},
     {'name': 'Mary', 'components': [ 'checkbox', 'content', 'form']},
@@ -17,23 +17,23 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class AppComponent {
-  rootPage = E2EPage;
+export class ListRepeatHeadersModule {
+  rootPage = ListRepeatHeaders;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    ListRepeatHeaders,
+    ListRepeatHeaders
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(ListRepeatHeaders)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    ListRepeatHeaders,
+    ListRepeatHeaders
   ]
 })
-export class AppModule {}
+export class ListRepeatHeadersModule {}

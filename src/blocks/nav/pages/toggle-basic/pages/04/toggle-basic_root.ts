@@ -18,7 +18,7 @@ import { IonicPage, NavController, } from '../../../../../..';
     </ion-content>
   `
 })
-export class ToggleBasic04 {
+export class NavToggleBasic {
 
   constructor(public nav: NavController) {
   }

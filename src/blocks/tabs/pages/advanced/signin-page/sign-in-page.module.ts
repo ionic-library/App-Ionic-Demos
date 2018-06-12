@@ -11,4 +11,4 @@ import { SignInPage } from './sign-in-page';
     IonicPageModule.forChild(SignInPage)
   ]
 })
-export class SignInPageModule {}
+export class TabsAdvancedModule {}

@@ -6,7 +6,7 @@ import { NavController, Slides, IonicPage } from 'ionic-angular';
   selector: 'page-slide-custom-pagination',
   templateUrl: 'slide-custom-pagination.html'
 })
-export class SlideCustomPaginationPage {
+export class SlideSlideCustomPagination {
   @ViewChild('sliderOne') sliderOne: Slides;
   @ViewChild('sliderTwo') sliderTwo: Slides;
   @ViewChild('sliderThree') sliderThree: Slides;

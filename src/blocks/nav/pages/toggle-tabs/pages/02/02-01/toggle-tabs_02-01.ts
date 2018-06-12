@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
 
 @IonicPage({
-  segment: 'ToggleTabs020201'
+  segment: 'NavToggleTabs'
 })
 @Component({
   template: `
@@ -20,7 +20,7 @@ import { IonicPage, NavController } from 'ionic-angular';
 </ion-content>
   `
 })
-export class ToggleTabs020201 {
+export class NavToggleTabs {
   constructor(public nav: NavController) {
   }
 

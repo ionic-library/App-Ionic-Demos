@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-card-map',
   templateUrl: 'card-map.html'
 })
-export class CardMapPage {
+export class IonicComponentsCardCardMap {
   cards = [
     {
       imageUrl: 'assets/img/card/advance-card-map-madison.png',

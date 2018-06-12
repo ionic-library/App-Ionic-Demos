@@ -5,7 +5,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class Page1 {
+export class GridResponsiveModule {
 
 }
 
@@ -13,22 +13,22 @@ export class Page1 {
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class AppComponent {
-  rootPage = Page1;
+export class GridResponsiveModule {
+  rootPage = GridResponsive;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Page1
+    GridResponsive,
+    GridResponsive
   ],
   imports: [
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(GridResponsive)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    Page1
+    GridResponsive,
+    GridResponsive
   ]
 })
-export class AppModule {}
+export class GridResponsiveModule {}

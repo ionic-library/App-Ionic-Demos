@@ -5,4 +5,4 @@ import { IonicPage } from 'ionic-angular';
 @Component({
 	templateUrl: 'page-one.html'
 })
-export class Buttons1Page { }
+export class ButtonPageOne { }

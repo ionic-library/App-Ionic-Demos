@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-card-background',
   templateUrl: 'card-background.html'
 })
-export class CardBackgroundPage {
+export class IonicComponentsCardCardBackground {
   cards = [
     {
       imageUrl: 'assets/img/card/card-saopaolo.png',

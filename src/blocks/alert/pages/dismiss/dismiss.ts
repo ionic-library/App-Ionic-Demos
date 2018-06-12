@@ -1,13 +1,12 @@
 import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AlertController, IonicApp, IonicModule, LoadingController, NavController } from '../../../..';
+import { AlertController, ModalController, NavController } from 'ionic-angular';
 import { FormBuilder, Validators } from '@angular/forms';
-
 
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class AlertDismiss {
 
   constructor(public alertCtrl: AlertController, public navCtrl: NavController) {}
 
@@ -36,7 +35,7 @@ export class E2EPage {
 
     alert.onDidDismiss(() => {
       console.log('dismiss');
-      this.navCtrl.push(AnotherPage);
+      this.navCtrl.push(AlertDismiss);
     });
 
     alert.present();
@@ -70,7 +69,7 @@ export class E2EPage {
     </ion-content>
   `
 })
-export class AnotherPage {
+export class AlertDismiss {
   form: any;
 
   constructor(public navCtrl: NavController, public alertCtrl: AlertController, public loadingCtrl: LoadingController, public builder: FormBuilder) {

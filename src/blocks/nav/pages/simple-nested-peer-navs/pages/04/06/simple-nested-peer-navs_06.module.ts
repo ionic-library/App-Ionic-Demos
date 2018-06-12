@@ -10,4 +10,4 @@ import { SimpleNestedPeerNavs0406 } from './sixth-page';
     SimpleNestedPeerNavs0406
   ]
 })
-export class SimpleNestedPeerNavs0406Module { }
+export class NavSimpleNestedPeerNavsModule { }

@@ -4,7 +4,7 @@ import { ToastController } from "ionic-angular";
 @Component({
 	templateUrl: "page-one.html"
 })
-export class Toast01Page {
+export class TitlePage {
 	constructor(private toastCtrl: ToastController) {}
 
 	showToast(position: string) {

@@ -19,7 +19,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../..';
   </ion-content>
   `
 })
-export class SimpleNestedNavs05 {
+export class NavSimpleNestedNavs {
 
   paramOne: string;
   paramTwo: string;

@@ -14,7 +14,7 @@ import { IonicPage, NavController, } from '../../../../../..';
     </ion-content>
   `
 })
-export class LoginPage {
+export class NavSimpleNavThenTabsDefaultHistory {
   constructor(public nav: NavController) {
   }
 

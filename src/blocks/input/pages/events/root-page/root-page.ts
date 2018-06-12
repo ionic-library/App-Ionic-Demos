@@ -4,7 +4,7 @@ import { TextInput } from '../../../../../../';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class InputEvents {
   ngvalue1: any;
   ngvalue2: any;
   value2: any;

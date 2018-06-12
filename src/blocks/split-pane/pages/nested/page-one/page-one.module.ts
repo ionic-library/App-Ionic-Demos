@@ -18,4 +18,4 @@ import { PageFourModule } from '../page-four/page-four.module';
     PageFourModule
   ]
 })
-export class PageOneModule {}
+export class SplitPaneNestedModule {}

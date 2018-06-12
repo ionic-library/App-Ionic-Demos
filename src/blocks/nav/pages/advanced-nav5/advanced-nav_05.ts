@@ -7,7 +7,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../../..';
 @Component({
   templateUrl: 'fifth-page.html'
 })
-export class AdvancedNav0205 {
+export class NavAdvancedNav5 {
 
   userId: string;
   name: string;

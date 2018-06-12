@@ -10,4 +10,4 @@ import { Component } from '@angular/core';
     <ion-content padding>This is another page!</ion-content>
   `
 })
-export class PageTwo {}
+export class Loading02 {}

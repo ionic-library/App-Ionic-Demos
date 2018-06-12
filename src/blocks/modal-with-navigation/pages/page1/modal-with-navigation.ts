@@ -14,7 +14,7 @@ import { ToastService }					from '../../toast/services/service/toast';
 	selector: 'page-modal-with-navigation',
 	templateUrl: 'modal-with-navigation.html',
 })
-export class ModalWithNavigationPage {
+export class ModalWithNavigationPage1 {
 
 	constructor(
 		public navCtrl: NavController,

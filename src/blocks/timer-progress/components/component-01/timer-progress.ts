@@ -14,7 +14,7 @@ export interface CountdownTimer {
   selector: 'timer-progress',
   templateUrl: 'timer-progress.html'
 })
-export class TimerProgress {
+export class TimerProgressComponent01 {
 
   @Input() timeInSeconds: number;
   timer: CountdownTimer;

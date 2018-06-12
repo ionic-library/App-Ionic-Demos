@@ -5,7 +5,7 @@ import { Config, IonicPage, ModalController, NavController, Platform, ToastContr
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class ModalPage2 {
   platforms: string[];
 
   constructor(
@@ -37,7 +37,7 @@ export class PageOne {
   }
 
   push() {
-    this.navCtrl.push(PageOne);
+    this.navCtrl.push(ModalPage2);
   }
 
   presentModal() {

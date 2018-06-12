@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class MockProvider {
+export class InfiniteScrollPageOne {
 
   getData(): any[] {
     // return mock data synchronously

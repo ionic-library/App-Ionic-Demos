@@ -15,4 +15,4 @@ import { MyCmpTest2 } from './my-component-two';
     MyCmpTest2
   ]
 })
-export class Basic02Module { }
+export class NavBasicModule { }

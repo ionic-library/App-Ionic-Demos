@@ -10,4 +10,4 @@ import { ListCustomPage }				from './list-custom';
 		IonicPageModule.forChild(ListCustomPage),
 	],
 })
-export class ListCustomPageModule { }
+export class ListCustomHomeModule { }

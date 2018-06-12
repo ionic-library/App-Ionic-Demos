@@ -7,7 +7,7 @@ import { TabOne } from '../tab-one/tab-one';
 @Component({
   templateUrl: 'tabs-page.html'
 })
-export class TabsPage {
+export class TabsBasic {
   root1 = TabOne;
   root2 = 'TabTwo';
   root3 = 'TabThree';

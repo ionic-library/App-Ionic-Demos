@@ -10,4 +10,4 @@ import { FifthPage } from './fifth-page';
     FifthPage
   ]
 })
-export class FifthPageModule { }
+export class NavSimpleNavThenTabsDefaultHistoryModule { }

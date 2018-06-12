@@ -7,7 +7,7 @@ import { InfiniteScroll, IonicApp, IonicModule,  NavController } from '../../../
   selector: 'my-content',
   templateUrl: 'main.html'
 })
-export class MyContent {
+export class InfiniteScrollBasicModule {
   @ViewChild(InfiniteScroll) infiniteScroll: InfiniteScroll;
   items: number[] = [];
   enabled: boolean = true;
@@ -35,7 +35,7 @@ export class MyContent {
   }
 
   goToPage2() {
-    this.navCtrl.push(E2EPage2);
+    this.navCtrl.push(InfiniteScrollBasic);
   }
 
   toggleInfiniteScroll() {
@@ -57,13 +57,13 @@ export class MyContent {
   </ion-content>
 `
 })
-export class E2EPage1 {}
+export class InfiniteScrollBasicModule {}
 
 
 @Component({
   template: '<ion-content><button ion-button (click)="navCtrl.pop()">Pop</button></ion-content>'
 })
-export class E2EPage2 {
+export class InfiniteScrollBasicModule {
   constructor(public navCtrl: NavController) {}
 }
 
@@ -71,30 +71,30 @@ export class E2EPage2 {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage1;
+export class InfiniteScrollBasicModule {
+  root = InfiniteScrollBasic;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage1,
-    E2EPage2,
-    MyContent
+    InfiniteScrollBasic,
+    InfiniteScrollBasic,
+    InfiniteScrollBasic,
+    InfiniteScrollBasic
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(InfiniteScrollBasic)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage1,
-    E2EPage2,
-    MyContent
+    InfiniteScrollBasic,
+    InfiniteScrollBasic,
+    InfiniteScrollBasic,
+    InfiniteScrollBasic
   ]
 })
-export class AppModule {}
+export class InfiniteScrollBasicModule {}
 
 
 function getAsyncData(): Promise<any[]> {

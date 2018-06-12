@@ -5,7 +5,7 @@ import { AlertController, App, IonicPage, ModalController, Tabs } from '../../..
 @Component({
   templateUrl: 'tab-three.html'
 })
-export class TabThree {
+export class TabsBasic {
   items: number[] = [];
 
   constructor(private alertCtrl: AlertController, private modalCtrl: ModalController, private tabs: Tabs, private app: App) {

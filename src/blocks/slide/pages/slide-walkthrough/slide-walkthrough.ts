@@ -6,7 +6,7 @@ import { IonicPage, NavController, Slides } from 'ionic-angular';
   selector: 'page-slide-walkthrough',
   templateUrl: 'slide-walkthrough.html',
 })
-export class SlideWalkthroughPage {
+export class SlideSlideWalkthrough {
 
   @ViewChild('slider') slider: Slides;
   slideIndex = 0;

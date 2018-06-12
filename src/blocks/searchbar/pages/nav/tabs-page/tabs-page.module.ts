@@ -13,4 +13,4 @@ import { SearchPageModule } from '../search-page/search-page.module';
     SearchPageModule
   ]
 })
-export class TabsPageModule {}
+export class SearchbarNavModule {}

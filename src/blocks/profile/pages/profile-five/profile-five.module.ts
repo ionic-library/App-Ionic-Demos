@@ -18,4 +18,4 @@ import { ParallaxHeaderDirectiveModule } from '../../../parallax-header/componen
 	]
 })
 
-export class ProfileFivePageModule { }
+export class ProfileProfileFiveModule { }

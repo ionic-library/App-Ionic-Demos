@@ -10,4 +10,4 @@ import { FirstPage } from './first-page';
     FirstPage
   ]
 })
-export class FirstPageModule { }
+export class NavSimpleTabsDefaultHistoryModule { }

@@ -6,7 +6,7 @@ import { IonicPage } from '../../../../../..';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class SelectMultipleValue {
   toppings: Array<string>;
   carFeatures: Array<string>;
   pets: Array<string>;

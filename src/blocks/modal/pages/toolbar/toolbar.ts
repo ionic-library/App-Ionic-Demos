@@ -5,7 +5,7 @@ import { AlertController, IonicPage, ViewController } from '../../../../../..';
 @Component({
   templateUrl: 'toolbar.html'
 })
-export class ToolbarModal {
+export class ModalToolbar {
 
   constructor(public viewCtrl: ViewController, public alertCtrl: AlertController) {}
 

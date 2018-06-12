@@ -10,4 +10,4 @@ import { NavPushPop01 } from './first-page';
     NavPushPop01
   ]
 })
-export class NavPushPop01Module { }
+export class NavNavPushPopModule { }

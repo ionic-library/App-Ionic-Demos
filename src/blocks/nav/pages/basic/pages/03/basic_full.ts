@@ -19,7 +19,7 @@ import { AlertController, App, IonicPage, NavController, NavParams, ViewControll
     </ion-content>
   `
 })
-export class Basic03 {
+export class NavBasic {
   constructor(
     public navCtrl: NavController,
     public viewCtrl: ViewController,
@@ -29,27 +29,27 @@ export class Basic03 {
   ) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad, Basic03', this.viewCtrl.id);
+    console.log('ionViewDidLoad, NavBasic', this.viewCtrl.id);
   }
 
   ionViewWillEnter() {
-    console.log('ionViewWillEnter, Basic03', this.viewCtrl.id);
+    console.log('ionViewWillEnter, NavBasic', this.viewCtrl.id);
   }
 
   ionViewDidEnter() {
-    console.log('ionViewDidEnter, Basic03', this.viewCtrl.id);
+    console.log('ionViewDidEnter, NavBasic', this.viewCtrl.id);
   }
 
   ionViewWillLeave() {
-    console.log('ionViewWillLeave, Basic03', this.viewCtrl.id);
+    console.log('ionViewWillLeave, NavBasic', this.viewCtrl.id);
   }
 
   ionViewDidLeave() {
-    console.log('ionViewDidLeave, Basic03', this.viewCtrl.id);
+    console.log('ionViewDidLeave, NavBasic', this.viewCtrl.id);
   }
 
   ionViewWillUnload() {
-    console.log('ionViewWillUnload, Basic03', this.viewCtrl.id);
+    console.log('ionViewWillUnload, NavBasic', this.viewCtrl.id);
   }
 
   setPages() {

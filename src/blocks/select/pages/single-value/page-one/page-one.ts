@@ -12,7 +12,7 @@ export interface Currency {
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class SelectSingleValue {
   notifications: any;
   musicSelectOpts: any = {
     title: '1994 Music',

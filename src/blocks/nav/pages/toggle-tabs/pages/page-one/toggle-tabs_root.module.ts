@@ -10,4 +10,4 @@ import { ToggleTabs01 } from './root-page';
     ToggleTabs01
   ]
 })
-export class ToggleTabs01Module { }
+export class NavToggleTabsModule { }

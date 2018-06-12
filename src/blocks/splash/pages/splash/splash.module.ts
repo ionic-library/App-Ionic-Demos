@@ -14,4 +14,4 @@ import { SplashPage }					from './splash';
 		SplashPage
 	]
 })
-export class RestAPIPageModule { }
+export class SplashSplashModule { }

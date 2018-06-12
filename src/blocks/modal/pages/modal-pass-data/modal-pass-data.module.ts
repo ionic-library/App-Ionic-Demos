@@ -15,4 +15,4 @@ import { SomeComponentProvider } from './provider';
     SomeComponentProvider
   ]
 })
-export class ModalPassDataModule {}
+export class ModalModalPassDataModule {}

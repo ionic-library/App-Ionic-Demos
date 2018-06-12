@@ -7,7 +7,7 @@ import { IonicApp, IonicModule } from '../../../..';
   templateUrl: 'main.html',
   encapsulation: ViewEncapsulation.None
 })
-export class E2EPage {
+export class VirtualScrollCardsModule {
   items: any[] = [];
 
   constructor() {
@@ -31,27 +31,27 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>',
 })
-export class AppComponent {
-  root = E2EPage;
+export class VirtualScrollCardsModule {
+  root = VirtualScrollCards;
 }
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    VirtualScrollCards,
+    VirtualScrollCards
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(VirtualScrollCards)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    VirtualScrollCards,
+    VirtualScrollCards
   ]
 })
-export class AppModule {}
+export class VirtualScrollCardsModule {}
 
 const lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 

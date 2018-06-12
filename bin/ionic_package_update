@@ -1,0 +1,39 @@
+#!/usr/bin/python
+
+import csv
+import json
+import sys
+
+from subprocess import call
+
+debuglevel=4
+def debug(level, line):
+    if (level < debuglevel):
+      print("DEBUG: %s" % line)
+
+def main():
+    try:
+        jsonfile = sys.argv[1]
+    except:
+        jsonfile="package.json"
+
+    debug(2, "input file: %s" % jsonfile)
+
+    debug(2, "read input file")
+    inputFile = open(jsonfile)
+    data = json.load(inputFile)
+    inputFile.close()
+    debug(2, "read input file: %d" % len(data))
+
+    deps = " ".join(data["dependencies"])
+
+    debug(2, "dependencies: %s" % deps)
+
+    for dep in data["dependencies"]:
+        print("update '%s'" % dep)
+        call(["npm", "uninstall", dep])
+        call(["npm", "install", dep])
+
+if __name__ == "__main__":
+    main()
+

@@ -5,7 +5,7 @@ import { IonicPage, NavParams } from '../../../../../..';
 @Component({
   templateUrl: 'detail-page.html'
 })
-export class DetailPage {
+export class SearchbarNav {
   city: string;
 
   constructor(_navParams: NavParams) {

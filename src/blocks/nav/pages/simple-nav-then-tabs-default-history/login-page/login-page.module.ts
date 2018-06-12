@@ -10,4 +10,4 @@ import { LoginPage } from './login-page';
     LoginPage
   ]
 })
-export class LoginPageModule { }
+export class NavSimpleNavThenTabsDefaultHistoryModule { }

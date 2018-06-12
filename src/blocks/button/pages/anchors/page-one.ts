@@ -4,7 +4,7 @@ import { App } from '../../../../../..';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class ButtonAnchors {
   btnColor: string;
   testingColors = ['primary', 'secondary', 'danger', 'dark'];
   testingColorIndex = 0;

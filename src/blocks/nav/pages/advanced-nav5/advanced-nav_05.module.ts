@@ -10,4 +10,4 @@ import { AdvancedNav0205 } from './fifth-page';
     AdvancedNav0205
   ]
 })
-export class AdvancedNav0205Module { }
+export class NavAdvancedNav5Module { }

@@ -5,7 +5,7 @@ import { IonicPage, NavController } from 'ionic-angular';
 @Component({
   templateUrl: 'fourth-page.html'
 })
-export class AdvancedNav0204 {
+export class NavAdvancedNav4 {
   constructor(public nav: NavController) {
   }
 

@@ -7,7 +7,7 @@ import { SearchPage } from '../search-page/search-page';
 @Component({
   templateUrl: 'tabs-page.html'
 })
-export class TabsPage {
+export class SearchbarNav {
   mainPage = 'MainPage';
   searchPage = SearchPage;
 }

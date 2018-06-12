@@ -10,4 +10,4 @@ import { SixthPage } from './sixth-page';
     SixthPage
   ]
 })
-export class SixthPageModule { }
+export class NavSimpleTabsDefaultHistoryModule { }

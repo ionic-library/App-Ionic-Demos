@@ -22,4 +22,4 @@ import { MockSQLitePageHome }			from './mock-sqlite-home';
 	]
 })
 
-export class TinderCardsPageModule { }
+export class MockSqliteHomeModule { }

@@ -5,7 +5,7 @@ import { NavController, reorderArray } from '../../../../../src';
   templateUrl: 'page-one.html',
   encapsulation: ViewEncapsulation.None
 })
-export class PageOne {
+export class ItemReorderPageOne {
   songs: any[];
   editButton: string = 'Edit';
   editing: boolean = false;

@@ -14,4 +14,4 @@ import { PopoverListPage } from './popover-list-page';
     PopoverListPage,
   ]
 })
-export class PopoverListPageModule {}
+export class PopoverBasicModule {}

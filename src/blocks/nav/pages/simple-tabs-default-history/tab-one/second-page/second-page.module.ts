@@ -10,4 +10,4 @@ import { SecondPage } from './second-page';
     SecondPage
   ]
 })
-export class SecondPageModule { }
+export class NavSimpleTabsDefaultHistoryModule { }

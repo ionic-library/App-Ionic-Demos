@@ -7,7 +7,7 @@ export let isDebugMode = true; // environment.isDebugMode;
 const noop = (): any => undefined;
 
 @Injectable()
-export class ConsoleLoggerService implements Logger {
+export class LoggerConsoleService implements Logger {
 
 	get info() {
 		if (isDebugMode) {

@@ -14,4 +14,4 @@ import { Basic10 } from './tabs';
     Basic10,
   ]
 })
-export class Basic10Module { }
+export class NavBasicModule { }

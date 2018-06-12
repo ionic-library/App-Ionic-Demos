@@ -4,7 +4,7 @@ import { Platform, AlertController } from 'ionic-angular';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class AlertAlert {
   testRadioOpen = false;
   testRadioResult: any;
   testCheckboxOpen = false;

@@ -5,7 +5,7 @@ import { ActionSheetController, AlertController, App, IonicPage, ModalController
 @Component({
   templateUrl: 'page-two.html'
 })
-export class PageTwo {
+export class ModalPage5 {
   items: any[] = [];
   called: any;
 
@@ -54,34 +54,34 @@ export class PageTwo {
   }
 
   ionViewCanEnter() {
-    console.log('PageTwo ionViewCanEnter fired');
+    console.log('ModalPage5 ionViewCanEnter fired');
     this.called.ionViewCanEnter++;
     return true;
   }
 
   ionViewCanLeave() {
-    console.log('PageTwo ionViewCanLeave fired');
+    console.log('ModalPage5 ionViewCanLeave fired');
     this.called.ionViewCanLeave++;
     return true;
   }
 
   ionViewWillLoad() {
-    console.log('PageTwo ionViewWillLoad fired');
+    console.log('ModalPage5 ionViewWillLoad fired');
     this.called.ionViewWillLoad++;
   }
 
   ionViewDidLoad() {
-    console.log('PageTwo ionViewDidLoad fired');
+    console.log('ModalPage5 ionViewDidLoad fired');
     this.called.ionViewDidLoad++;
   }
 
   ionViewWillEnter() {
-    console.log('PageTwo ionViewWillEnter fired');
+    console.log('ModalPage5 ionViewWillEnter fired');
     this.called.ionViewWillEnter++;
   }
 
   ionViewDidEnter() {
-    console.log('PageTwo ionViewDidEnter fired');
+    console.log('ModalPage5 ionViewDidEnter fired');
     let alert = this.alertCtrl.create({
       title: 'Test',
       buttons: [
@@ -96,12 +96,12 @@ export class PageTwo {
   }
 
   ionViewWillLeave() {
-    console.log('PageTwo ionViewWillLeave fired');
+    console.log('ModalPage5 ionViewWillLeave fired');
     this.called.ionViewWillLeave++;
   }
 
   ionViewDidLeave() {
-    console.log('PageTwo ionViewDidLeave fired');
+    console.log('ModalPage5 ionViewDidLeave fired');
     this.called.ionViewDidLeave++;
   }
 

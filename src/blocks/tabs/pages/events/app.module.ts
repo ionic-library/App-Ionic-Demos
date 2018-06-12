@@ -21,7 +21,7 @@ import { Events, IonicApp, IonicModule } from '../../../..';
     </ion-content>
     `
 })
-export class Tab1 {
+export class TabsEventsModule {
   datatest: string = 'old';
   called: number = 0;
   constructor(public events: Events) {
@@ -51,7 +51,7 @@ export class Tab1 {
     </ion-content>
   `
 })
-export class Tab2 {}
+export class TabsEventsModule {}
 
 
 @Component({
@@ -63,9 +63,9 @@ export class Tab2 {}
     </ion-tabs>
   `
 })
-export class TabsPage {
-  root1 = Tab1;
-  root2 = Tab2;
+export class TabsEventsModule {
+  root1 = TabsEvents;
+  root2 = TabsEvents;
 
   constructor(public events: Events) { }
   takePhoto() {
@@ -76,29 +76,29 @@ export class TabsPage {
 @Component({
   template: `<ion-nav [root]="root"></ion-nav>`
 })
-export class AppComponent {
-  root = TabsPage;
+export class TabsEventsModule {
+  root = TabsEvents;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Tab1,
-    Tab2,
-    TabsPage
+    TabsEvents,
+    TabsEvents,
+    TabsEvents,
+    TabsEvents
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent, {
+    IonicModule.forRoot(TabsEvents, {
       tabsHighlight: true,
     })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    Tab1,
-    Tab2,
-    TabsPage
+    TabsEvents,
+    TabsEvents,
+    TabsEvents,
+    TabsEvents
   ]
 })
-export class AppModule { }
+export class TabsEventsModule { }

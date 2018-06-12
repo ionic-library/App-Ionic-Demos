@@ -10,4 +10,4 @@ import { AdvancedNavThenTabs02 } from './nested-nav-two-page-one';
     AdvancedNavThenTabs02
   ]
 })
-export class AdvancedNavThenTabs02Module { }
+export class NavAdvancedNavThenTabs2Module { }

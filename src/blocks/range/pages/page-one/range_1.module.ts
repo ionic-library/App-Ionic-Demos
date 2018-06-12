@@ -14,4 +14,4 @@ import { PageOne } from './page-one';
     PageOne,
   ]
 })
-export class PageOneModule {}
+export class RangePageOneModule {}

@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class ItemInputs {
   disabled = false;
   datetime = '2016-12-09';
   toggle = true;

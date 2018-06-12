@@ -7,12 +7,12 @@ import { NavController, IonicPage } from 'ionic-angular';
 	selector: 'page-button',
 	templateUrl: 'button.html'
 })
-export class ButtonsListPage {
+export class IonicComponentsButtonPage {
 	rootPage: any;
 	items: Array<{ title: string, page: any }>;
 
 	constructor(public navCtrl: NavController) {
-		this.rootPage = 'ButtonsListPage';
+		this.rootPage = 'IonicComponentsButtonPage';
 		this.items = [
 			{
 				title: 'Button Styles',

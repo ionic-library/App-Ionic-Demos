@@ -18,6 +18,6 @@ import { IonicPage } from '../../../../../..';
   </ion-content>
   `
 })
-export class ChildNavs05 {
+export class NavChildNavs {
   root = 'FourthPage';
 }

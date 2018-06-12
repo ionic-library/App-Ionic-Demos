@@ -5,7 +5,7 @@ import { ItemSliding, ToastController } from '../../../../../src';
   templateUrl: 'page-one.html',
   encapsulation: ViewEncapsulation.None
 })
-export class PageOne {
+export class ItemSlidingPageOne {
   chats: any[];
   logins: any[];
 

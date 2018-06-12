@@ -6,7 +6,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-crypto-list',
   templateUrl: 'crypto-list.html',
 })
-export class CryptoListPage {
+export class ListCryptoList {
   data = [
     {
       id: 'bitcoin',

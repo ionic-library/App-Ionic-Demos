@@ -79,7 +79,7 @@ import { IonicPage, LoadingController, NavController } from '../../../../../..';
     }`
   ]
 })
-export class PageOne {
+export class LoadingBasic {
   constructor(
     public loadingCtrl: LoadingController,
     public navCtrl: NavController

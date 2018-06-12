@@ -6,7 +6,7 @@ import { NavController, ModalController, IonicPage, AlertController } from 'ioni
   selector: 'page-popup-modal',
   templateUrl: 'popup-modal.html'
 })
-export class PopupModalsPage {
+export class PopupModalHome {
   rootPage: any;
 
   constructor(

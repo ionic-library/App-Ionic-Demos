@@ -14,4 +14,4 @@ import { RestAPIPageHome }				from './rest-api';
 		RestAPIPageHome
 	]
 })
-export class RestAPIPageModule { }
+export class RestApiPageOneModule { }

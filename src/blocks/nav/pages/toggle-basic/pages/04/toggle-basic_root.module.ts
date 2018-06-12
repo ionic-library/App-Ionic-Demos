@@ -10,4 +10,4 @@ import { ToggleBasic04 } from './root-page';
     ToggleBasic04
   ]
 })
-export class ToggleBasic04Module { }
+export class NavToggleBasicModule { }

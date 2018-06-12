@@ -11,4 +11,4 @@ import { ModalChatPage } from './modal-chat-page';
     IonicPageModule.forChild(ModalChatPage)
   ]
 })
-export class ModalChatPageModule {}
+export class TabsAdvancedModule {}

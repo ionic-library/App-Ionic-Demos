@@ -5,7 +5,7 @@ import { IonicPage, ViewController } from '../../../../../..';
 @Component({
   templateUrl: 'popover-list-page.html'
 })
-export class PopoverListPage {
+export class PopoverBasic {
   constructor(private viewCtrl: ViewController) {}
 
   close() {

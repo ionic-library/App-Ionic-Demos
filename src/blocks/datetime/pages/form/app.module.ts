@@ -8,7 +8,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class DatetimeFormModule {
   stackedCtrl = new FormControl('1994-12-15T13:47:20.789');
   floatingCtrl = new FormControl('1995-04-15');
   floatingCtrl2 = new FormControl('');
@@ -29,22 +29,22 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class DatetimeFormModule {
+  root = DatetimeForm;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    DatetimeForm,
+    DatetimeForm
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(DatetimeForm)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    E2EPage
+    DatetimeForm
   ]
 })
-export class AppModule {}
+export class DatetimeFormModule {}

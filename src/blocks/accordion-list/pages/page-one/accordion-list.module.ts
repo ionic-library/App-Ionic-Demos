@@ -10,4 +10,4 @@ import { AccordionListPage } from "./accordion-list";
 	imports: [IonicPageModule.forChild(AccordionListPage), SharedModule],
 	exports: [AccordionListPage]
 })
-export class AccordionListPageModule {}
+export class AccordionListPageOne {}

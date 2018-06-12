@@ -13,7 +13,7 @@ import { IonicPage, NavParams } from '../../../../../..';
 <ion-content padding>{{msg}}</ion-content>
 `
 })
-export class NavPushPop02 {
+export class NavNavPushPop {
   msg: string = '';
   constructor(params: NavParams) {
     this.msg = params.get('msg');

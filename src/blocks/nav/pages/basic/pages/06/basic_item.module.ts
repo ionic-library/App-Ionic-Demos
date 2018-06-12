@@ -14,4 +14,4 @@ import { Basic06 } from './tab-item-page';
     Basic06,
   ]
 })
-export class Basic06Module { }
+export class NavBasicModule { }

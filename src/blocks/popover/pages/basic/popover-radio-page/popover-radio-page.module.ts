@@ -14,4 +14,4 @@ import { PopoverRadioPage } from './popover-radio-page';
     PopoverRadioPage,
   ]
 })
-export class PopoverRadioPageModule {}
+export class PopoverBasicModule {}

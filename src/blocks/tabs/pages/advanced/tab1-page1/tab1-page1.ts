@@ -7,7 +7,7 @@ import { App, IonicPage, NavController, NavParams, Tabs } from '../../../../../.
 @Component({
   templateUrl: './tab1-page1.html'
 })
-export class Tab1Page1 {
+export class TabsAdvanced {
   tab1Page2 = 'tab1-page2';
   color: boolean;
   userId: string;
@@ -32,22 +32,22 @@ export class Tab1Page1 {
   }
 
   ionViewWillEnter() {
-    console.log('Tab1Page1, ionViewWillEnter');
+    console.log('TabsAdvanced, ionViewWillEnter');
   }
 
   ionViewDidEnter() {
-    console.log('Tab1Page1, ionViewDidEnter');
+    console.log('TabsAdvanced, ionViewDidEnter');
   }
 
   ionViewWillLeave() {
-    console.log('Tab1Page1, ionViewWillLeave');
+    console.log('TabsAdvanced, ionViewWillLeave');
   }
 
   ionViewDidLeave() {
-    console.log('Tab1Page1, ionViewDidLeave');
+    console.log('TabsAdvanced, ionViewDidLeave');
   }
 
   ionViewWillUnload() {
-    console.log('Tab1Page1, ionViewWillUnload');
+    console.log('TabsAdvanced, ionViewWillUnload');
   }
 }

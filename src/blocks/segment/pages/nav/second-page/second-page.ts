@@ -5,4 +5,4 @@ import { IonicPage } from '../../../../../..';
 @Component({
   templateUrl: 'second-page.html'
 })
-export class SecondPage {}
+export class SegmentNav {}

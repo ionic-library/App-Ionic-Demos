@@ -5,7 +5,7 @@ import { Range } from '../../../../../..';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class RangeBasic {
   singleValue: number;
   singleValue2: number = 150;
   singleValue3: number = 64;

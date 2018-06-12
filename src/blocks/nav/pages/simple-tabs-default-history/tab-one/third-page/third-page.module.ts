@@ -10,4 +10,4 @@ import { ThirdPage } from './third-page';
     ThirdPage
   ]
 })
-export class ThirdPageModule { }
+export class NavSimpleTabsDefaultHistoryModule { }

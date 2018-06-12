@@ -10,4 +10,4 @@ import { SimpleNavThenTabs0201 } from './first-page';
     SimpleNavThenTabs0201
   ]
 })
-export class SimpleNavThenTabs0201Module { }
+export class NavSimpleNavThenTabsModule { }

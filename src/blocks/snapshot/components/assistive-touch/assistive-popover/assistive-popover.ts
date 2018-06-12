@@ -8,7 +8,7 @@ import { Platform } from '../../../../../../../platform/platform';
 @Component({
   templateUrl: 'assistive-popover.html'
 })
-export class AssistivePopover {
+export class SnapshotAssistiveTouch {
   constructor(private assistive: AssistiveTouchProvider,
               private plt: Platform,
               private viewCtrl: ViewController) {}

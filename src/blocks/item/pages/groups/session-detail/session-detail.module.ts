@@ -14,4 +14,4 @@ import { IonicPageModule } from "ionic-angular";
   ],
   providers: []
 })
-export class SessionDetailModule {}
+export class ItemGroupsModule {}

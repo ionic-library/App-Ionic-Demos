@@ -10,18 +10,18 @@ import { IonicApp, IonicModule } from '../../../..';
     </ion-content>
   `
 })
-export class AsyncPage {}
+export class NavInitAsyncModule {}
 
 
 @Component({
   template: `<ion-nav [root]="root"></ion-nav>`
 })
-export class AppComponent {
-  root: AsyncPage;
+export class NavInitAsyncModule {
+  root: NavInitAsync;
 
   constructor() {
     setTimeout(() => {
-      this.root = AsyncPage;
+      this.root = NavInitAsync;
     }, 1000);
 
   }
@@ -29,17 +29,17 @@ export class AppComponent {
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AsyncPage
+    NavInitAsync,
+    NavInitAsync
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(NavInitAsync)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    AsyncPage
+    NavInitAsync,
+    NavInitAsync
   ]
 })
-export class AppModule {}
+export class NavInitAsyncModule {}

@@ -8,7 +8,7 @@ import { ToastService }					from '../../../toast/services/service/toast';
 	selector: 'page-profile-three',
 	templateUrl: 'profile-three.html'
 })
-export class ProfileThreePage {
+export class ProfileProfileThree {
 
 	posts = [
 		{

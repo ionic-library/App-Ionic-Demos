@@ -13,7 +13,7 @@ import { MarkerOptions } 				from '@ionic-native/google-maps';
 import { Geolocation }					from '@ionic-native/geolocation';
 
 @Injectable()
-export class NativeGoogleMapsProvider {
+export class IonicNativeGoogleMapsProvider {
 	map: GoogleMap;
 
 	constructor(

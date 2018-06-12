@@ -11,4 +11,4 @@ import { MainPage } from './main-page';
     IonicPageModule.forChild(MainPage)
   ]
 })
-export class MainPageModule {}
+export class SearchbarNavModule {}

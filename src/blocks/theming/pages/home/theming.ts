@@ -8,7 +8,7 @@ import { AppState }						from './../../app/app.global';
 	selector: 'page-theming',
 	templateUrl: 'theming.html'
 })
-export class ThemingPage {
+export class ThemingHome {
 
 	constructor(public navCtrl: NavController, public global: AppState) { }
 

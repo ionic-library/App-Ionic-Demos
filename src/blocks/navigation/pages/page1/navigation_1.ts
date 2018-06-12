@@ -5,7 +5,7 @@ import { PageTwo }from '../page-two/page-two';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class NavigationPage1 {
   constructor(public navCtrl: NavController) {}
 
   push() {

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from '../../../../../../..';
 
 @IonicPage({
-  segment: 'TabsOneTabOnePageTwo/userId/:userId/name/:name',
+  segment: 'NavAdvancedTabsDefaultHistory/userId/:userId/name/:name',
   defaultHistory: ['TabsOneTabOnePageOne']
 })
 @Component({
@@ -24,7 +24,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../../..';
 </ion-content>
   `
 })
-export class TabsOneTabOnePageTwo {
+export class NavAdvancedTabsDefaultHistory {
   userId: string;
   name: string;
   constructor(public nav: NavController, navParams: NavParams) {

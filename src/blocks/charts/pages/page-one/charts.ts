@@ -7,7 +7,7 @@ import chartJs from 'chart.js';
   selector: 'page-charts',
   templateUrl: 'charts.html'
 })
-export class ChartsPage {
+export class ChartsPageOne {
   @ViewChild('barCanvas') barCanvas;
   @ViewChild('doughnutCanvas') doughnutCanvas;
   @ViewChild('halfDoughnutCanvas') halfDoughnutCanvas;

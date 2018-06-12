@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
 	selector: 'page-profile-one',
 	templateUrl: 'profile-one.html'
 })
-export class ProfileOnePage {
+export class ProfileProfileOne {
 	posts = [];
 	imageUrl: string = 'assets/img/profile/profile-cover.jpg';
 

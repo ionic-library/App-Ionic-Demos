@@ -6,7 +6,7 @@ import { PageTwo } from '../page-two/page-two';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class InfiniteScrollPositionTop {
   @ViewChild(InfiniteScroll) infiniteScroll: InfiniteScroll;
   @ViewChild(Content) content: Content;
   items: number[] = [];

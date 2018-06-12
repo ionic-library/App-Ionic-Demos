@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-slide-photo-gallery',
   templateUrl: 'slide-photo-gallery.html'
 })
-export class SlidePhotoGalleryPage {
+export class SlideSlidePhotoGallery {
 
   // ngOnInit() {
   //   let el1 = document.getElementById('gallery-top');

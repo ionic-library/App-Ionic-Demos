@@ -14,4 +14,4 @@ import { DataPageEdit }					from './data-edit';
 		DataPageEdit
 	]
 })
-export class DataPageEditModule { }
+export class SqliteEditModule { }

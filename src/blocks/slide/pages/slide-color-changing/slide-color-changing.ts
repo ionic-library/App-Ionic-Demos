@@ -6,7 +6,7 @@ import { NavController, Slides, IonicPage } from 'ionic-angular';
   selector: 'page-slide-color-changing',
   templateUrl: 'slide-color-changing.html'
 })
-export class SlideColorChangingPage {
+export class SlideSlideColorChanging {
   @ViewChild('slider') slider: Slides;
 
   slides = [

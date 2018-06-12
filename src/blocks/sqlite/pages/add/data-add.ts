@@ -11,7 +11,7 @@ import { DataSQLiteProvider }			from '../../provider/provider/data-sqlite';
 	selector: 'page-data-add',
 	templateUrl: 'data-add.html',
 })
-export class DataPageAdd {
+export class SqliteAdd {
 	public db: any;
 
 	data = { rowid: 0, date: "", type: "", description: "", amount: 0 };
@@ -21,7 +21,7 @@ export class DataPageAdd {
 		public database: DataSQLiteProvider,
 		private toastCtrl: ToastController
 	) {
-			console.log('DataPageAdd::constructor')
+			console.log('SqliteAdd::constructor')
 			this.db = database;
 		 }
 

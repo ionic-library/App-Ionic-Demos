@@ -6,7 +6,7 @@ import { IonicApp, IonicModule, Slides } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class SlidesLoopModule {
   slides: any[];
   @ViewChild('loopSlider') loopSlider: Slides;
   startingIndex: number;
@@ -48,23 +48,23 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class SlidesLoopModule {
+  root = SlidesLoop;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    SlidesLoop,
+    SlidesLoop
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(SlidesLoop)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    SlidesLoop,
+    SlidesLoop
   ]
 })
-export class AppModule {}
+export class SlidesLoopModule {}

@@ -6,7 +6,7 @@ import { NavController, IonicPage } from "ionic-angular";
 	selector: "page-accordion-list",
 	templateUrl: "accordion-list.html"
 })
-export class AccordionListPage {
+export class AccordionListPageOne {
 	items = [
 		{
 			name: "Angra dos Reis, Brazil",

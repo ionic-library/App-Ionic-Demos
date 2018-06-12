@@ -7,7 +7,7 @@ import { Checkbox } from  '../../../../../../';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class CheckboxBasic {
   grapeDisabled: boolean;
   grapeChecked: boolean;
   kiwiValue: boolean;

@@ -14,4 +14,4 @@ import { MasonryCardsPage } from './masonry-cards';
     MasonryCardsPage
   ]
 })
-export class MasonryCardsPageModule {}
+export class MasonryCardsPageOneModule {}

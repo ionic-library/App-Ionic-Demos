@@ -13,4 +13,4 @@ import { OverlayingViewComponent } from './overlaying-view';
 		OverlayingViewComponent
 	]
 })
-export class OverlayingViewComponentModule { }
+export class OverlayingViewComponent { }

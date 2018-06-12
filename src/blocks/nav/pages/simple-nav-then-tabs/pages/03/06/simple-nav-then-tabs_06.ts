@@ -7,7 +7,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../../..';
 @Component({
   templateUrl: 'sixth-page.html'
 })
-export class SimpleNavThenTabs0306 {
+export class NavSimpleNavThenTabs {
 
   paramOne: string;
   paramTwo: string;

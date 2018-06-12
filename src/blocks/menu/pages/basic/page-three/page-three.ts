@@ -5,7 +5,7 @@ import { IonicPage, NavController } from '../../../../../..';
 @Component({
   templateUrl: 'page-three.html'
 })
-export class PageThree {
+export class MenuBasic {
   constructor(public navCtrl: NavController) { }
 
   page3() {

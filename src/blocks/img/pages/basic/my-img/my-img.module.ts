@@ -15,4 +15,4 @@ import { MyImg } from './my-img';
     IonicPageModule.forChild(MyImg)
   ]
 })
-export class MyImgModule {}
+export class ImgBasicModule {}

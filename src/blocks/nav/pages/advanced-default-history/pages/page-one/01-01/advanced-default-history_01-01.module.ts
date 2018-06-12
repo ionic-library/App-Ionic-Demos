@@ -7,4 +7,4 @@ import { AdvancedDefaultHistory010101 } from "./tab-one-page-one";
 	imports: [IonicPageModule.forChild(AdvancedDefaultHistory010101)],
 	declarations: [AdvancedDefaultHistory010101]
 })
-export class AdvancedDefaultHistory010101Module {}
+export class NavAdvancedDefaultHistoryModule {}

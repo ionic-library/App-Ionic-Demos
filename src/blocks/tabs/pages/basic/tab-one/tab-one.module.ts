@@ -11,4 +11,4 @@ import { TabOne } from './tab-one';
     IonicPageModule.forChild(TabOne)
   ]
 })
-export class TabOneModule {}
+export class TabsBasicModule {}

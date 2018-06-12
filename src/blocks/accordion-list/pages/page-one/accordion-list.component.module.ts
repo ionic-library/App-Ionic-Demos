@@ -12,4 +12,4 @@ export const components = [
 	imports: [IonicModule],
 	exports: [AccordionListComponent ]
 })
-export class AccordionListComponentsModule { }
+export class AccordionListPageOne { }

@@ -11,4 +11,4 @@ import { ModalWithInputs } from './modal-with-inputs';
     IonicPageModule.forChild(ModalWithInputs)
   ]
 })
-export class ModalWithInputsModule {}
+export class ModalModalWithInputsModule {}

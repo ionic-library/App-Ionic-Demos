@@ -7,7 +7,7 @@ import { SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
   selector: 'page-youtube-modal',
   templateUrl: 'youtube-modal.html',
 })
-export class YoutubeModalPage {
+export class YoutubeModalPageOne {
 
   url: SafeResourceUrl;
   constructor(public navCtrl: NavController,

@@ -7,7 +7,7 @@ import { PageOne} from '../page-one/page-one';
 @Component({
   templateUrl: 'tabs-page.html'
 })
-export class TabsPage {
+export class LoadingTabs {
  root1 = PageOne;
  root2 = 'PageTwo';
  root3 = PageOne;

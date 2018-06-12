@@ -10,4 +10,4 @@ import { PageTwo } from './page-two';
     PageTwo
   ],
 })
-export class PageTwoModule { }
+export class LoadingBasicModule { }

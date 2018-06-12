@@ -11,4 +11,4 @@ import { PageOne } from './page-one';
     IonicPageModule.forChild(PageOne)
   ]
 })
-export class PageOneModule {}
+export class LoadingTabsModule {}

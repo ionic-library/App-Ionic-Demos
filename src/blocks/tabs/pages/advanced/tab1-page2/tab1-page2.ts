@@ -7,7 +7,7 @@ import { IonicPage, Tabs } from '../../../../../..';
 @Component({
   templateUrl: './tab1-page2.html'
 })
-export class Tab1Page2 {
+export class TabsAdvanced {
   tab1Page3 = 'tab1-page3';
 
   constructor(public tabs: Tabs) { }
@@ -18,22 +18,22 @@ export class Tab1Page2 {
   }
 
   ionViewWillEnter() {
-    console.log('Tab1Page2, ionViewWillEnter');
+    console.log('TabsAdvanced, ionViewWillEnter');
   }
 
   ionViewDidEnter() {
-    console.log('Tab1Page2, ionViewDidEnter');
+    console.log('TabsAdvanced, ionViewDidEnter');
   }
 
   ionViewWillLeave() {
-    console.log('Tab1Page2, ionViewWillLeave');
+    console.log('TabsAdvanced, ionViewWillLeave');
   }
 
   ionViewDidLeave() {
-    console.log('Tab1Page2, ionViewDidLeave');
+    console.log('TabsAdvanced, ionViewDidLeave');
   }
 
   ionViewWillUnload() {
-    console.log('Tab1Page2, ionViewWillUnload');
+    console.log('TabsAdvanced, ionViewWillUnload');
   }
 }

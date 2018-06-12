@@ -6,7 +6,7 @@ import { BrowserModule } from '@angular/platform-browser';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class VirtualScrollInfiniteScrollModule {
   counter = 1;
   items: any[] = [];
   enabled = true;
@@ -61,24 +61,24 @@ function getAsyncData(): Promise<any[]> {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class E2EApp {
-  root = E2EPage;
+export class VirtualScrollInfiniteScrollModule {
+  root = VirtualScrollInfiniteScroll;
 }
 
 
 @NgModule({
   declarations: [
-    E2EApp,
-    E2EPage
+    VirtualScrollInfiniteScroll,
+    VirtualScrollInfiniteScroll
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(E2EApp)
+    IonicModule.forRoot(VirtualScrollInfiniteScroll)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    E2EApp,
-    E2EPage
+    VirtualScrollInfiniteScroll,
+    VirtualScrollInfiniteScroll
   ]
 })
-export class AppModule { }
+export class VirtualScrollInfiniteScrollModule { }

@@ -7,7 +7,7 @@ import { IonicPage, RadioButton, RadioGroup } from '../../../../../..';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class RadioBasic {
   currencies: Array<string>;
   items: Array<{description: string, value: any}>;
   relationship: string;

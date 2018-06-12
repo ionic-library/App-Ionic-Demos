@@ -7,7 +7,7 @@ import { AlertController, App, LoadingController, IonicPage } from 'ionic-angula
   selector: 'page-login-one',
   templateUrl: 'login-one.html',
 })
-export class LoginOnePage {
+export class LoginLoginOne {
 
   public loginForm: any;
   public backgroundImage = 'assets/img/background/background-5.jpg';

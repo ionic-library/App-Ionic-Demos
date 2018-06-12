@@ -13,7 +13,7 @@ export interface CountdownTimer {
 	selector: 'timer',
 	templateUrl: 'timer.html'
 })
-export class Timer {
+export class CountdownComponent {
 
 	@Input() timeInSeconds: number;
 	timer: CountdownTimer;

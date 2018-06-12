@@ -10,4 +10,4 @@ import { SimpleNestedNavs03 } from './second-page';
     SimpleNestedNavs03
   ]
 })
-export class SimpleNestedNavs03Module { }
+export class NavSimpleNestedNavsModule { }

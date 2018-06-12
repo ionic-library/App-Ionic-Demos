@@ -6,7 +6,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class ListStickyModule {
   groups: any[] = [];
 
   constructor() {
@@ -32,23 +32,23 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class AppComponent {
-  rootPage = E2EPage;
+export class ListStickyModule {
+  rootPage = ListSticky;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    ListSticky,
+    ListSticky
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(ListSticky)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    ListSticky,
+    ListSticky
   ]
 })
-export class AppModule {}
+export class ListStickyModule {}

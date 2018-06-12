@@ -14,4 +14,4 @@ import { RootPage } from './root-page';
     RootPage,
   ]
 })
-export class RootPageModule {}
+export class ItemTextModule {}

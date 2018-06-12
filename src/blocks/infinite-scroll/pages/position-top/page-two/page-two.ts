@@ -5,6 +5,6 @@ import { NavController } from '../../../../../..';
 @Component({
   templateUrl: 'page-two.html'
 })
-export class PageTwo {
+export class InfiniteScrollPositionTop {
   constructor(public navCtrl: NavController) {}
 }

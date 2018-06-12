@@ -7,7 +7,7 @@ import { IonicPage, PopoverController } from '../../../../../..';
   templateUrl: 'page-one.html',
   selector: 'e2e-popover-basic'
 })
-export class PageOne {
+export class PopoverBasic {
   @ViewChild('popoverContent', {read: ElementRef}) content: ElementRef;
   @ViewChild('popoverText', {read: ElementRef}) text: ElementRef;
 

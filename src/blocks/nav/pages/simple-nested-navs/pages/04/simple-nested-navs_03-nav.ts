@@ -9,7 +9,7 @@ import { IonicPage, NavController } from '../../../../../..';
 
   `
 })
-export class SimpleNestedNavs04 {
+export class NavSimpleNestedNavs {
 
   rootPage: any = 'FirstPage';
   constructor(public navCtrl: NavController) {

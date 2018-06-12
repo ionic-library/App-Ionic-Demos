@@ -5,7 +5,7 @@ import { IonicPage } from '../../../../../..';
 @Component({
   templateUrl: 'popover-long-list-page.html'
 })
-export class PopoverLongListPage {
+export class PopoverBasic {
   items: number[] = [];
 
   ngOnInit() {

@@ -6,7 +6,7 @@ import { MenuController, NavController, IonicPage } from 'ionic-angular';
 	selector: 'page-side-menu',
 	templateUrl: 'side-menu.html'
 })
-export class SideMenuPage {
+export class SideMenuPageOne {
 
 	MENU = {
 		DEFAULT: 'menu-components',

@@ -5,7 +5,7 @@ import { IonicPage, NavController, } from '../../../../../..';
 @Component({
   templateUrl: 'fourth-page.html'
 })
-export class ToggleBasic03 {
+export class NavToggleBasic {
   constructor(public nav: NavController) {
   }
 

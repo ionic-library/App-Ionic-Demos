@@ -4,7 +4,7 @@ import { AlertController, ItemSliding, List, ToastController } from '../../../..
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class ItemSliding {
   @ViewChild('myList', {read: List}) list: List;
 
   items: number[] = [];

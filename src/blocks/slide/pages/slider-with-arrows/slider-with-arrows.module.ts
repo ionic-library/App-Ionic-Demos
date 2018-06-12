@@ -13,4 +13,4 @@ import { SliderWithArrowsPage } from './slider-with-arrows';
     SliderWithArrowsPage
   ]
 })
-export class SliderWithArrowsPageModule {}
+export class SlideSliderWithArrowsModule {}

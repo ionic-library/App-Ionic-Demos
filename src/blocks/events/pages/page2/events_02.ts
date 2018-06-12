@@ -7,7 +7,7 @@ import { Events } from 'ionic-angular';
 @Component({
 	templateUrl: 'events_2.html'
 })
-export class Events2Page {
+export class EventsPage2 {
 	constructor(private events: Events) { }
 
 	logout() {

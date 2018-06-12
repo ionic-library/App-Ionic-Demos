@@ -34,7 +34,7 @@ import { App, IonicPage, Tabs } from '../../../../../..';
     </ion-content>
   `
 })
-export class Basic09 {
+export class NavBasic {
   sessions: any[] = [];
 
   constructor(private tabs: Tabs, private app: App) {

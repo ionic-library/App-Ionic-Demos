@@ -7,7 +7,7 @@ import { IonicPage, ViewController } from '../../../../../..';
 @Component({
   templateUrl: './modal-chat-page.html'
 })
-export class ModalChatPage {
+export class TabsAdvanced {
 
   constructor(
     public viewCtrl: ViewController

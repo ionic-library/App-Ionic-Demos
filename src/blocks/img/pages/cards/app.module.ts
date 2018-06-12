@@ -5,7 +5,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class ImgCardsModule {
   items: number[] = [];
 
   constructor() {
@@ -19,24 +19,24 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class ImgCardsModule {
+  root = ImgCards;
 }
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    ImgCards,
+    ImgCards
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(ImgCards)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    ImgCards,
+    ImgCards
   ]
 })
-export class AppModule {}
+export class ImgCardsModule {}

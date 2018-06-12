@@ -16,4 +16,4 @@ import { IonicModule } from 'ionic-angular';
     TimerComponent
   ]
 })
-export class TimerComponentModule {}
+export class TimerComponent {}

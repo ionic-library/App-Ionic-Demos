@@ -5,7 +5,7 @@ import { IonicApp, IonicModule, Slides } from  '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class SlidesRtlModule {
   @ViewChild(Slides) slider: Slides;
 
   onSlideWillChange(s: Slides) {
@@ -25,22 +25,22 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class E2EApp {
-  root = E2EPage;
+export class SlidesRtlModule {
+  root = SlidesRtl;
 }
 
 @NgModule({
   declarations: [
-    E2EApp,
-    E2EPage
+    SlidesRtl,
+    SlidesRtl
   ],
   imports: [
-    IonicModule.forRoot(E2EApp)
+    IonicModule.forRoot(SlidesRtl)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    E2EApp,
-    E2EPage
+    SlidesRtl,
+    SlidesRtl
   ]
 })
-export class AppModule { }
+export class SlidesRtlModule { }

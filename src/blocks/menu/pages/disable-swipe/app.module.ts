@@ -6,7 +6,7 @@ import { IonicApp, IonicModule, MenuController } from '../../../..';
 @Component({
   templateUrl: 'page1.html'
 })
-export class Page1 {
+export class MenuDisableSwipeModule {
   leftMenuSwipeEnabled: boolean = true;
   rightMenuSwipeEnabled: boolean = false;
 
@@ -29,23 +29,23 @@ export class Page1 {
 @Component({
   templateUrl: 'main.html'
 })
-export class AppComponent {
-  root = Page1;
+export class MenuDisableSwipeModule {
+  root = MenuDisableSwipe;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Page1
+    MenuDisableSwipe,
+    MenuDisableSwipe
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(MenuDisableSwipe)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    Page1
+    MenuDisableSwipe,
+    MenuDisableSwipe
   ]
 })
-export class AppModule {}
+export class MenuDisableSwipeModule {}

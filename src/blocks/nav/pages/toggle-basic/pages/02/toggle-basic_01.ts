@@ -5,7 +5,7 @@ import { IonicPage, NavController, } from '../../../../../..';
 @Component({
   templateUrl: 'first-page.html'
 })
-export class ToggleBasic02 {
+export class NavToggleBasic {
   constructor(public nav: NavController) {
   }
 

@@ -6,7 +6,7 @@ import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angul
   selector: 'page-popup-fab-modal',
   templateUrl: 'popup-fab-modal.html',
 })
-export class PopupFabModalPage {
+export class PopupFabPopupFabModal {
 
   constructor(
     public navCtrl: NavController,

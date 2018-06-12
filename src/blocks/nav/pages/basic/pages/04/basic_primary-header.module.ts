@@ -14,4 +14,4 @@ import { Basic04 } from './primary-header-page';
     Basic04,
   ]
 })
-export class Basic04Module { }
+export class NavBasicModule { }

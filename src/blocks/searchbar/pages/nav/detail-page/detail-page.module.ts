@@ -11,4 +11,4 @@ import { DetailPage } from './detail-page';
     IonicPageModule.forChild(DetailPage)
   ]
 })
-export class DetailPageModule {}
+export class SearchbarNavModule {}

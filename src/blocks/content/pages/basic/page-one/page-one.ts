@@ -5,7 +5,7 @@ import { Content, IonicPage, ScrollEvent } from '../../../../../../';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class ContentBasic {
   @ViewChild(Content) content: Content;
   page1 = 'PageTwo';
   showToolbar: boolean = false;

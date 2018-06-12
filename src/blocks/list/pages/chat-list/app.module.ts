@@ -6,7 +6,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class ListChatListModule {
   testClick(ev: UIEvent) {
     console.log(ev);
   }
@@ -16,23 +16,23 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class ListChatListModule {
+  root = ListChatList;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    ListChatList,
+    ListChatList
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(ListChatList)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    ListChatList,
+    ListChatList
   ]
 })
-export class AppModule {}
+export class ListChatListModule {}

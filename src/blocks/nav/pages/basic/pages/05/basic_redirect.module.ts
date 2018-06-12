@@ -14,4 +14,4 @@ import { Basic05 } from './redirect-page';
     Basic05,
   ]
 })
-export class Basic05Module { }
+export class NavBasicModule { }

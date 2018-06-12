@@ -5,7 +5,7 @@ import { IonicPage, LoadingController, NavController } from '../../../../../..';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class LoadingTabs {
   constructor(public loadingCtrl: LoadingController, public navCtrl: NavController) {}
 
   presentLoading() {

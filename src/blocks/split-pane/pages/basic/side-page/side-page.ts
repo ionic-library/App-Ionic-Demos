@@ -20,9 +20,9 @@ import { NavController } from '../../../../../..';
   </ion-content>
   `
 })
-export class SidePage {
+export class SplitPaneBasic {
   constructor(public navCtrl: NavController) { }
   push() {
-    this.navCtrl.push(SidePage);
+    this.navCtrl.push(SplitPaneBasic);
   }
 }

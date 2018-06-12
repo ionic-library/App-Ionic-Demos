@@ -11,4 +11,4 @@ import { ContactUs } from './contact-us';
     IonicPageModule.forChild(ContactUs)
   ]
 })
-export class ContactUsModule {}
+export class ModalContactUsModule {}

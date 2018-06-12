@@ -7,7 +7,7 @@ import { NavController, AlertController, IonicPage } from 'ionic-angular';
   selector: 'page-barcode-scanner',
   templateUrl: 'barcode-scanner.html'
 })
-export class BarcodeScannerPage {
+export class IonicNativeBarcodeScannerPageOne {
 
   public barcodeData;
 

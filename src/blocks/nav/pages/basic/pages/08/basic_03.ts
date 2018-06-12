@@ -30,7 +30,7 @@ import { AlertController, App, IonicPage, Tabs } from '../../../../../..';
     </ion-content>
     `
 })
-export class Basic08 {
+export class NavBasic {
   constructor(private alertCtrl: AlertController, private tabs: Tabs, private app: App) {}
 
   presentAlert() {

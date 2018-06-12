@@ -6,7 +6,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class SpinnerBasicModule {
   paused: boolean = false;
 
   toggleState() {
@@ -18,23 +18,23 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class SpinnerBasicModule {
+  root = SpinnerBasic;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    SpinnerBasic,
+    SpinnerBasic
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(SpinnerBasic)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    SpinnerBasic,
+    SpinnerBasic
   ]
 })
-export class AppModule {}
+export class SpinnerBasicModule {}

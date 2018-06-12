@@ -14,4 +14,4 @@ import { Basic07 } from './tab-one';
     Basic07,
   ]
 })
-export class Basic07Module { }
+export class NavBasicModule { }

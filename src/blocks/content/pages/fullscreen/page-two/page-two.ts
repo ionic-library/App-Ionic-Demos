@@ -5,6 +5,6 @@ import { IonicPage } from '../../../../../..';
 @Component({
   templateUrl: 'page-two.html'
 })
-export class PageTwo {
+export class ContentFullscreen {
   page2 = 'PageThree';
 }

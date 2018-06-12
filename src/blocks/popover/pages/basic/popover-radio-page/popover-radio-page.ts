@@ -6,7 +6,7 @@ import { IonicPage, NavParams } from '../../../../../..';
   templateUrl: 'popover-radio-page.html',
   selector: 'e2e-popover-basic'
 })
-export class PopoverRadioPage {
+export class PopoverBasic {
   background: string;
   contentEle: any;
   textEle: any;

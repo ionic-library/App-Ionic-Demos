@@ -14,4 +14,4 @@ import { IonicPageModule } from "ionic-angular";
   ]
 })
 
-export class CreditCardScanPageModule { }
+export class IonicNativeCreditCardScanPageOneModule { }

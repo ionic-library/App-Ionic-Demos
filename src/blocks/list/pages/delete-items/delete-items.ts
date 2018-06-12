@@ -6,7 +6,7 @@ import { IonicPage, NavController, Item, ItemSliding } from 'ionic-angular';
   selector: 'page-delete-items',
   templateUrl: 'delete-items.html',
 })
-export class DeleteItemsPage {
+export class ListDeleteItems {
 
   activeItemSliding: ItemSliding = null;
 

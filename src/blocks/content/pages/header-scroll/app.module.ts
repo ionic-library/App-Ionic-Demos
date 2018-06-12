@@ -6,7 +6,7 @@ import { IonicApp, IonicModule, ScrollEvent } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class ContentHeaderScrollModule {
 
   onScroll(ev: ScrollEvent) {
     ev.domWrite(() => {
@@ -22,23 +22,23 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class ContentHeaderScrollModule {
+  root = ContentHeaderScroll;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage,
+    ContentHeaderScroll,
+    ContentHeaderScroll,
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(ContentHeaderScroll)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage,
+    ContentHeaderScroll,
+    ContentHeaderScroll,
   ]
 })
-export class AppModule {}
+export class ContentHeaderScrollModule {}

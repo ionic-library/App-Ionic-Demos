@@ -10,4 +10,4 @@ import { ToggleBasic05 } from './second-page';
     ToggleBasic05
   ]
 })
-export class ToggleBasic05Module { }
+export class NavToggleBasicModule { }

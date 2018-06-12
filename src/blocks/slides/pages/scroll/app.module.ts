@@ -6,29 +6,29 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {}
+export class SlidesScrollModule {}
 
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class SlidesScrollModule {
+  root = SlidesScroll;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    SlidesScroll,
+    SlidesScroll
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(SlidesScroll)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    SlidesScroll,
+    SlidesScroll
   ]
 })
-export class AppModule {}
+export class SlidesScrollModule {}
 

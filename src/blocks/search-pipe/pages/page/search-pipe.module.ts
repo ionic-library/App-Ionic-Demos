@@ -14,4 +14,4 @@ import { SearchPipePage }				from './search-pipe';
 		IonicPageModule.forChild(SearchPipePage),
 	],
 })
-export class SearchPipePageModule { }
+export class SearchPipePage { }

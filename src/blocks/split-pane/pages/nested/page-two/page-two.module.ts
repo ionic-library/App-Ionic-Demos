@@ -11,4 +11,4 @@ import { PageTwo } from './page-two';
     IonicPageModule.forChild(PageTwo)
   ]
 })
-export class PageTwoModule {}
+export class SplitPaneNestedModule {}

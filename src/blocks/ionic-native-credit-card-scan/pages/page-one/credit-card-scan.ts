@@ -7,7 +7,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-credit-card-scan',
   templateUrl: 'credit-card-scan.html'
 })
-export class CreditCardScanPage {
+export class IonicNativeCreditCardScanPageOne {
 
   constructor(public navCtrl: NavController, public cardIO: CardIO) { }
 

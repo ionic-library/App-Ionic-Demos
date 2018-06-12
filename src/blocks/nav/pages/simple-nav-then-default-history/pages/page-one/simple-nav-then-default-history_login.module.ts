@@ -10,4 +10,4 @@ import { SimpleNavThenDefaultHistory01 } from './login-page';
     SimpleNavThenDefaultHistory01
   ]
 })
-export class SimpleNavThenDefaultHistory01Module { }
+export class NavSimpleNavThenDefaultHistoryModule { }

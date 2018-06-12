@@ -5,7 +5,7 @@ import { Platform, DomController } from 'ionic-angular';
   selector: 'sliding-drawer',
   templateUrl: 'sliding-drawer.html'
 })
-export class SlidingDrawer {
+export class SlidingDrawerDirective {
 
   @Input('options') options: any;
 

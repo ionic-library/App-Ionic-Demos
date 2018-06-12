@@ -6,7 +6,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class ImgListModule {
   items: {avatar: string, thumbnail: string, id: number}[] = [];
 
   constructor() {
@@ -44,24 +44,24 @@ function getRandomImg(): string {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class ImgListModule {
+  root = ImgList;
 }
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    ImgList,
+    ImgList
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(ImgList)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    ImgList,
+    ImgList
   ]
 })
-export class AppModule {}
+export class ImgListModule {}

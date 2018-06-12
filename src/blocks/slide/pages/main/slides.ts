@@ -6,12 +6,12 @@ import { NavController, IonicPage } from 'ionic-angular';
 	selector: 'page-slides',
 	templateUrl: 'slides.html'
 })
-export class SlidesPage {
+export class SlideMain {
 	rootPage: any;
 	items: Array<{ title: string, page: any }>;
 
 	constructor(public navCtrl: NavController) {
-		this.rootPage = SlidesPage;
+		this.rootPage = SlideMain;
 		this.items = [
 			// {
 			//   title: 'Carousel',

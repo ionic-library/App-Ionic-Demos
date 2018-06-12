@@ -17,7 +17,7 @@ import { IonicPage } from '../../../../../..';
     </ion-content>
     `
 })
-export class Basic06 {
+export class NavBasic {
   items: any[] = [];
 
   constructor() {

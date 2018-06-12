@@ -7,7 +7,7 @@ import { IonicPage, NavController, } from '../../../../../..';
     <ion-nav [root]="root"></ion-nav>
   `
 })
-export class AdvancedNavThenTabs01 {
+export class NavAdvancedNavThenTabs1 {
 
   root: string = 'NonTabOne';
   constructor(public nav: NavController) {

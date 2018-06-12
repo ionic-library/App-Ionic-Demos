@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from '../../../../../../..';
 
 @IonicPage({
-  segment: 'ToggleTabs020203/paramOne/:paramOne/paramTwo/:paramTwo'
+  segment: 'NavToggleTabs/paramOne/:paramOne/paramTwo/:paramTwo'
 })
 @Component({
   template: `
@@ -25,7 +25,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../../..';
 </ion-content>
   `
 })
-export class ToggleTabs020203 {
+export class NavToggleTabs {
   paramOne: string;
   paramTwo: string;
   constructor(public nav: NavController, navParams: NavParams) {

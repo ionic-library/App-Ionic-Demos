@@ -7,6 +7,6 @@ import { IonicPage } from '../../../../../..';
 @Component({
   templateUrl: './sign-in-page.html'
 })
-export class SignInPage {
+export class TabsAdvanced {
   tabsPage = 'tabs-page';
 }

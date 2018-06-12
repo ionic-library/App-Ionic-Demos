@@ -5,7 +5,7 @@ import { IonicPage, ViewController } from '../../../../../..';
 @Component({
   templateUrl: 'modal-page.html'
 })
-export class ModalPage {
+export class SearchbarNav {
  constructor(public viewCtrl: ViewController) {}
   close() {
     this.viewCtrl.dismiss();

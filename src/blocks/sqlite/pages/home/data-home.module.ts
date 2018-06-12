@@ -14,4 +14,4 @@ import { DataPageHome }					from './data-home';
 		DataPageHome
 	]
 })
-export class DataPageAddModule { }
+export class SqliteHomeModule { }

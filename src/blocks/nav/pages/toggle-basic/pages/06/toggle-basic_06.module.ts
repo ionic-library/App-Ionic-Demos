@@ -10,4 +10,4 @@ import { ToggleBasic06 } from './sixth-page';
     ToggleBasic06
   ]
 })
-export class ToggleBasic06Module { }
+export class NavToggleBasicModule { }

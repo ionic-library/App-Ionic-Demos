@@ -7,7 +7,7 @@ import { Events } from 'ionic-angular';
 @Component({
 	templateUrl: 'events_1.html'
 })
-export class Events1Page {
+export class EventsPage1 {
 	user = {
 		name: 'Administrator',
 		username: 'admin'

@@ -5,7 +5,7 @@ import { IonicPage, NavController } from 'ionic-angular';
 @Component({
   templateUrl: 'first-page.html'
 })
-export class FirstPage {
+export class NavSimpleNavThenTabsDefaultHistory {
   constructor(public nav: NavController) {
   }
 

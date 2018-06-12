@@ -9,7 +9,7 @@ import { NativeGoogleMapsProvider }		from '../provider/native-google-maps';
 	selector: 'page-native-google-maps',
 	templateUrl: 'ionic-native-google-maps.html',
 })
-export class NativeGoogleMapsPage {
+export class IonicNativeGoogleMapsPage {
 
 	@ViewChild('map') mapElement: ElementRef;
 

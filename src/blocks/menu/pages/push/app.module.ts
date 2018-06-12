@@ -4,16 +4,16 @@ import { AlertController, IonicApp, IonicModule, Nav } from '../../../..';
 
 
 @Component({templateUrl: 'page1.html'})
-export class Page1 {}
+export class MenuPushModule {}
 
 
 @Component({
   templateUrl: 'main.html'
 })
-export class AppComponent {
+export class MenuPushModule {
   @ViewChild(Nav) nav: Nav;
 
-  rootView = Page1;
+  rootView = MenuPush;
 
   constructor(public alertCtrl: AlertController) { }
 
@@ -37,17 +37,17 @@ export class AppComponent {
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Page1
+    MenuPush,
+    MenuPush
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(MenuPush)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    Page1
+    MenuPush,
+    MenuPush
   ]
 })
-export class AppModule {}
+export class MenuPushModule {}

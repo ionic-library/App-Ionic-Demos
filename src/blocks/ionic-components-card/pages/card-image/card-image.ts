@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-card-image',
   templateUrl: 'card-image.html'
 })
-export class CardImagePage {
+export class IonicComponentsCardCardImage {
   cards = [
     {
       imageUrl: 'assets/img/card/nin-live.png',

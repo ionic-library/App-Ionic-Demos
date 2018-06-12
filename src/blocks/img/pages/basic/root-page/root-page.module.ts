@@ -13,4 +13,4 @@ import { MyImgModule } from '../my-img/my-img.module';
     MyImgModule
   ]
 })
-export class RootPageModule {}
+export class ImgBasicModule {}

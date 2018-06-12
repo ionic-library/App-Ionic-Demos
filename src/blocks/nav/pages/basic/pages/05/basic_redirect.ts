@@ -7,7 +7,7 @@ import { IonicPage, NavController } from '../../../../../..';
 @Component({
   template: '<ion-content></ion-content>'
 })
-export class Basic05 {
+export class NavBasic {
   constructor(public navCtrl: NavController) { }
   ionViewDidEnter() {
     this.navCtrl.push('primary-header-page');

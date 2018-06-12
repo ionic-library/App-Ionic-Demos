@@ -6,7 +6,7 @@ import { InfiniteScroll, IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class InfiniteScrollShortListModule {
   items: number[] = [];
 
   constructor() {
@@ -37,25 +37,25 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class AppComponent {
-  rootPage = E2EPage;
+export class InfiniteScrollShortListModule {
+  rootPage = InfiniteScrollShortList;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    InfiniteScrollShortList,
+    InfiniteScrollShortList
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(InfiniteScrollShortList)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    E2EPage
+    InfiniteScrollShortList
   ]
 })
-export class AppModule {}
+export class InfiniteScrollShortListModule {}
 
 function getAsyncData(): Promise<number[]> {
   // async return mock data

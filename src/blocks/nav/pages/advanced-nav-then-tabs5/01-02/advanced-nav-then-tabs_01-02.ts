@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from '../../../../../../..';
 
 @IonicPage({
-  segment: 'AdvancedNavThenTabs050102/userId/:userId/name/:name'
+  segment: 'NavAdvancedNavThenTabs5/userId/:userId/name/:name'
 })
 @Component({
   template: `
@@ -23,7 +23,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../../..';
 </ion-content>
   `
 })
-export class AdvancedNavThenTabs050102 {
+export class NavAdvancedNavThenTabs5 {
   userId: string;
   name: string;
   constructor(public nav: NavController, navParams: NavParams) {

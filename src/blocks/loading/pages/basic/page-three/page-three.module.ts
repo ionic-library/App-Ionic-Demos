@@ -10,4 +10,4 @@ import { PageThree } from './page-three';
     PageThree
   ]
 })
-export class PageThreeModule { }
+export class LoadingBasicModule { }

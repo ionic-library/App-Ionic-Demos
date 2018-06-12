@@ -13,4 +13,4 @@ import { YoutubeModalPage } from './youtube-modal';
     YoutubeModalPage
   ]
 })
-export class YoutubeModalPageModule {}
+export class YoutubeModalPageOneModule {}

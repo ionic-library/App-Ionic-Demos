@@ -7,7 +7,7 @@ import { IonicPage } from 'ionic-angular';
   selector: 'page-login-background-slider',
   templateUrl: 'login-background-slider.html'
 })
-export class LoginBackgroundSliderPage {
+export class LoginLoginBackgroundSlider {
 
   backgrounds = [
     'assets/img/background/background-1.jpg',

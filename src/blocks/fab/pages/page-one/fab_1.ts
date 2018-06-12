@@ -4,7 +4,7 @@ import { FabContainer } from '../../../../../src';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class FabPageOne {
   array: number[] = [];
 
   add() {

@@ -13,7 +13,7 @@ import { CameraProvider }				from '../../camera/provider/camera';
 	selector: 'page-get-image',
 	templateUrl: 'get-image.html'
 })
-export class GetImagePage {
+export class IonicNativeGetImagePageOne {
 
 	placeholder = 'assets/img/avatar/girl-avatar.png';
 	chosenPicture: any;

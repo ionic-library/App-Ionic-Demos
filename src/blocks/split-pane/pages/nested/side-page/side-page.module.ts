@@ -11,4 +11,4 @@ import { SidePage } from './side-page';
     IonicPageModule.forChild(SidePage)
   ]
 })
-export class SidePageModule {}
+export class SplitPaneNestedModule {}

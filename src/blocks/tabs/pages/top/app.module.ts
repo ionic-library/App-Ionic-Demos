@@ -23,7 +23,7 @@ import { IonicApp, IonicModule } from '../../../..';
     </ion-content>
     `
 })
-export class Tab1 {
+export class TabsTopModule {
   items: any[] = [];
 
   constructor() {
@@ -63,7 +63,7 @@ export class Tab1 {
     </ion-content>
   `
 })
-export class Tab2 {
+export class TabsTopModule {
   sessions: any[] = [];
 
   constructor() {
@@ -92,7 +92,7 @@ export class Tab2 {
     </ion-content>
     `
 })
-export class Tab3 {
+export class TabsTopModule {
   constructor() {}
 }
 
@@ -106,40 +106,40 @@ export class Tab3 {
     </ion-tabs>
   `
 })
-export class TabsPage {
-  root1 = Tab1;
-  root2 = Tab2;
-  root3 = Tab3;
+export class TabsTopModule {
+  root1 = TabsTop;
+  root2 = TabsTop;
+  root3 = TabsTop;
 }
 
 @Component({
   template: `<ion-nav [root]="root"></ion-nav>`
 })
-export class AppComponent {
-  root = TabsPage;
+export class TabsTopModule {
+  root = TabsTop;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Tab1,
-    Tab2,
-    Tab3,
-    TabsPage
+    TabsTop,
+    TabsTop,
+    TabsTop,
+    TabsTop,
+    TabsTop
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent, {
+    IonicModule.forRoot(TabsTop, {
       tabsPlacement: 'top'
     })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    Tab1,
-    Tab2,
-    Tab3,
-    TabsPage
+    TabsTop,
+    TabsTop,
+    TabsTop,
+    TabsTop,
+    TabsTop
   ]
 })
-export class AppModule {}
+export class TabsTopModule {}

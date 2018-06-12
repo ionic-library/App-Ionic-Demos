@@ -10,4 +10,4 @@ import { SimpleNestedNavs01 } from './first-page';
     SimpleNestedNavs01
   ]
 })
-export class SimpleNestedNavs01Module { }
+export class NavSimpleNestedNavsModule { }

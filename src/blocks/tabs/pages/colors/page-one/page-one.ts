@@ -5,4 +5,4 @@ import { IonicPage } from '../../../../../..';
 @Component({
   template: 'hi'
 })
-export class PageOne {}
+export class TabsColors {}

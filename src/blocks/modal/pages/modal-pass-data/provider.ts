@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Config } from '../../../../../..';
 
 @Injectable()
-export class SomeComponentProvider {
+export class ModalModalPassData {
   constructor(public config: Config) {
   }
 

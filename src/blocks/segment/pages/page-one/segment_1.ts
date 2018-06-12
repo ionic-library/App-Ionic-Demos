@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class SegmentPageOne {
   appType = 'Paid';
   safari = 'Shared Links';
   weather = 'sunny';

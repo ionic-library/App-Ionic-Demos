@@ -18,4 +18,4 @@ import { ExpandableHeaderPage }			from './expandable-header';
 	]
 })
 
-export class ExpandableHeaderPageModule { }
+export class ExpandableHeaderPageOneModule { }

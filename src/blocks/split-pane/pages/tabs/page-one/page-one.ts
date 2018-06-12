@@ -4,13 +4,13 @@ import { MenuController, NavController } from '../../../../../..';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class SplitPaneTabs {
   constructor(
     public navCtrl: NavController,
     public menuCtrl: MenuController,
   ) { }
 
   push() {
-    this.navCtrl.push(PageOne);
+    this.navCtrl.push(SplitPaneTabs);
   }
 }

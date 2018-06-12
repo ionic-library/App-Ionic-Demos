@@ -7,27 +7,27 @@ import { IonicPage } from '../../../../../..';
 @Component({
   templateUrl: './tab1-page3.html'
 })
-export class Tab1Page3 {
+export class TabsAdvanced {
 
   constructor() { }
 
   ionViewWillEnter() {
-    console.log('Tab1Page3, ionViewWillEnter');
+    console.log('TabsAdvanced, ionViewWillEnter');
   }
 
   ionViewDidEnter() {
-    console.log('Tab1Page3, ionViewDidEnter');
+    console.log('TabsAdvanced, ionViewDidEnter');
   }
 
   ionViewWillLeave() {
-    console.log('Tab1Page3, ionViewWillLeave');
+    console.log('TabsAdvanced, ionViewWillLeave');
   }
 
   ionViewDidLeave() {
-    console.log('Tab1Page3, ionViewDidLeave');
+    console.log('TabsAdvanced, ionViewDidLeave');
   }
 
   ionViewWillUnload() {
-    console.log('Tab1Page3, ionViewWillUnload');
+    console.log('TabsAdvanced, ionViewWillUnload');
   }
 }

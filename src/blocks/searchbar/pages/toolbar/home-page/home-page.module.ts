@@ -11,4 +11,4 @@ import { HomePage } from './home-page';
     IonicPageModule.forChild(HomePage)
   ]
 })
-export class HomePageModule {}
+export class SearchbarToolbarModule {}

@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'my-cmp2',
   template: `<span style="color:green">{{value}}</span>`
 })
-export class Basic02 {
+export class NavBasic {
   value: string = 'Test Failed';
 }

@@ -7,7 +7,7 @@ import { PageFour } from '../page-four/page-four';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class SplitPaneNested {
   root = PageTwo;
   root2 = PageThree;
   root3 = PageFour;

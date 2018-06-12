@@ -14,4 +14,4 @@ import { Basic09 } from './tab-two';
     Basic09,
   ]
 })
-export class Basic09Module { }
+export class NavBasicModule { }

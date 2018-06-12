@@ -8,7 +8,7 @@ import { IonicApp, IonicModule, Slides } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class SlidesImagesModule {
   images: string[] = [];
   @ViewChild(Slides) slider: Slides;
 
@@ -43,23 +43,23 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class SlidesImagesModule {
+  root = SlidesImages;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    SlidesImages,
+    SlidesImages
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(SlidesImages)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    SlidesImages,
+    SlidesImages
   ]
 })
-export class AppModule {}
+export class SlidesImagesModule {}

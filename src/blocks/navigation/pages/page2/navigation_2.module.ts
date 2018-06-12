@@ -14,4 +14,4 @@ import { PageTwo } from './page-two';
     PageTwo,
   ]
 })
-export class PageTwoModule {}
+export class NavigationPage2Module {}

@@ -6,13 +6,13 @@ import { IonicPage, NavController } from 'ionic-angular';
   selector: 'page-ionic-native',
   templateUrl: 'ionic-native.html',
 })
-export class IonicNativePage {
+export class SideMenuPageNative {
 
   rootPage: any;
   items: Array<{ title: string, page: any }>;
 
   constructor(public navCtrl: NavController) {
-    this.rootPage = 'IonicNativePage';
+    this.rootPage = 'SideMenuPageNative';
 
     this.items = [
       {

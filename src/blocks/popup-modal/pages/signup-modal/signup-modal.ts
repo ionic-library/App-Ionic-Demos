@@ -6,7 +6,7 @@ import { ViewController, IonicPage } from 'ionic-angular';
   selector: 'page-signup-modal',
   templateUrl: 'signup-modal.html'
 })
-export class SignupModalPage {
+export class PopupModalSignupModal {
 
   slides = [
     {

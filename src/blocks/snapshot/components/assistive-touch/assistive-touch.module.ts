@@ -15,5 +15,5 @@ import { AssistivePopoverModule } from './assistive-popover/assistive-popover.mo
     AssistiveTouchComponent
   ]
 })
-export class AssistiveTouchComponentModule {
+export class SnapshotAssistiveTouchModule {
 }

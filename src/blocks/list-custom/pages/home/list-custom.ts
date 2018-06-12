@@ -7,13 +7,13 @@ import { NavController, NavParams }		from 'ionic-angular';
 	selector: 'page-list-custom',
 	templateUrl: 'list-custom.html',
 })
-export class ListCustomPage {
+export class ListCustomHome {
 
 	constructor(public navCtrl: NavController, public navParams: NavParams) {
 	}
 
 	ionViewDidLoad() {
-		console.log('ionViewDidLoad ListCustomPage');
+		console.log('ionViewDidLoad ListCustomHome');
 	}
 
 }

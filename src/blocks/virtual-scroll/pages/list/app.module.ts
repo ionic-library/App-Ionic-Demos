@@ -6,7 +6,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class VirtualScrollListModule {
   items: Array<{id: number, url: string, gif: string}> = [];
   imgDomain = 'http://localhost:8900';
   responseDelay = 1500;
@@ -106,24 +106,24 @@ const gifs = [
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class VirtualScrollListModule {
+  root = VirtualScrollList;
 }
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    VirtualScrollList,
+    VirtualScrollList
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(VirtualScrollList)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    VirtualScrollList,
+    VirtualScrollList
   ]
 })
-export class AppModule {}
+export class VirtualScrollListModule {}

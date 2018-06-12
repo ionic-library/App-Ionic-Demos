@@ -14,4 +14,4 @@ import { ToolbarModal } from './toolbar';
     ToolbarModal,
   ]
 })
-export class ToolbarModalModule {}
+export class ModalToolbarModule {}

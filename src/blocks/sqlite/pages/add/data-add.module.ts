@@ -14,4 +14,4 @@ import { DataPageAdd }					from './data-add';
 		DataPageAdd
 	]
 })
-export class DataPageAddModule { }
+export class SqliteAddModule { }

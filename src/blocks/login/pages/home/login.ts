@@ -6,12 +6,12 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-login',
   templateUrl: 'login.html'
 })
-export class LoginListPage {
+export class LoginHome {
   rootPage: any;
   items: Array<{ title: string, page: any }>;
 
   constructor(public navCtrl: NavController) {
-    this.rootPage = 'LoginListPage';
+    this.rootPage = 'LoginHome';
     this.items = [
       {
         title: 'Type one',

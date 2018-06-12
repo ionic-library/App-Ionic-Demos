@@ -4,7 +4,7 @@ import { MenuController } from '../../../../../src';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class MenuPageOne {
   activeMenu: string;
 
   constructor(public menu: MenuController) {

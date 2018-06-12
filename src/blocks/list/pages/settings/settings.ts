@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-settings',
   templateUrl: 'settings.html'
 })
-export class SettingsListPage {
+export class ListSettings {
   constructor(public navCtrl: NavController) {
   }
 

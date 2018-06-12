@@ -5,7 +5,7 @@ import { IonicPage, ModalController, NavController } from '../../../../../..';
 @Component({
   templateUrl: 'search-page.html'
 })
-export class SearchPage {
+export class SearchbarNav {
   items: string[];
   value = '';
 

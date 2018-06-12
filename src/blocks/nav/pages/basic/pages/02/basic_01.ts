@@ -9,10 +9,10 @@ import { MyCmpTest } from './my-component';
 @Component({
   templateUrl: 'first-page.html'
 })
-export class Basic02 {
+export class NavBasic {
 
   pushPage = 'another-page';
-  firstPage = Basic02;
+  firstPage = NavBasic;
 
   title = 'First Page';
   pages: Array<number> = [];
@@ -41,12 +41,12 @@ export class Basic02 {
   }
 
   ionViewWillLoad() {
-    console.log('ionViewWillLoad, Basic02', this.viewCtrl.id);
+    console.log('ionViewWillLoad, NavBasic', this.viewCtrl.id);
     this.called.ionViewWillLoad++;
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad, Basic02');
+    console.log('ionViewDidLoad, NavBasic');
     for (var i = 1; i <= 50; i++) {
       this.pages.push(i);
     }
@@ -59,27 +59,27 @@ export class Basic02 {
   }
 
   ionViewWillEnter() {
-    console.log('ionViewWillEnter, Basic02', this.viewCtrl.id);
+    console.log('ionViewWillEnter, NavBasic', this.viewCtrl.id);
     this.called.ionViewWillEnter++;
   }
 
   ionViewDidEnter() {
-    console.log('ionViewDidEnter, Basic02', this.viewCtrl.id);
+    console.log('ionViewDidEnter, NavBasic', this.viewCtrl.id);
     this.called.ionViewDidEnter++;
   }
 
   ionViewWillLeave() {
-    console.log('ionViewWillLeave, Basic02', this.viewCtrl.id);
+    console.log('ionViewWillLeave, NavBasic', this.viewCtrl.id);
     this.called.ionViewWillLeave++;
   }
 
   ionViewDidLeave() {
-    console.log('ionViewDidLeave, Basic02', this.viewCtrl.id);
+    console.log('ionViewDidLeave, NavBasic', this.viewCtrl.id);
     this.called.ionViewDidLeave++;
   }
 
   ionViewWillUnload() {
-    console.log('ionViewWillUnload, Basic02', this.viewCtrl.id);
+    console.log('ionViewWillUnload, NavBasic', this.viewCtrl.id);
     this.called.ionViewWillUnload++;
   }
 

@@ -6,12 +6,12 @@ import 'rxjs/add/operator/map';
 // search-pipe-data.json
 
 @Injectable()
-export class SearchPipeBackendProvider {
+export class SearchPipeProvider {
 
 	data: any;
 
 	constructor(public http: HttpClient) {
-		console.log('SearchPipeBackendProvider');
+		console.log('SearchPipeProvider');
 
 		this.data = null;
 	}

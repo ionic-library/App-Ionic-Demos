@@ -8,7 +8,7 @@ import { FormControl, FormBuilder }		from '@angular/forms';
 	selector: 'page-messages',
 	templateUrl: 'messages.html'
 })
-export class MessagesPage {
+export class ChatMessages {
 	toUser = {
 		_id: '534b8e5aaa5e7afc1b23e69b',
 		pic: 'assets/img/avatar/ian-avatar.png',

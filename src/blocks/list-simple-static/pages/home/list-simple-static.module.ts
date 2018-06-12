@@ -15,4 +15,4 @@ import { ListSimpleStaticPageHome }				from './list-simple-static';
 	]
 })
 
-export class ListSimpleStaticPageModule { };
+export class ListSimpleStaticHomeModule { };

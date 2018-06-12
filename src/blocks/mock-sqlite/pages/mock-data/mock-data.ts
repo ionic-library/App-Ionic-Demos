@@ -8,13 +8,13 @@ import { LoggerService }					from '../../../logger/services/service/logger';
 	selector: 'page-mock-data',
 	templateUrl: 'mock-data.html'
 })
-export class MockDataPage {
+export class MockSqliteMockData {
 	constructor(
 		public loggerService: LoggerService
 		// , private navCtrl: NavController,
 		// , private eventCtrl: Events
 	) {
-		loggerService.info('MockDataPage: constructor')
+		loggerService.info('MockSqliteMockData: constructor')
 	}
 
 	buttonClicked() {

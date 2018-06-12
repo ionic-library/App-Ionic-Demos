@@ -8,7 +8,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../../..';
 @Component({
   templateUrl: 'second-page.html'
 })
-export class SimpleNavThenDefaultHistory0202 {
+export class NavSimpleNavThenDefaultHistory {
 
   userId: string;
   name: string;

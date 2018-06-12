@@ -4,7 +4,7 @@ import { reorderArray } from '../../../../../..';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class ItemReorder {
   items: any[] = [];
   isReordering: boolean = false;
 

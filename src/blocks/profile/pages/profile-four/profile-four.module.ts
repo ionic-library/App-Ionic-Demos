@@ -15,4 +15,4 @@ import { ProfileFourPage }				from './profile-four';
   ]
 })
 
-export class ProfileFourPageModule { }
+export class ProfileProfileFourModule { }

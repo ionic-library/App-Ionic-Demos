@@ -4,7 +4,7 @@ import { Platform } from '../../../../../src';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class PlatformPageOne {
   isIos: boolean;
   isAndroid: boolean;
   isWindows: boolean;

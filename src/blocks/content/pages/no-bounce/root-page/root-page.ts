@@ -5,4 +5,4 @@ import { IonicPage } from '../../../../../../';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {}
+export class ContentNoBounce {}

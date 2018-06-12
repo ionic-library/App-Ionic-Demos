@@ -14,4 +14,4 @@ import { IonicPageModule } from "ionic-angular";
   ]
 })
 
-export class CardSocialPageModule { }
+export class IonicComponentsCardCardSocialModule { }

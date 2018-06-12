@@ -14,4 +14,4 @@ import { Basic03 } from './full-page';
     Basic03,
   ]
 })
-export class Basic03Module { }
+export class NavBasicModule { }

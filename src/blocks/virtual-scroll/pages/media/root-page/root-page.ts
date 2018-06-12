@@ -4,7 +4,7 @@ import { Platform } from '../../../../../../';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class VirtualScrollMedia {
   items: any[] = [];
   webview: string = '';
   type: string = 'range';

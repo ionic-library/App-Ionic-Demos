@@ -5,7 +5,7 @@ import { IonicPage, NavController } from '../../../../../..';
 @Component({
   templateUrl: 'session-list.html'
 })
-export class SessionList {
+export class ItemGroups {
   data = data;
 
   constructor(public navCtrl: NavController) {}

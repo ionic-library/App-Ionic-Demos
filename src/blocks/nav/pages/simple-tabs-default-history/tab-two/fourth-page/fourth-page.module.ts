@@ -10,4 +10,4 @@ import { FourthPage } from './fourth-page';
     FourthPage
   ]
 })
-export class FourthPageModule { }
+export class NavSimpleTabsDefaultHistoryModule { }

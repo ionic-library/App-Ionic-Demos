@@ -18,7 +18,7 @@ import { IonicApp, IonicModule, Tab } from '../../../..';
     </ion-content>
     `
 })
-export class Tab1 {}
+export class TabsGhostModule {}
 
 //
 // Tab 2
@@ -35,7 +35,7 @@ export class Tab1 {}
     </ion-content>
     `
 })
-export class Tab2 {}
+export class TabsGhostModule {}
 
 //
 // Tab 3
@@ -55,7 +55,7 @@ export class Tab2 {}
     </ion-content>
     `
 })
-export class Tab3 {}
+export class TabsGhostModule {}
 
 //
 // Tab 3
@@ -75,7 +75,7 @@ export class Tab3 {}
     </ion-content>
     `
 })
-export class QuesaritoPage {}
+export class TabsGhostModule {}
 
 @Component({
   template: `
@@ -101,10 +101,10 @@ export class QuesaritoPage {}
     </ion-tabs>
   `
 })
-export class TabsPage {
-  root1 = Tab1;
-  root2 = Tab2;
-  root3 = Tab3;
+export class TabsGhostModule {
+  root1 = TabsGhost;
+  root2 = TabsGhost;
+  root3 = TabsGhost;
 
   @ViewChildren(Tab) tab: QueryList<Tab>;
 
@@ -115,7 +115,7 @@ export class TabsPage {
 
   openPage(which: string) {
     let pages: any = {
-      'quesarito': QuesaritoPage
+      'quesarito': TabsGhost
     };
 
     this.tab.first.setRoot(pages[which]);
@@ -125,23 +125,23 @@ export class TabsPage {
 
 @NgModule({
   declarations: [
-    Tab1,
-    Tab2,
-    Tab3,
-    QuesaritoPage,
-    TabsPage
+    TabsGhost,
+    TabsGhost,
+    TabsGhost,
+    TabsGhost,
+    TabsGhost
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(TabsPage)
+    IonicModule.forRoot(TabsGhost)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    Tab1,
-    Tab2,
-    Tab3,
-    QuesaritoPage,
-    TabsPage
+    TabsGhost,
+    TabsGhost,
+    TabsGhost,
+    TabsGhost,
+    TabsGhost
   ]
 })
-export class AppModule {}
+export class TabsGhostModule {}

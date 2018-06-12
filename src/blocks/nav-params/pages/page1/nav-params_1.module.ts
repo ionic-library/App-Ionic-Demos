@@ -8,4 +8,4 @@ import { PageOne } from "./page-one";
 	imports: [IonicPageModule.forChild(PageOne)],
 	entryComponents: [PageOne]
 })
-export class PageOneModule {}
+export class NavParamsPage1Module {}

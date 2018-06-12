@@ -6,7 +6,7 @@ import { NavController, NavParams, IonicPage } from 'ionic-angular';
 	selector: 'page-list-simple-static',
 	templateUrl: 'list-simple-static.html'
 })
-export class ListSimpleStaticPageHome {
+export class ListSimpleStaticHome {
 	selectedItem: any;
 	icons: string[];
 	items: Array<{ title: string, note: string, icon: string }>;
@@ -29,7 +29,7 @@ export class ListSimpleStaticPageHome {
 	}
 
 	itemTapped(event, item) {
-		this.navCtrl.push(ListSimpleStaticPageHome, {
+		this.navCtrl.push(ListSimpleStaticHome, {
 			item: item
 		});
 	}

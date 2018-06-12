@@ -4,7 +4,7 @@ import { NavParams } from 'ionic-angular/navigation/nav-params';
 @Component({
   templateUrl: 'page-two.html'
 })
-export class PageTwo {
+export class NavParamsPage2 {
   myParam: string;
 
   constructor(params: NavParams) {

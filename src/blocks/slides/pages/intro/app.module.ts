@@ -6,7 +6,7 @@ import { IonicApp, IonicModule, NavController, Slides } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class IntroPage {
+export class SlidesIntroModule {
   @ViewChild(Slides) slider: Slides;
 
   continueText: string = 'Skip';
@@ -38,7 +38,7 @@ export class IntroPage {
   }
 
   skip() {
-    this.navCtrl.push(MainPage);
+    this.navCtrl.push(SlidesIntro);
   }
 }
 
@@ -55,31 +55,31 @@ export class IntroPage {
   </ion-content>
   `
 })
-export class MainPage {}
+export class SlidesIntroModule {}
 
 
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = IntroPage;
+export class SlidesIntroModule {
+  root = SlidesIntro;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    IntroPage,
-    MainPage
+    SlidesIntro,
+    SlidesIntro,
+    SlidesIntro
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(SlidesIntro)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    IntroPage,
-    MainPage
+    SlidesIntro,
+    SlidesIntro,
+    SlidesIntro
   ]
 })
-export class AppModule {}
+export class SlidesIntroModule {}

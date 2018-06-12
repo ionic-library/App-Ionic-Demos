@@ -8,4 +8,4 @@ import { PageTwo } from "./page-two";
 	imports: [IonicPageModule.forChild(PageTwo)],
 	entryComponents: [PageTwo]
 })
-export class PageTwoModule {}
+export class NavParamsPage2Module {}

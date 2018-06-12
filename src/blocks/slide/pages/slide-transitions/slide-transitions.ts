@@ -6,7 +6,7 @@ import { NavController, Slides, IonicPage } from 'ionic-angular';
   selector: 'page-slide-transitions',
   templateUrl: 'slide-transitions.html'
 })
-export class SlideTransitionsPage {
+export class SlideSlideTransitions {
   @ViewChild('slider') slider: Slides;
 
   slides = [

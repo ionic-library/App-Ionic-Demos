@@ -6,14 +6,14 @@ let pageNum = 2;
 @Component({
   templateUrl: 'page-two.html'
 })
-export class PageTwo {
+export class NavigationPage2 {
   pageNum = pageNum;
 
   constructor(public navCtrl: NavController) {}
 
   push() {
     pageNum++;
-    this.navCtrl.push(PageTwo);
+    this.navCtrl.push(NavigationPage2);
   }
 
   pop() {

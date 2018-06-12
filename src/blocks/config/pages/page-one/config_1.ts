@@ -4,6 +4,6 @@ import { PageTwo } from '../config_2/page-two';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class ConfigPageOne {
   tabOne = PageTwo;
 }

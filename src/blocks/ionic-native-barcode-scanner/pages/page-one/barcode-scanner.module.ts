@@ -14,4 +14,4 @@ import { BarcodeScannerPage } from './barcode-scanner';
   ]
 })
 
-export class BarcodeScannerPageModule { }
+export class IonicNativeBarcodeScannerPageOneModule { }

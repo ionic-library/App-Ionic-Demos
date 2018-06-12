@@ -5,7 +5,7 @@ import { NavController, ToastController, IonicPage } from 'ionic-angular';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class Toast02Page {
+export class TitlePage {
 
   constructor(public navCtrl: NavController, public toastCtrl: ToastController) { }
 

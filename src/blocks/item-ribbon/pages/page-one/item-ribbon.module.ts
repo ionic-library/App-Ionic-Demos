@@ -11,4 +11,4 @@ import { ItemRibbonPage } from './item-ribbon';
     IonicPageModule.forChild(ItemRibbonPage),
   ],
 })
-export class ItemRibbonPageModule {}
+export class ItemRibbonPageOneModule {}

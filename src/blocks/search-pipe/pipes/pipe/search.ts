@@ -7,19 +7,19 @@ import { Pipe } 						from '@angular/core';
 })
 
 @Injectable()
-export class SearchPipe /* implements PipeTransform  */ {
+export class SearchPipePipe /* implements PipeTransform  */ {
 
 	transform(list: any[], searchTerm: string): any[] {
 
 		if (searchTerm) {
-			console.log('SearchPipe.transform: ' + searchTerm)
+			console.log('SearchPipePipe.transform: ' + searchTerm)
 
 			searchTerm = searchTerm.toUpperCase();
 			return list.filter(item => {
 				return item[0].fullname.toUpperCase().indexOf(searchTerm) !== -1
 			});
 		} else {
-			console.log('SearchPipe.transform: NO search term')
+			console.log('SearchPipePipe.transform: NO search term')
 
 			return list;
 		}

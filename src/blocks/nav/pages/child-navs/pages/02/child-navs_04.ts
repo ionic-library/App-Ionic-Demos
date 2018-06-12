@@ -13,7 +13,7 @@ import { IonicPage } from '../../../../../..';
   </ion-content>
   `
 })
-export class ChildNavs02 {
+export class NavChildNavs {
   items: string[];
 
   ionViewWillEnter() {

@@ -7,7 +7,7 @@ import { PageTwo } from '../page-two/page-two';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class MenuBasic {
   rootPage: any;
   changeDetectionCount: number = 0;
   pages: Array<{ title: string, component: any }>;

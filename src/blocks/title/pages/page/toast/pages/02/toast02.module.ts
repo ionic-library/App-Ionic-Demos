@@ -11,4 +11,4 @@ import { Toast02Page } from './toast02';
     IonicPageModule.forChild(Toast02Page)
   ]
 })
-export class Toast02PageModule {}
+export class TitlePageModule {}

@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-sliding-item',
   templateUrl: 'sliding-item.html'
 })
-export class SlidingItemPage {
+export class ListSlidingItem {
   items = [
     {
       imageUrl: 'assets/img/lists/stadium.jpg',

@@ -10,4 +10,4 @@ import { AdvancedNav0102 } from './second-page';
     AdvancedNav0102
   ]
 })
-export class AdvancedNav0102Module { }
+export class NavAdvancedNav2Module { }

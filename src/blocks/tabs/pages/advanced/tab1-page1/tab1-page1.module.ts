@@ -15,4 +15,4 @@ import { Tab1Page1 } from './tab1-page1';
     Tab1Page1,
   ]
 })
-export class Tab1Page1Module { }
+export class TabsAdvancedModule { }

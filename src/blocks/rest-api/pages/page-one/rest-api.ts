@@ -11,7 +11,7 @@ import { RestAPIProvider }				from '../../providers/provider/rest-api';
 	selector: 'page-home',
 	templateUrl: 'rest-api.html'
 })
-export class RestAPIPageHome {
+export class RestApiPageOne {
 
 	countries: string[];
 	errorMessage: string;

@@ -6,7 +6,7 @@ import { ToastController }				from 'ionic-angular';
 import { SQLite, SQLiteObject }			from '@ionic-native/sqlite';
 
 @Injectable()
-export class DataSQLiteProvider {
+export class SqliteProvider {
 
 	private dbfields = [
 		{ name: "rowid", type: "INTEGER PRIMARY KEY" },
@@ -29,7 +29,7 @@ export class DataSQLiteProvider {
 		public sqlite: SQLite,
 		private toastCtrl: ToastController
 	) {
-		var prefix = 'DataSQLiteProvider::constructor:: ';
+		var prefix = 'SqliteProvider::constructor:: ';
 		console.log(prefix + '#1 ');
 
 		var fields = this.dbfields.map(function (e) { return e.name + ' ' + e.type; }).join(", ");
@@ -46,7 +46,7 @@ export class DataSQLiteProvider {
 	}
 
 	createTable() {
-		var prefix = 'DataSQLiteProvider::createTable:: ';
+		var prefix = 'SqliteProvider::createTable:: ';
 		console.log(prefix + '#1 ');
 
 		return this.sqlite.create({
@@ -65,7 +65,7 @@ export class DataSQLiteProvider {
 	}
 
 	getData(){
-		var prefix = 'DataSQLiteProvider::getData::';
+		var prefix = 'SqliteProvider::getData::';
 		console.log(prefix + '#01 ');
 
 		var sqlitedb=this.sqlite.create({ name: 'ionicdb.db', location: 'default' })
@@ -97,7 +97,7 @@ export class DataSQLiteProvider {
 	}
 
 	getCurrentData(rowid) {
-		console.log('DataSQLiteProvider::getCurrentData');
+		console.log('SqliteProvider::getCurrentData');
 
 		this.sqlite.create({
 			name: 'ionicdb.db',
@@ -127,7 +127,7 @@ export class DataSQLiteProvider {
 	}
 
 	deleteData(rowid) {
-		console.log('DataSQLiteProvider::deleteData');
+		console.log('SqliteProvider::deleteData');
 
 		this.sqlite.create({
 			name: 'ionicdb.db',
@@ -143,13 +143,13 @@ export class DataSQLiteProvider {
 	}
 
 	saveData(data) {
-		console.log('DataSQLiteProvider::saveData: data=' + data);
+		console.log('SqliteProvider::saveData: data=' + data);
 
 		this.sqlite.create({ name: 'ionicdb.db', location: 'default' })
 		.then((db: SQLiteObject) => {
 			db.executeSql('INSERT INTO expense VALUES(NULL,?,?,?,?)', [data.date, data.type, data.description, data.amount]
 			).then(res => {
-				console.log('DataSQLiteProvider::saveData: Data saved');
+				console.log('SqliteProvider::saveData: Data saved');
 				this.presentToast('Data saved', '5000');
 			}).catch(e => { this.presentToast(e, '5000') });
 		})
@@ -157,7 +157,7 @@ export class DataSQLiteProvider {
 	}
 
 	updateData(data) {
-		console.log('DataSQLiteProvider::updateData data=' + data);
+		console.log('SqliteProvider::updateData data=' + data);
 
 		this.sqlite.create({ name: 'ionicdb.db', location: 'default' })
 		.then((db: SQLiteObject) => {

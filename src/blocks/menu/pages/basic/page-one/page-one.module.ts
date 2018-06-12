@@ -13,4 +13,4 @@ import { PageTwoModule } from '../page-two/page-two.module';
     PageTwoModule
   ]
 })
-export class PageOneModule {}
+export class MenuBasicModule {}

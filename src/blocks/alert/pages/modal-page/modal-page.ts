@@ -19,7 +19,7 @@ import { IonicPage } from 'ionic-angular/navigation/ionic-page';
     </ion-content>
   `
 })
-export class ModalPage {
+export class AlertModalPage {
 	constructor(private viewCtrl: ViewController) { }
 
 	dismiss() {

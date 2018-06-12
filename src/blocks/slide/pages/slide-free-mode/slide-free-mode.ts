@@ -6,7 +6,7 @@ import { NavController, Slides, IonicPage } from 'ionic-angular';
   selector: 'page-slide-free-mode',
   templateUrl: 'slide-free-mode.html'
 })
-export class SlideFreeModePage {
+export class SlideSlideFreeMode {
   @ViewChild('slider') slider: Slides;
 
   slides = [

@@ -10,4 +10,4 @@ import { IonicPageModule } from "ionic-angular";
     IonicPageModule.forChild(SessionList)
   ]
 })
-export class SessionListModule {}
+export class ItemGroupsModule {}

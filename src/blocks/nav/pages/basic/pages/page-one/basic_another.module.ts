@@ -14,4 +14,4 @@ import { Basic01 } from './another-page';
     Basic01,
   ]
 })
-export class Basic01Module { }
+export class NavBasicModule { }

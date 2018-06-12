@@ -6,7 +6,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class ImgLazyLoadModule {
 
 }
 
@@ -14,24 +14,24 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class ImgLazyLoadModule {
+  root = ImgLazyLoad;
 }
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    ImgLazyLoad,
+    ImgLazyLoad
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(ImgLazyLoad)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    ImgLazyLoad,
+    ImgLazyLoad
   ]
 })
-export class AppModule {}
+export class ImgLazyLoadModule {}

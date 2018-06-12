@@ -10,4 +10,4 @@ import { SimpleNavThenDefaultHistory0202 } from './second-page';
     SimpleNavThenDefaultHistory0202
   ]
 })
-export class SimpleNavThenDefaultHistory0202Module { }
+export class NavSimpleNavThenDefaultHistoryModule { }

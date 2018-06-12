@@ -11,4 +11,4 @@ import { TabThree } from './tab-three';
     IonicPageModule.forChild(TabThree)
   ]
 })
-export class TabThreeModule {}
+export class TabsBasicModule {}

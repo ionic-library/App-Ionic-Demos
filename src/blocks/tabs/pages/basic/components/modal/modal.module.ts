@@ -14,4 +14,4 @@ import { MyModal } from './modal';
     MyModal,
   ]
 })
-export class MyModalModule {}
+export class TabsBasicModule {}

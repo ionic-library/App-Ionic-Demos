@@ -413,5 +413,5 @@ import {AppModule as VirtualScrollVariableSize} from '../../../../../virtual-scr
     ComponentsPage
   ]
 })
-export class ComponentsModule {
+export class SnapshotComponentsModule {
 }

@@ -6,7 +6,7 @@ import { IonicPage, ModalController, NavController, NavParams } from 'ionic-angu
   selector: 'page-popup-fab',
   templateUrl: 'popup-fab.html',
 })
-export class PopupFabPage {
+export class PopupFabHome {
 
   expanded: any;
   contracted: any;

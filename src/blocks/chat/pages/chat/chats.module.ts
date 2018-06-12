@@ -18,4 +18,4 @@ import { SharedModule }					from '../../../app/app.shared.modules';
 	]
 })
 
-export class ChatsPageModule { }
+export class ChatChat { }

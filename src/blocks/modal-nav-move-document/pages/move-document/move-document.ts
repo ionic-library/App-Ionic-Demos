@@ -9,7 +9,7 @@ import { ModalNavPage }					from '../modal-nav/modal-nav';
 	selector: 'page-move-document',
 	templateUrl: 'move-document.html',
 })
-export class MoveDocumentPage {
+export class ModalNavMoveDocumentMoveDocument {
 	thisFolder: any;
 	folders: any;
 
@@ -35,11 +35,11 @@ export class MoveDocumentPage {
 	}
 
 	ionViewDidLoad() {
-		console.log('ionViewDidLoad MoveDocumentPage');
+		console.log('ionViewDidLoad ModalNavMoveDocumentMoveDocument');
 	}
 
 	goToFolder(folder) {
-		this.navCtrl.push('MoveDocumentPage', { folder });
+		this.navCtrl.push('ModalNavMoveDocumentMoveDocument', { folder });
 	}
 
 	moveHere(folder) {

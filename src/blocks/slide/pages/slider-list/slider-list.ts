@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-slider-list',
   templateUrl: 'slider-list.html'
 })
-export class SliderListPage {
+export class SlideSliderList {
 
   items = [
     {

@@ -7,7 +7,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../../..';
 @Component({
   templateUrl: 'fifth-page.html'
 })
-export class SimpleNestedPeerNavs0405 {
+export class NavSimpleNestedPeerNavs {
 
   userId: string;
   name: string;

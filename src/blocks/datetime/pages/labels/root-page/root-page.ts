@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class DatetimeLabels {
   stacked1 = '1994-12-15T13:47:20.789';
   stacked2 = '1994-12-15T13:47:20.789';
   floating1 = '1995-04-15';

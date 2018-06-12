@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from '../../../../../../..';
 
 @IonicPage({
-  segment: 'TabsOneTabTwoPageThree/paramOne/:paramOne/paramTwo/:paramTwo',
+  segment: 'NavAdvancedTabsDefaultHistory/paramOne/:paramOne/paramTwo/:paramTwo',
   defaultHistory: ['TabsOneTabTwoPageOne']
 })
 @Component({
@@ -23,7 +23,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../../..';
 </ion-content>
   `
 })
-export class TabsOneTabTwoPageThree {
+export class NavAdvancedTabsDefaultHistory {
   paramOne: string;
   paramTwo: string;
   constructor(public nav: NavController, navParams: NavParams) {

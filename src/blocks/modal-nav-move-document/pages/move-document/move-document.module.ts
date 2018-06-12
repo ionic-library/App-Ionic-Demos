@@ -13,4 +13,4 @@ import { MoveDocumentPage } from './move-document';
 		MoveDocumentPage
 	]
 })
-export class MoveDocumentPageModule { }
+export class ModalNavMoveDocumentMoveDocumentModule { }

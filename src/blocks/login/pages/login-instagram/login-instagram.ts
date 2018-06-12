@@ -7,7 +7,7 @@ import { AlertController, App, LoadingController, IonicPage } from 'ionic-angula
   selector: 'page-login-instagram',
   templateUrl: 'login-instagram.html',
 })
-export class LoginInstagramPage {
+export class LoginLoginInstagram {
 
   public loginForm: any;
   public backgroundImage = 'assets/img/background/background-5.jpg';

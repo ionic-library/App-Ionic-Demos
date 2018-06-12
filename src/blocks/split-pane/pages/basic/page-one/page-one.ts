@@ -23,7 +23,7 @@ import { MenuController, NavController } from '../../../../../..';
   </ion-content>
   `
 })
-export class PageOne {
+export class SplitPaneBasic {
   constructor(
     public navCtrl: NavController,
     public menuCtrl: MenuController,

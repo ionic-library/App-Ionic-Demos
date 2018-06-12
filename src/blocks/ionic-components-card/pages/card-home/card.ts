@@ -7,12 +7,12 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-card',
   templateUrl: 'card.html'
 })
-export class CardsListPage {
+export class IonicComponentsCardCardHome {
   rootPage: any;
   items: Array<{ title: string, page: any }>;
 
   constructor(public navCtrl: NavController) {
-    this.rootPage = 'CardsListPage';
+    this.rootPage = 'IonicComponentsCardCardHome';
     this.items = [
       {
         title: 'Cards with Background',

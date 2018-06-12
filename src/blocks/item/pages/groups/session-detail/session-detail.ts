@@ -5,7 +5,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../..';
 @Component({
   templateUrl: 'session-detail.html'
 })
-export class SessionDetail {
+export class ItemGroups {
   session: any;
 
   constructor(params: NavParams, public navCtrl: NavController) {

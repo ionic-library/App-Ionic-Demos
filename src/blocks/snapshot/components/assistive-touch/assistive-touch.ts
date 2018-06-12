@@ -10,7 +10,7 @@ import { AssistivePopover } from './assistive-popover/assistive-popover';
     '(click)': 'openControl()'
   }
 })
-export class AssistiveTouchComponent implements AfterViewInit {
+export class SnapshotAssistiveTouch implements AfterViewInit {
   private sideX = 'right';
   private sideY = 'bottom';
   private currentX: number = 2;

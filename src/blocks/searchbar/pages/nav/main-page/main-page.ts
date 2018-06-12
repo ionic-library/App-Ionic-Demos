@@ -5,7 +5,7 @@ import { IonicPage, NavController } from '../../../../../..';
 @Component({
   templateUrl: 'main-page.html'
 })
-export class MainPage {
+export class SearchbarNav {
   constructor(public navCtrl: NavController) { }
 
   goToSecond() {

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Toast, ToastController } from 'ionic-angular';
 
 @Injectable()
-export class ToastService {
+export class TitlePage {
 
 	toast: Toast;
 	constructor(public toastCtrl: ToastController) { }

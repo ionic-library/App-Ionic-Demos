@@ -6,7 +6,7 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class ShowHideWhenPageModule {
   toggle = true;
 }
 
@@ -14,23 +14,23 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class ShowHideWhenPageModule {
+  root = ShowHideWhenPage;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    ShowHideWhenPage,
+    ShowHideWhenPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(ShowHideWhenPage)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    ShowHideWhenPage,
+    ShowHideWhenPage
   ]
 })
-export class AppModule {}
+export class ShowHideWhenPageModule {}

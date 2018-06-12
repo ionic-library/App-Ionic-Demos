@@ -6,7 +6,7 @@ import { NavController, Slides, IonicPage } from 'ionic-angular';
   selector: 'page-slide-rtl',
   templateUrl: 'slide-rtl.html'
 })
-export class SlideRightToLeftPage {
+export class SlideSlideRtl {
   @ViewChild('slider') slider: Slides;
 
   slides = [

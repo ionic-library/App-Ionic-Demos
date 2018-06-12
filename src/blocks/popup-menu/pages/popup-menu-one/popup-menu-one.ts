@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-popup-menu-one',
   templateUrl: 'popup-menu-one.html'
 })
-export class PopupMenuOnePage {
+export class PopupMenuPopupMenuOne {
   openMenu = false;
 
   constructor(public navCtrl: NavController) { }

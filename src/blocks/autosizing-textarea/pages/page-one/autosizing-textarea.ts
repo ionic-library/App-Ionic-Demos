@@ -6,7 +6,7 @@ import { NavController, NavParams, IonicPage } from 'ionic-angular';
 	selector: 'page-autosizing-textarea',
 	templateUrl: 'autosizing-textarea.html',
 })
-export class AutosizingTextarea {
+export class AutosizingTextareaPageOne {
 	dummyText: string = `Hello I am autosizing textarea.
     I automatically adjusts to accommodate my content.
     I increase and decrease my size based on my content.

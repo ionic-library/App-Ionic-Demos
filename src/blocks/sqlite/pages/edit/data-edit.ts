@@ -11,7 +11,7 @@ import { DataSQLiteProvider }			from '../../provider/provider/data-sqlite';
 	selector: 'page-data-edit',
 	templateUrl: 'data-edit.html',
 })
-export class DataPageEdit {
+export class SqliteEdit {
 	public db: any;
 
 	data = { rowid: 0, date: "", type: "", description: "", amount: 0 };
@@ -21,7 +21,7 @@ export class DataPageEdit {
 		public database: DataSQLiteProvider,
 		private toastCtrl: ToastController
 	) {
-		var prefix = 'DataPageEdit::constructor: ';
+		var prefix = 'SqliteEdit::constructor: ';
 		console.log(prefix + '#01 ');
 
 		this.db = database;
@@ -41,7 +41,7 @@ export class DataPageEdit {
 	}
 
 	getCurrentData(rowid) {
-		var prefix = 'DataPageEdit::getCurrentData: ';
+		var prefix = 'SqliteEdit::getCurrentData: ';
 		console.log(prefix + '#01 ' + 'rowid=' + rowid);
 
 		this.db.getCurrentData(rowid)
@@ -49,7 +49,7 @@ export class DataPageEdit {
 	}
 
 	updateData() {
-		var prefix = 'DataPageEdit::updateData: ';
+		var prefix = 'SqliteEdit::updateData: ';
 		console.log(prefix + '#01 ');
 
 		this.db.updateData(this.data)

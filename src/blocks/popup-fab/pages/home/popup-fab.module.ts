@@ -13,4 +13,4 @@ import { PopupFabPage } from './popup-fab';
     PopupFabPage
   ]
 })
-export class PopupFabPageModule {}
+export class PopupFabHomeModule {}

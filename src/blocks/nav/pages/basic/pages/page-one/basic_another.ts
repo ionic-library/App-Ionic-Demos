@@ -44,7 +44,7 @@ import { IonicPage, NavController, ViewController } from '../../../../../..';
     </ion-footer>
   `
 })
-export class Basic01 {
+export class NavBasic {
   bbHideToggleVal = false;
   bbCount = 0;
 
@@ -54,27 +54,27 @@ export class Basic01 {
   ) { }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad, Basic01', this.viewCtrl.id);
+    console.log('ionViewDidLoad, NavBasic', this.viewCtrl.id);
   }
 
   ionViewWillEnter() {
-    console.log('ionViewWillEnter, Basic01', this.viewCtrl.id);
+    console.log('ionViewWillEnter, NavBasic', this.viewCtrl.id);
   }
 
   ionViewDidEnter() {
-    console.log('ionViewDidEnter, Basic01', this.viewCtrl.id);
+    console.log('ionViewDidEnter, NavBasic', this.viewCtrl.id);
   }
 
   ionViewWillLeave() {
-    console.log('ionViewWillLeave, Basic01', this.viewCtrl.id);
+    console.log('ionViewWillLeave, NavBasic', this.viewCtrl.id);
   }
 
   ionViewDidLeave() {
-    console.log('ionViewDidLeave, Basic01', this.viewCtrl.id);
+    console.log('ionViewDidLeave, NavBasic', this.viewCtrl.id);
   }
 
   ionViewWillUnload() {
-    console.log('ionViewWillUnload, Basic01', this.viewCtrl.id);
+    console.log('ionViewWillUnload, NavBasic', this.viewCtrl.id);
   }
 
   pushFullPage() {

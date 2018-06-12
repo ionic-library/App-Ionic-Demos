@@ -10,4 +10,4 @@ import { SimpleTabs0206 } from './sixth-page';
     SimpleTabs0206
   ]
 })
-export class SimpleTabs0206Module { }
+export class NavSimpleTabsModule { }

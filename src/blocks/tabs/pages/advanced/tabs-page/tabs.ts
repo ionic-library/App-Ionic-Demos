@@ -7,7 +7,7 @@ import { AlertController, IonicPage, ModalController, NavController, NavParams, 
 @Component({
   templateUrl: './tabs.html'
 })
-export class TabsPage {
+export class TabsAdvanced {
   showTab: boolean = false;
   rootPage1 = 'tab1-page1';
   rootPage2 = 'tab2-page1';
@@ -74,22 +74,22 @@ export class TabsPage {
   }
 
   ionViewWillEnter() {
-    console.log('TabsPage, ionViewWillEnter');
+    console.log('TabsAdvanced, ionViewWillEnter');
   }
 
   ionViewDidEnter() {
-    console.log('TabsPage, ionViewDidEnter');
+    console.log('TabsAdvanced, ionViewDidEnter');
   }
 
   ionViewWillLeave() {
-    console.log('TabsPage, ionViewWillLeave');
+    console.log('TabsAdvanced, ionViewWillLeave');
   }
 
   ionViewDidLeave() {
-    console.log('TabsPage, ionViewDidLeave');
+    console.log('TabsAdvanced, ionViewDidLeave');
   }
 
   ionViewWillUnload() {
-    console.log('TabsPage, ionViewWillUnload');
+    console.log('TabsAdvanced, ionViewWillUnload');
   }
 }

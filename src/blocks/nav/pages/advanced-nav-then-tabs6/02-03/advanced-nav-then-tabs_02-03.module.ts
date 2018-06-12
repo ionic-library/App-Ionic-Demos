@@ -10,4 +10,4 @@ import { AdvancedNavThenTabs060203 } from './tab-two-page-three';
     AdvancedNavThenTabs060203
   ]
 })
-export class AdvancedNavThenTabs060203Module { }
+export class NavAdvancedNavThenTabs6Module { }

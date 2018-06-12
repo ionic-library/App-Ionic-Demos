@@ -4,19 +4,19 @@ import { SQLiteDatabaseConfig }			from '@ionic-native/sqlite';
 declare var SQL;
 
 @Injectable()
-export class MockSQLiteObject {
+export class MockSqliteProvider {
 	_objectInstance: any;
 
 	constructor(
 		_objectInstance: any
 	) {
-		console.log("MockSQLiteObject::constructor");
+		console.log("MockSqliteProvider::constructor");
 
 		this._objectInstance = _objectInstance;
 	};
 
 	executeSql(statement: string, params: any): Promise<any> {
-		console.log("MockSQLiteObject::executeSql: " + statement);
+		console.log("MockSqliteProvider::executeSql: " + statement);
 
 		return new Promise((resolve, reject) => {
 			try {
@@ -52,9 +52,9 @@ export class MockSQLiteObject {
 }
 
 @Injectable()
-export class MockSQLiteProvider {
-	public create(config: SQLiteDatabaseConfig): Promise<MockSQLiteObject> {
-		console.log("MockSQLiteProvider::create");
+export class MockSqliteProvider {
+	public create(config: SQLiteDatabaseConfig): Promise<MockSqliteProvider> {
+		console.log("MockSqliteProvider::create");
 
 		var db;
 		var storeddb = localStorage.getItem("database");
@@ -68,7 +68,7 @@ export class MockSQLiteProvider {
 		}
 
 		return new Promise((resolve, reject) => {
-			resolve(new MockSQLiteObject(db));
+			resolve(new MockSqliteProvider(db));
 		});
 	}
 }

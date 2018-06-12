@@ -9,12 +9,12 @@ import { MenuController }				from 'ionic-angular';
 	selector: 'page-profile',
 	templateUrl: 'profile.html'
 })
-export class ProfileListPage {
+export class ProfileMain {
 	rootPage: any;
 	items: Array<{ title: string, page: any }>;
 
 	constructor(public navCtrl: NavController, public menu: MenuController) {
-		this.rootPage = 'ProfileListPage';
+		this.rootPage = 'ProfileMain';
 		this.menu.enable(true, 'menu-profile');
 		this.items = [
 			{

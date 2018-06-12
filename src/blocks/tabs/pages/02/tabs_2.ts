@@ -4,4 +4,4 @@ import { Component } from '@angular/core';
   template: '<div>johnny utah</div>',
   selector: 'tab-page'
 })
-export class PageTwo {}
+export class Tabs02 {}

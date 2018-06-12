@@ -6,7 +6,7 @@ import { IonicApp, IonicModule, NavController } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {
+export class VirtualScrollBasicModule {
   items: any[] = [];
   webview: string = '';
   counter: number = 0;
@@ -29,7 +29,7 @@ export class E2EPage {
   }
 
   pushPage() {
-    this.navCtrl.push(E2EPage);
+    this.navCtrl.push(VirtualScrollBasic);
   }
 
   addItem() {
@@ -69,24 +69,24 @@ export class E2EPage {
 @Component({
   template: '<ion-nav [root]="root"></ion-nav>'
 })
-export class AppComponent {
-  root = E2EPage;
+export class VirtualScrollBasicModule {
+  root = VirtualScrollBasic;
 }
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    VirtualScrollBasic,
+    VirtualScrollBasic
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(VirtualScrollBasic)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    E2EPage
+    VirtualScrollBasic,
+    VirtualScrollBasic
   ]
 })
-export class AppModule {}
+export class VirtualScrollBasicModule {}

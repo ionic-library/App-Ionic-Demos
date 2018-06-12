@@ -10,4 +10,4 @@ import { SimpleNavThenDefaultHistory04 } from './tabs-page';
     SimpleNavThenDefaultHistory04
   ]
 })
-export class SimpleNavThenDefaultHistory04Module { }
+export class NavSimpleNavThenDefaultHistoryModule { }

@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class DatetimeIssues {
   tokyoTime = this.calculateTime(1);
 
   calculateTime(offset: number) {

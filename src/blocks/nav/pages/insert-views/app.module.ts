@@ -15,11 +15,11 @@ import { IonicApp, IonicModule, NavController, NavParams } from '../../../..';
       <button ion-button block (click)="pushPage()">Push Page</button>
     </ion-content>`,
 })
-export class FirstPage {
+export class NavInsertViewsModule {
   constructor(public navCtrl: NavController) {}
 
   pushPage() {
-    this.navCtrl.push(SecondPage);
+    this.navCtrl.push(NavInsertViews);
   }
 }
 
@@ -41,13 +41,13 @@ export class FirstPage {
     </ion-content>
   `
 })
-export class SecondPage {
+export class NavInsertViewsModule {
   _index: number = 0;
 
   constructor(public navCtrl: NavController) {}
 
   insertPage() {
-    this.navCtrl.insert(1, InsertPage, {
+    this.navCtrl.insert(1, NavInsertViews, {
       index: this._index++
     }).then(() => {
       console.log('INSERTED! Stack:\n', this.navCtrl.getViews());
@@ -68,7 +68,7 @@ export class SecondPage {
 
   testThing() {
     console.log('TEST THING');
-    this.navCtrl.push(InsertPage).then(() => {
+    this.navCtrl.push(NavInsertViews).then(() => {
       console.log('Pushed', this.navCtrl.getViews());
       console.log('Removing', this.navCtrl.getActive().index - 1);
       this.navCtrl.remove(this.navCtrl.getActive().index - 1, 1);
@@ -90,7 +90,7 @@ export class SecondPage {
     </ion-content>
   `
 })
-export class InsertPage {
+export class NavInsertViewsModule {
   index: any;
   constructor(params: NavParams) {
     this.index = params.get('index');
@@ -101,27 +101,27 @@ export class InsertPage {
 @Component({
   template: `<ion-nav [root]="root"></ion-nav>`
 })
-export class AppComponent {
-  root = FirstPage;
+export class NavInsertViewsModule {
+  root = NavInsertViews;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    FirstPage,
-    SecondPage,
-    InsertPage
+    NavInsertViews,
+    NavInsertViews,
+    NavInsertViews,
+    NavInsertViews
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(NavInsertViews)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    FirstPage,
-    SecondPage,
-    InsertPage
+    NavInsertViews,
+    NavInsertViews,
+    NavInsertViews,
+    NavInsertViews
   ]
 })
-export class AppModule {}
+export class NavInsertViewsModule {}

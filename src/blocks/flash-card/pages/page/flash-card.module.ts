@@ -18,4 +18,4 @@ import { FlashCardPage } from './flash-card';
 	]
 })
 
-export class FlashCardPageModule { }
+export class FlashCardPage { }

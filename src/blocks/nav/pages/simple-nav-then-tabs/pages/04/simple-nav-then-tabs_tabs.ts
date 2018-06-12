@@ -10,7 +10,7 @@ import { IonicPage, } from '../../../../../..';
   </ion-tabs>
   `
 })
-export class SimpleNavThenTabs04 {
+export class NavSimpleNavThenTabs {
   tab1 = 'FirstPage';
   tab2 = 'FourthPage';
 }

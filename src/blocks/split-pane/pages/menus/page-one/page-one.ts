@@ -4,7 +4,7 @@ import { MenuController, NavController } from '../../../../../..';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class SplitPaneMenus {
   constructor(
     public navCtrl: NavController,
     public menuCtrl: MenuController,

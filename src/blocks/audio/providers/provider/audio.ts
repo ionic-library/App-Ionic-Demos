@@ -5,7 +5,7 @@ import { NativeAudio }					from '@ionic-native/native-audio';
 // Provides a way to work with audio on native
 // or fall back to html5 when on browser.
 @Injectable()
-export class AudioService {
+export class AudioProvider {
 	preloadedAudios: Map<string, string>;
 	lightSaberSwings = ['lightSwing', 'lightSwing2', 'heavySwing', 'heavySwing2'];
 

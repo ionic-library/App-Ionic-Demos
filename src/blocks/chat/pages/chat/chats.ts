@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
 	templateUrl: 'chats.html',
 })
 
-export class ChatsPage {
+export class ChatChat {
 
 	chats = [{
 		imageUrl: 'assets/img/avatar/marty-avatar.png',

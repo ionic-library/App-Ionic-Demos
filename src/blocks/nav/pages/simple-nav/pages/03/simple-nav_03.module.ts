@@ -10,4 +10,4 @@ import { SimpleNav03 } from './third-page';
     SimpleNav03
   ]
 })
-export class SimpleNav03Module { }
+export class NavSimpleNavModule { }

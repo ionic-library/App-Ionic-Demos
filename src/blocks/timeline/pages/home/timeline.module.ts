@@ -19,4 +19,4 @@ import { TimelinePage }					from './timeline';
   ]
 })
 
-export class TimelinePageModule { }
+export class TimelineHomeModule { }

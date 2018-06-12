@@ -6,12 +6,12 @@ import { NavController, MenuController, IonicPage } from 'ionic-angular';
   selector: 'page-popup-menu',
   templateUrl: 'popup-menu.html'
 })
-export class PopupMenuListPage {
+export class PopupMenuHome {
   rootPage: any;
   items: Array<{ title: string, page: any }> = [];
 
   constructor(public navCtrl: NavController, public menu: MenuController) {
-    this.rootPage = PopupMenuListPage;
+    this.rootPage = PopupMenuHome;
     this.items = [
       {
         title: 'Type One',

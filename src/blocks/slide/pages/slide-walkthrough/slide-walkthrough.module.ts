@@ -13,4 +13,4 @@ import { SlideWalkthroughPage } from './slide-walkthrough';
     SlideWalkthroughPage
   ]
 })
-export class SlideWalkthroughPageModule {}
+export class SlideSlideWalkthroughModule {}

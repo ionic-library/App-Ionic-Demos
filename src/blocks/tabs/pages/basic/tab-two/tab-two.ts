@@ -5,7 +5,7 @@ import { App, IonicPage, Tabs } from '../../../../../..';
 @Component({
   templateUrl: 'tab-two.html'
 })
-export class TabTwo {
+export class TabsBasic {
   sessions: any[] = [];
 
   constructor(private tabs: Tabs, private app: App) {

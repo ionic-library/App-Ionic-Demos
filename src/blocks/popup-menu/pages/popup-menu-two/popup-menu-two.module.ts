@@ -13,4 +13,4 @@ import { PopupMenuTwoPage } from './popup-menu-two';
     PopupMenuTwoPage
   ]
 })
-export class PopupMenuTwoPageModule {}
+export class PopupMenuPopupMenuTwoModule {}

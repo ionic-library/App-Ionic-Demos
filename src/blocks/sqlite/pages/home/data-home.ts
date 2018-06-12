@@ -13,7 +13,7 @@ import { DataSQLiteProvider }			from '../../provider/provider/data-sqlite';
 	selector: 'page-data-home',
 	templateUrl: 'data-home.html'
 })
-export class DataPageHome {
+export class SqliteHome {
 
 	expenses: any = [];
 	totalIncome = 0;
@@ -26,14 +26,14 @@ export class DataPageHome {
 		public navCtrl: NavController,
 		public database: DataSQLiteProvider
 	) {
-		var prefix = 'DataPageHome::constructor: ';
+		var prefix = 'SqliteHome::constructor: ';
 		console.log(prefix + '#01 ');
 
 		this.db = database;
 	 }
 
 	ionViewDidLoad() {
-		var prefix = 'DataPageHome::ionViewDidLoad: ';
+		var prefix = 'SqliteHome::ionViewDidLoad: ';
 		console.log(prefix + '#01 ');
 
 		/*
@@ -43,7 +43,7 @@ export class DataPageHome {
 	}
 
 	ionViewWillEnter() {
-		var prefix = 'DataPageHome::ionViewWillEnter:: ';
+		var prefix = 'SqliteHome::ionViewWillEnter:: ';
 		console.log(prefix + '#01 ');
 
 		console.log(prefix + '#02 ' + 'get the data');
@@ -51,7 +51,7 @@ export class DataPageHome {
 	}
 
 	getData() {
-		var prefix = 'DataPageHome::getData:: ';
+		var prefix = 'SqliteHome::getData:: ';
 		console.log(prefix + '#01 ');
 
 		console.log(prefix + '#02 ' + 'get data');
@@ -65,14 +65,14 @@ export class DataPageHome {
 	}
 
 	addData(rowid) {
-		var prefix = 'DataPageHome::addData:: ';
+		var prefix = 'SqliteHome::addData:: ';
 		console.log(prefix + '#01 ' + 'rowid=' + rowid);
 
 		this.navCtrl.push('DataPageAdd');
 	}
 
 	editData(rowid) {
-		var prefix = 'DataPageHome::editData:: ';
+		var prefix = 'SqliteHome::editData:: ';
 		console.log(prefix + '#01 ' + 'rowid=' + rowid);
 
 		this.navCtrl.push('DataPageEdit', { rowid: rowid });

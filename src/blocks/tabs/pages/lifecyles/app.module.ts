@@ -28,7 +28,7 @@ import { AlertController, IonicApp, IonicModule, NavController } from '../../../
     </ion-content>
     `
 })
-export class Tab1 {
+export class TabsLifecylesModule {
   called: any;
 
   constructor(private alertCtrl: AlertController, private navCtrl: NavController) {
@@ -45,7 +45,7 @@ export class Tab1 {
   }
 
   push() {
-    this.navCtrl.push(Tab1);
+    this.navCtrl.push(TabsLifecyles);
   }
 
   openAlert() {
@@ -98,34 +98,34 @@ export class Tab1 {
     </ion-tabs>
   `
 })
-export class TabsPage {
-  root = Tab1;
+export class TabsLifecylesModule {
+  root = TabsLifecyles;
 }
 
 @Component({
   template: `<ion-nav [root]="root"></ion-nav>`
 })
-export class AppComponent {
-  root = TabsPage;
+export class TabsLifecylesModule {
+  root = TabsLifecyles;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Tab1,
-    TabsPage
+    TabsLifecyles,
+    TabsLifecyles,
+    TabsLifecyles
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent, {
+    IonicModule.forRoot(TabsLifecyles, {
       tabsHighlight: true,
     })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    Tab1,
-    TabsPage
+    TabsLifecyles,
+    TabsLifecyles,
+    TabsLifecyles
   ]
 })
-export class AppModule {}
+export class TabsLifecylesModule {}

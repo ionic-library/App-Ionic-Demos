@@ -14,4 +14,4 @@ import { Events1Page } from './events_1';
 		Events1Page,
 	]
 })
-export class Events1PageModule { }
+export class EventsPage1Module { }

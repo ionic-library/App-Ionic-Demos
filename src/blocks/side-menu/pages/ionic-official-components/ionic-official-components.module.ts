@@ -21,4 +21,4 @@ import { CardListPageModule } from '../../ionic-components-card/card-home/card.m
 	]
 })
 
-export class IonicOfficialComponentsPageModule { }
+export class SideMenuIonicOfficialComponentsModule { }

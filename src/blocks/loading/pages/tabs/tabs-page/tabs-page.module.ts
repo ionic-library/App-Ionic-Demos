@@ -16,4 +16,4 @@ import { PageOneModule } from '../page-one/page-one.module';
     TabsPage,
   ]
 })
-export class TabsPageModule {}
+export class LoadingTabsModule {}

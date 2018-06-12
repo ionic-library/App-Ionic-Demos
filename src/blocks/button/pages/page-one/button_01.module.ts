@@ -14,4 +14,4 @@ import { Buttons1Page } from './page-one';
 		Buttons1Page,
 	]
 })
-export class Buttons1PageModule { }
+export class ButtonPageOne { }

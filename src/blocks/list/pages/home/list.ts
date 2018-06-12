@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-list',
   templateUrl: 'list.html'
 })
-export class ListPage {
+export class ListHome {
   rootPage: any;
   items: Array<{ title: string, page: any }>;
 

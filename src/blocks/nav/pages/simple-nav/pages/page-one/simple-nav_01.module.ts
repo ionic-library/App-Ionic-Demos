@@ -10,4 +10,4 @@ import { SimpleNav01 } from './first-page';
     SimpleNav01
   ]
 })
-export class SimpleNav01Module { }
+export class NavSimpleNavModule { }

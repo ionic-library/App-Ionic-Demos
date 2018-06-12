@@ -23,6 +23,6 @@ import { PageTwo } from '../page-two/page-two';
     `
   ]
 })
-export class PageOne {
+export class TabsPageOne {
   root = PageTwo;
 }

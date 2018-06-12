@@ -15,4 +15,4 @@ import { ProfileOnePage }				from './profile-one';
 	]
 })
 
-export class ProfileOnePageModule { }
+export class ProfileProfileOneModule { }

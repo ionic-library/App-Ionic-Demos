@@ -12,7 +12,7 @@ import { AlertService }					from '../../../alert/services/alert';
 	templateUrl: 'profile-settings.html',
 })
 
-export class ProfileSettingsPage {
+export class ProfileProfileSettings {
 	profilePicture: string;
 	profileRef: any;
 	errorMessage: any;

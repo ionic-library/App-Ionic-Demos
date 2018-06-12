@@ -1,11 +1,12 @@
+import { IonicPage } from 'ionic-angular';
+import { AlertController, ModalController } from 'ionic-angular';
 import { Component } from '@angular/core';
-import { AlertController, IonicPage, ModalController } from '../../../../../..';
 
 @IonicPage()
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class AlertPageOne {
   testConfirmOpen: boolean = false;
   testPromptOpen: boolean = false;
   testConfirmResult: string = '';

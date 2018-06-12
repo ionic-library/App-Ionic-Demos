@@ -14,4 +14,4 @@ import { ActionSheet3Page } from './action-sheet_3';
 		ActionSheet3Page,
 	]
 })
-export class ActionSheet3PageModule { }
+export class ActionSheet03Modal { }

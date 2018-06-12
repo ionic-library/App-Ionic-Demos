@@ -8,4 +8,4 @@ import { Toast01Page } from "./toast01";
 	imports: [IonicPageModule.forChild(Toast01Page)],
 	entryComponents: [Toast01Page]
 })
-export class Toast01PageModule {}
+export class TitlePageModule {}

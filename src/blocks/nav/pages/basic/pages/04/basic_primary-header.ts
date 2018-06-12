@@ -40,7 +40,7 @@ import { AlertController, IonicPage, NavController, ViewController } from '../..
     </ion-footer>
   `
 })
-export class Basic04 {
+export class NavBasic {
   subheader: string;
 
   constructor(
@@ -50,29 +50,29 @@ export class Basic04 {
   ) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad, Basic04', this.viewCtrl.id);
+    console.log('ionViewDidLoad, NavBasic', this.viewCtrl.id);
   }
 
   ionViewWillEnter() {
-    console.log('ionViewWillEnter, Basic04', this.viewCtrl.id);
+    console.log('ionViewWillEnter, NavBasic', this.viewCtrl.id);
     this.viewCtrl.setBackButtonText('Previous');
     this.subheader = 'I\'m a sub header!';
   }
 
   ionViewDidEnter() {
-    console.log('ionViewDidEnter, Basic04', this.viewCtrl.id);
+    console.log('ionViewDidEnter, NavBasic', this.viewCtrl.id);
   }
 
   ionViewWillLeave() {
-    console.log('ionViewWillLeave, Basic04', this.viewCtrl.id);
+    console.log('ionViewWillLeave, NavBasic', this.viewCtrl.id);
   }
 
   ionViewDidLeave() {
-    console.log('ionViewDidLeave, Basic04', this.viewCtrl.id);
+    console.log('ionViewDidLeave, NavBasic', this.viewCtrl.id);
   }
 
   ionViewWillUnload() {
-    console.log('ionViewWillUnload, Basic04', this.viewCtrl.id);
+    console.log('ionViewWillUnload, NavBasic', this.viewCtrl.id);
   }
 
   pushAnother() {

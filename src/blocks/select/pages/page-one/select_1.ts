@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class SelectPageOne {
   gender: string;
   gaming: string;
   toppings: Array<string>;

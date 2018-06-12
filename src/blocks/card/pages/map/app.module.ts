@@ -6,27 +6,27 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {}
+export class CardMap {}
 
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class AppComponent {
-  rootPage = E2EPage;
+export class CardMap {
+  rootPage = CardMap;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    CardMap,
+    CardMap
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(CardMap)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    E2EPage
+    CardMap
   ]
 })
-export class AppModule {}
+export class CardMap {}

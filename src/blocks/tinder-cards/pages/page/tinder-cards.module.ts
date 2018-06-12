@@ -21,4 +21,4 @@ import { SharedModule } 				from '../../../app/app.shared.modules';
 	]
 })
 
-export class TinderCardsPageModule { }
+export class TinderCardsPage { }

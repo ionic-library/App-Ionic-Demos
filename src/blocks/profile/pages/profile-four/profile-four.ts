@@ -7,7 +7,7 @@ import { NavController, IonicPage } from "ionic-angular";
 	selector: "page-profile-four",
 	templateUrl: "profile-four.html"
 })
-export class ProfileFourPage {
+export class ProfileProfileFour {
 	following = false;
 	user = {
 		name: "Paula Bolliger",

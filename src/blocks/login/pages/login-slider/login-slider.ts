@@ -7,7 +7,7 @@ import { AlertController, App, LoadingController, NavController, Slides, IonicPa
   selector: 'page-login-slider',
   templateUrl: 'login-slider.html',
 })
-export class LoginSliderPage {
+export class LoginLoginSlider {
   public loginForm: any;
   public backgroundImage = 'assets/img/background/background-6.jpg';
 

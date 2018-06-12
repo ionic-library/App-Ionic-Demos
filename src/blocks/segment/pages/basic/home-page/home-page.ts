@@ -6,7 +6,7 @@ import { IonicPage, SegmentButton } from '../../../../../..';
 @Component({
   templateUrl: 'home-page.html'
 })
-export class HomePage {
+export class SegmentBasic {
   relationship: string = 'enemies';
   modelStyle: string = 'B';
   appType: string = 'free';

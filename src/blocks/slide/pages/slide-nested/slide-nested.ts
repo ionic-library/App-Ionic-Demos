@@ -6,7 +6,7 @@ import { NavController, Slides, IonicPage } from 'ionic-angular';
   selector: 'page-slide-nested',
   templateUrl: 'slide-nested.html'
 })
-export class SlideNestedPage {
+export class SlideSlideNested {
   @ViewChild('slider') slider: Slides;
 
   slides = [{

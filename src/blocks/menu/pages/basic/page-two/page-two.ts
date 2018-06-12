@@ -5,7 +5,7 @@ import { AlertController, IonicPage, ModalController, NavController } from '../.
 @Component({
   templateUrl: 'page-two.html'
 })
-export class PageTwo {
+export class MenuBasic {
   constructor(
     public navCtrl: NavController,
     public alertCtrl: AlertController,

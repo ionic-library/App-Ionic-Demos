@@ -10,4 +10,4 @@ import { AdvancedNavThenTabs03 } from './non-tab-one';
     AdvancedNavThenTabs03
   ]
 })
-export class AdvancedNavThenTabs03Module { }
+export class NavAdvancedNavThenTabs3Module { }

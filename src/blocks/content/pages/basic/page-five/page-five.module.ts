@@ -11,4 +11,4 @@ import { PageFive } from './page-five';
     IonicPageModule.forChild(PageFive)
   ]
 })
-export class PageFiveModule {}
+export class ContentBasic {}

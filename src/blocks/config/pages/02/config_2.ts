@@ -7,7 +7,7 @@ import { Config } from 'ionic-angular/config/config';
 @Component({
   templateUrl: 'page-two.html'
 })
-export class PageTwo {
+export class Config02 {
   config: any;
   initialConfig: any;
   constructor(_config: Config,  public navCtrl: NavController) {

@@ -5,28 +5,28 @@ import { IonicPage } from '../../../../../..';
 @Component({
   templateUrl: 'contact-us.html'
 })
-export class ContactUs {
+export class ModalContactUs {
   root = 'PageTwo';
 
   constructor() {
-    console.log('ContactUs constructor');
+    console.log('ModalContactUs constructor');
   }
   ionViewDidLoad() {
-    console.log('ContactUs ionViewDidLoad');
+    console.log('ModalContactUs ionViewDidLoad');
   }
   ionViewWillEnter() {
-    console.log('ContactUs ionViewWillEnter');
+    console.log('ModalContactUs ionViewWillEnter');
   }
   ionViewDidEnter() {
-    console.log('ContactUs ionViewDidEnter');
+    console.log('ModalContactUs ionViewDidEnter');
   }
   ionViewWillLeave() {
-    console.log('ContactUs ionViewWillLeave');
+    console.log('ModalContactUs ionViewWillLeave');
   }
   ionViewDidLeave() {
-    console.log('ContactUs ionViewDidLeave');
+    console.log('ModalContactUs ionViewDidLeave');
   }
   ionViewWillUnload() {
-    console.log('ContactUs ionViewWillUnload');
+    console.log('ModalContactUs ionViewWillUnload');
   }
 }

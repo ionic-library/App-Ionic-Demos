@@ -5,7 +5,7 @@ import { IonicApp, IonicModule, NavController, Refresher } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class Page1 {
+export class RefresherNavigationModule {
   items: string[] = [];
 
   constructor(public nav: NavController) {
@@ -36,7 +36,7 @@ export class Page1 {
   }
 
   navigate() {
-    this.nav.setRoot(Page2);
+    this.nav.setRoot(RefresherNavigation);
   }
 
 }
@@ -92,31 +92,31 @@ const data = [
 @Component({
   templateUrl: 'page2.html'
 })
-export class Page2 {
+export class RefresherNavigationModule {
   constructor() {}
 }
 
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class AppComponent {
-  rootPage = Page1;
+export class RefresherNavigationModule {
+  rootPage = RefresherNavigation;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Page1,
-    Page2
+    RefresherNavigation,
+    RefresherNavigation,
+    RefresherNavigation
   ],
   imports: [
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(RefresherNavigation)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    AppComponent,
-    Page1,
-    Page2
+    RefresherNavigation,
+    RefresherNavigation,
+    RefresherNavigation
   ]
 })
-export class AppModule {}
+export class RefresherNavigationModule {}

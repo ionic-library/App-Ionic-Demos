@@ -31,7 +31,7 @@ import { App, IonicPage, NavController, Tabs } from '../../../../../..';
     </ion-content>
     `
 })
-export class Basic07 {
+export class NavBasic {
   items: any[] = [];
 
   constructor(private tabs: Tabs, private app: App, private nav: NavController) {

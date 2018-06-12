@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class DatetimeBasic {
   myDate: any;
   monthOnly = '2012-12-15T13:47:20.789';
   wwwInvented = '1989';

@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-login-background-video',
   templateUrl: 'login-background-video.html'
 })
-export class LoginBackgroundVideoPage {
+export class LoginLoginBackgroundVideo {
 
   @ViewChild('player') player;
 

@@ -6,28 +6,28 @@ import { IonicApp, IonicModule } from '../../../..';
 @Component({
   templateUrl: 'main.html'
 })
-export class E2EPage {}
+export class GridFullModule {}
 
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class AppComponent {
-  rootPage = E2EPage;
+export class GridFullModule {
+  rootPage = GridFull;
 }
 
 @NgModule({
   declarations: [
-    AppComponent,
-    E2EPage
+    GridFull,
+    GridFull
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(AppComponent)
+    IonicModule.forRoot(GridFull)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    E2EPage,
-    AppComponent
+    GridFull,
+    GridFull
   ]
 })
-export class AppModule {}
+export class GridFullModule {}

@@ -5,7 +5,7 @@ import { App, IonicPage, ViewController } from '../../../../../..';
 @Component({
   templateUrl: 'modal-page.html'
 })
-export class ModalPage {
+export class TabsBasic {
   items: any[] = [];
 
   constructor(private viewCtrl: ViewController, private app: App) {

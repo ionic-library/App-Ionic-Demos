@@ -7,27 +7,27 @@ import { IonicPage, NavController} from '../../../../../..';
 @Component({
   templateUrl: './tab2-page3.html'
 })
-export class Tab2Page3 {
+export class TabsAdvanced {
 
   constructor(public navCtrl: NavController) {}
 
   ionViewWillEnter() {
-    console.log('Tab2Page3, ionViewWillEnter');
+    console.log('TabsAdvanced, ionViewWillEnter');
   }
 
   ionViewDidEnter() {
-    console.log('Tab2Page3, ionViewDidEnter');
+    console.log('TabsAdvanced, ionViewDidEnter');
   }
 
   ionViewWillLeave() {
-    console.log('Tab2Page3, ionViewWillLeave');
+    console.log('TabsAdvanced, ionViewWillLeave');
   }
 
   ionViewDidLeave() {
-    console.log('Tab2Page3, ionViewDidLeave');
+    console.log('TabsAdvanced, ionViewDidLeave');
   }
 
   ionViewWillUnload() {
-    console.log('Tab2Page3, ionViewWillUnload');
+    console.log('TabsAdvanced, ionViewWillUnload');
   }
 }

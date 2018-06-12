@@ -17,4 +17,4 @@ import { ThemingPage } from './theming';
 	]
 })
 
-export class ThemingPageModule { }
+export class ThemingHomeModule { }

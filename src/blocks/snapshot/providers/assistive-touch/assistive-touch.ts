@@ -1,6 +1,6 @@
 import {EventEmitter, Injectable} from '@angular/core';
 
 @Injectable()
-export class AssistiveTouchProvider {
+export class SnapshotAssistiveTouch {
   public closeButton: EventEmitter<any> = new EventEmitter<any>();
 }

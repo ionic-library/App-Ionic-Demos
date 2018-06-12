@@ -13,4 +13,4 @@ import { DeleteItemsPage } from './delete-items';
     DeleteItemsPage
   ]
 })
-export class DeleteItemsPageModule {}
+export class ListDeleteItemsModule {}

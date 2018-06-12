@@ -6,7 +6,7 @@ import { NavController, IonicPage } from 'ionic-angular';
   selector: 'page-card-badge',
   templateUrl: 'card-badge.html'
 })
-export class CardBadgePage {
+export class IonicComponentsCardCardBadge {
   cards = [
     {
       imageUrl: 'assets/img/card/bjork-live.jpg',

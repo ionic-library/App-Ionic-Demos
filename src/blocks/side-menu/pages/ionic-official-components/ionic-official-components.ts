@@ -7,7 +7,7 @@ import { NavController, IonicPage } from 'ionic-angular';
 	selector: 'page-ionic-official-components',
 	templateUrl: 'ionic-official-components.html'
 })
-export class IonicOfficialComponentsPage {
+export class SideMenuIonicOfficialComponents {
 	rootPage: any;
 	items: Array<{ title: string, page: any }>;
 

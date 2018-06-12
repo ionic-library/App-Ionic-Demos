@@ -6,7 +6,7 @@ import { NavController, NavParams, IonicPage } from 'ionic-angular';
   selector: 'page-timeline',
   templateUrl: 'timeline.html',
 })
-export class TimelinePage {
+export class TimelineHome {
 
   items = [
     {
@@ -44,7 +44,7 @@ export class TimelinePage {
   ) { }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TimelinePage');
+    console.log('ionViewDidLoad TimelineHome');
   }
 
 }

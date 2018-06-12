@@ -5,7 +5,7 @@ import { Basic022 } from './my-component-two';
   selector: 'my-cmp',
   template: `<my-cmp2></my-cmp2> <span style="color:green">{{value}}</span>`
 })
-export class Basic02 {
+export class NavBasic {
 
   @ViewChild(Basic022) _label: Basic022;
 

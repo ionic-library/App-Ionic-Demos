@@ -10,4 +10,4 @@ import { NavPushPop02 } from './second-page';
     NavPushPop02
   ]
 })
-export class NavPushPop02Module { }
+export class NavNavPushPopModule { }

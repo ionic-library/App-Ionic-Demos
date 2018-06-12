@@ -6,7 +6,7 @@ import { IonicPage, NavController, NavParams } from '../../../../../../..';
 @Component({
   templateUrl: 'fourth-page.html'
 })
-export class FourthPage {
+export class NavSimpleTabsDefaultHistory {
 
   constructor(public nav: NavController, public params: NavParams) {
   }

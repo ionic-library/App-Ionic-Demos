@@ -5,7 +5,7 @@ import { IonicPage } from '../../../../../..';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class SearchbarBasic {
   defaultSearch: string = 'test';
   customPlaceholder: number = 2;
   defaultCancel: string = '';

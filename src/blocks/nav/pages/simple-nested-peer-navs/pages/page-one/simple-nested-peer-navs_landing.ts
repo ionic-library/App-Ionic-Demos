@@ -23,7 +23,7 @@ import { IonicPage, NavController, } from '../../../../../..';
     </ion-content>
   `
 })
-export class SimpleNestedPeerNavs01 {
+export class NavSimpleNestedPeerNavs {
   constructor(public nav: NavController) {
   }
 

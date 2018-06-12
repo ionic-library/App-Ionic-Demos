@@ -6,7 +6,7 @@ import { FabContainer } from '../../../../../../';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class FabBasic {
   array: number[] = [];
   log: string = '';
 

@@ -18,4 +18,4 @@ import { MessagesPage }					from './messages';
 	]
 })
 
-export class MessagesPageModule { }
+export class ChatMessages { }

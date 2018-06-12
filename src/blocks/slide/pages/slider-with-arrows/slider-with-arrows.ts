@@ -6,7 +6,7 @@ import { IonicPage, Slides, NavController } from 'ionic-angular';
   selector: 'page-slider-with-arrows',
   templateUrl: 'slider-with-arrows.html'
 })
-export class SliderWithArrowsPage {
+export class SlideSliderWithArrows {
 
   @ViewChild('slider') slider: Slides;
 

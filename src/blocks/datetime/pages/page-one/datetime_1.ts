@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class DatetimePageOne {
   wwwReleased = '1991';
   netscapeReleased = '1994-12-15T13:47:20.789';
   operaReleased = '1995-04-15';

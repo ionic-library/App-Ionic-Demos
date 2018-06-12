@@ -210,7 +210,7 @@ export type ComponentsGroup = { name: string, components: Array<{ name: string, 
 @Component({
   templateUrl: 'components.html'
 })
-export class ComponentsPage {
+export class SnapshotComponents {
   components: Array<ComponentsGroup> = [
     {
       name: 'Action Sheet',

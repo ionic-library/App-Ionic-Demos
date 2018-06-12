@@ -7,7 +7,7 @@ import { IonicPage, NavController } from 'ionic-angular';
     <ion-nav [root]="root"></ion-nav>
   `
 })
-export class AdvancedNestedNavs02nestednav02 {
+export class NavAdvancedNestedNavs {
 
   root: string = 'NestedNavTwoPageTwo';
   constructor(public nav: NavController) {

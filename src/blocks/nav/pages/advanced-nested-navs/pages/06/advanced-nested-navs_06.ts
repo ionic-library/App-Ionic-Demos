@@ -7,7 +7,7 @@ import { IonicPage, NavController, NavParams} from '../../../../../../..';
 @Component({
   templateUrl: 'sixth-page.html'
 })
-export class AdvancedNestedNavs0206 {
+export class NavAdvancedNestedNavs {
 
   paramOne: string;
   paramTwo: string;

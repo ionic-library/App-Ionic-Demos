@@ -6,7 +6,7 @@ import { ModalPage } from '../modal-page/modal-page';
 @Component({
   templateUrl: 'page-one.html'
 })
-export class PageOne {
+export class ModalPage1 {
   myParam = '';
 
   constructor(public modalCtrl: ModalController) {}

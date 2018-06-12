@@ -10,4 +10,4 @@ import { TabsTwoTabTwoPageOne } from './tab-two-page-one';
     TabsTwoTabTwoPageOne
   ]
 })
-export class TabsTwoTabTwoPageOneModule { }
+export class NavAdvancedTabsDefaultHistoryModule { }

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
 
 @IonicPage({
-  segment: 'ToggleTabs0201'
+  segment: 'NavToggleTabs'
 })
 @Component({
   template: `
@@ -12,7 +12,7 @@ import { IonicPage, NavController } from 'ionic-angular';
 </ion-tabs>
   `
 })
-export class ToggleTabs0201 {
+export class NavToggleTabs {
 
   tabs1Tab1: string = 'TabsOneTabOnePageOne';
   tabs1Tab2: string = 'TabsOneTabTwoPageOne';

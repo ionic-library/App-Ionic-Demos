@@ -4,7 +4,7 @@ import { TextInput } from '../../../../../../';
 @Component({
   templateUrl: 'root-page.html'
 })
-export class RootPage {
+export class InputAttributes {
 
   input1Valid: boolean;
   input2Valid: boolean;

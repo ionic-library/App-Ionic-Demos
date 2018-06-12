@@ -11,4 +11,4 @@ import { RootPage } from './root-page';
     IonicPageModule.forChild(RootPage)
   ]
 })
-export class RootPageModule {}
+export class FabBasicModule {}

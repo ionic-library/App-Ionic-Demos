@@ -14,4 +14,4 @@ import { IonicPageModule } from "ionic-angular";
   ]
 })
 
-export class ButtonsListPageModule { }
+export class IonicComponentsButtonPageModule { }
