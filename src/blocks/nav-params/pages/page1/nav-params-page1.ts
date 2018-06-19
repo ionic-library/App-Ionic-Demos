@@ -1,0 +1,16 @@
+import { Component } from '@angular/core';
+import { NavController } from '../../../../../src';
+import { PageTwo } from '../page-two/page-two';
+
+@Component({
+  templateUrl: 'nav-params-page1.html'
+})
+export class NavParamsPage1 {
+  myParam: string = '';
+
+  constructor(public navCtrl: NavController) {}
+
+  pushParams() {
+    this.navCtrl.push(PageTwo, { 'myParam': this.myParam });
+  }
+}
