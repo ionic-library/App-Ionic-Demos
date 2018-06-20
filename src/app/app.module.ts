@@ -7,15 +7,13 @@ import { SharedModule } 				from './app.shared.modules';
 
 import { MainApp } 						from './app.component';
 
-import { MODULES, PROVIDERS }			from './app.imports';
-
 @NgModule({
 	declarations: [ MainApp ],
-	imports: [ MODULES, SharedModule, IonicModule.forRoot(MainApp /* { preloadModules: true } */),
+	imports: [ SharedModule, IonicModule.forRoot(MainApp /* { preloadModules: true } */),
 	],
 	bootstrap: [IonicApp],
 	entryComponents: [ MainApp ],
-	providers: [ PROVIDERS, { provide: ErrorHandler, useClass: IonicErrorHandler }
+	providers: [ { provide: ErrorHandler, useClass: IonicErrorHandler }
 	]
 })
 export class AppModule { }

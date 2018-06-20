@@ -1,13 +1,13 @@
-import { NgModule } from "@angular/core";
-import { IonicPageModule } from "ionic-angular";
+import { NgModule }						from "@angular/core";
+import { IonicPageModule }				from "ionic-angular";
 
-import { SharedModule } from "../../../app/app.shared.modules";
+import { SharedModule }					from "../../../../app/app.shared.modules";
 
-import { AccordionListPage } from "./accordion-list";
+import { AccordionList01 }				from "./accordion-list-01";
 
 @NgModule({
-	declarations: [AccordionListPage],
-	imports: [IonicPageModule.forChild(AccordionListPage), SharedModule],
-	exports: [AccordionListPage]
+	declarations: [AccordionList01],
+	imports: [IonicPageModule.forChild(AccordionList01), SharedModule],
+	exports: [AccordionList01]
 })
 export class AccordionList01Module {}

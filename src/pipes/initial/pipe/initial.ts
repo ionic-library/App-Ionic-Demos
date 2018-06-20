@@ -1,11 +1,10 @@
-import { Pipe }							from '@angular/core'
+import { Pipe } from "@angular/core";
 
 @Pipe({
-	name: 'initial',
+	name: "initial"
 })
-
-export class InitialPipe /* implements PipeTransform  */{
+export class InitialPipe /* implements PipeTransform  */ {
 	transform(value: string, ...args) {
-		return value.charAt(0)
+		return value.charAt(0);
 	}
 }

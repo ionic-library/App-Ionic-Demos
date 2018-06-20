@@ -1,7 +1,7 @@
 import { Component } 					from '@angular/core';
 import { NavParams } 					from 'ionic-angular';
 
-import { LoggerService }				from '../../blocks/logger/services/service/logger';
+import { LoggerService }				from '../../blocks/logger/services/logger/logger-service';
 
 @Component({
 	selector: 'page-details',
