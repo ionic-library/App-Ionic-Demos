@@ -3,7 +3,7 @@ import { IonicPageModule }				from "ionic-angular";
 
 import { SharedModule }					from "../../../../app/app.shared.modules";
 
-import { AccordionList01 }				from "./accordion-list-01";
+import { AccordionList01 }				from './accordion-list-01';
 
 @NgModule({
 	declarations: [AccordionList01],

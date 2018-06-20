@@ -1,13 +1,12 @@
 import { NgModule }						from "@angular/core";
 import { IonicModule }					from "ionic-angular";
 
-import { PipesModule }					from "../pipes/pipes.module";
 import { ComponentsModule }				from "../app/app.shared.components.module";
-
-import { DIRECTIVES }					from "./app.imports";
+import { PipesModule }					from "./app.shared.pipes.module";
+import { DirectivesModule }				from './app.shared.directives.module';
 
 @NgModule({
-	declarations: [DIRECTIVES],
+	declarations: [DirectivesModule],
 	imports: [IonicModule, PipesModule, ComponentsModule],
 	exports: [ComponentsModule, PipesModule]
 })

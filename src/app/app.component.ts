@@ -1,4 +1,3 @@
-import { AppState } from './app.global';
 import { Component, ViewChild }			from '@angular/core';
 import { Nav, Platform }				from 'ionic-angular';
 import { MenuController }				from 'ionic-angular';
